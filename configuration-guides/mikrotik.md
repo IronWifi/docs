@@ -1,4 +1,4 @@
-```
+
 ### MikroTik
 
 This page explains the Captive Portal configuration for MikroTik Router OS and authentication with IronWifi.
@@ -12,6 +12,3 @@ MikroTik AP Setup
 Sign-in to your MikroTik configuration interface, usually http://192.168.88.1
 
 Navigate to Hotspot -> Users and add a temporary user called user1.
-
-test
-```
