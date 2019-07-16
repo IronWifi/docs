@@ -1,0 +1,133 @@
+If your vendor is not listed here, don't hesitate to contact us.
+
+Radius / WPA-Enterprise authentication:
+
+RADIUS authentication and accounting provided by IronWifi will work with any device that supports WPA-Enterprise and allows you to use custom RADIUS ports or set custom NAS-ID parameter.
+
+Verified Captive Portal Integrations:
+
+* not all products of these manufacturers support external Captive Portal for authentication
+
+4IPnet
+AeroHive Networks
+Alcatel-Lucent
+Aruba Networks - Configuration Guide
+Avaya
+Bluesocket
+Cambium Networks
+Casa Systems
+ChilliSpot
+CoovaChilli - Configuration Guide
+Cisco Systems WLC - Configuration Guide
+Dell
+Draytek
+EnGenius
+ExtremeWireless
+FortiGate
+ICC Networking - Configuration Guide
+Keenetic - Configuration Guide
+Meraki - Configuration Guide
+Meru Networks/Fortinet
+MikroTik RouterOS - Configuration Guide
+Mist Systems - Configuration Guide
+Mojo Networks
+Motorola
+Open-Mesh - Configuration Guide
+OPNsense - Configuration Guide
+pfSense - Configuration Guide
+Peplink - Configuration Guide
+Ruckus Wireless - Configuration Guide
+SonicWall - Configuration Guide
+Ubiquiti Networks - Configuration Guide
+Teltonika - Configuration Guide
+TP-Link EAP - Configuration Guide
+Trapeze Wireless/Juniper Networks
+TrendNet
+Valuepoint
+WatchGuard
+Xirrus - Configuration Guide
+List of vendors that can work if you flash OpenWRT firmware and install the CoovaChilli package. IronWifi does not provide support configuring these devices.
+
+3Com/HP
+7Links
+8devices
+ADI Engineering
+ALFA Network
+Abicom International
+Accton
+Actiontec
+Agestar
+Airlink101
+Alcatel-Sbell
+Allnet
+Alpha Networks
+Arcadyan/Astoria
+Arduino.cc
+AsiaRF
+Asmax
+Asus
+Atmel
+Aztech
+BT
+Belkin
+Buffalo
+COMFAST
+Cisco
+Cobalt Networks
+Compex
+Comtrend
+Cubitech
+D-Link
+Davolink
+Dovado
+Dragino
+Edimax
+Embedded Wireless
+EnGenius
+Fon
+GL.iNet
+Gainstrong
+Gateworks
+HiWiFi
+HooToo
+Huawei
+Intellidesign
+Iomega
+JCG
+Kingston
+Lemaker
+Lenovo
+Linksprite
+Linksys
+MQMaker
+MeLE
+MediaTek
+Medion
+Meraki
+Mercury
+MikroTik
+Multilaser
+NetComm
+Netgear
+Netis
+Nexx
+NuCom
+Olimex
+On Networks/Netgear
+Open-Mesh
+PC Engines
+PHICOMM
+Pacific Networks
+Patriot Memory
+Planex
+Pogoplug
+ProLink
+Qi hardware
+Raspberry Pi Foundation
+RavPower
+Redwave
+Rosewill
+SMC Networks
+Sagem
+SamKnows
+Seagate
