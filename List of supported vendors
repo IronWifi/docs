@@ -1,4 +1,4 @@
-If your vendor is not listed here, don't hesitate to contact us.
+If your vendor is not listed here, don't hesitate to [contact us](mailto:support@ironwifi.com).
 
 **Radius / WPA-Enterprise authentication:**
 
@@ -11,124 +11,40 @@ RADIUS authentication and accounting provided by IronWifi will work with any dev
 - 4IPnet
 - AeroHive Networks
 - Alcatel-Lucent
-- Aruba Networks - [Configuration Guide](https://www.ironwifi.com/aruba-captive-portal/)
+- Aruba Networks [Configuration Guide](https://www.ironwifi.com/aruba-captive-portal/)
 - Avaya
 - Bluesocket
 - Cambium Networks
 - Casa Systems
 - ChilliSpot
-- CoovaChilli - Configuration Guide
-- Cisco Systems WLC - Configuration Guide
+- CoovaChilli [Configuration Guide](https://www.ironwifi.com/coovachilli/)
+- Cisco Systems WLC [Configuration Guide](https://www.ironwifi.com/cisco-wlc/)
 - Dell
 - Draytek
 - EnGenius
 - ExtremeWireless
--FortiGate
--ICC Networking - Configuration Guide
--Keenetic - Configuration Guide
--Meraki - Configuration Guide
--Meru Networks/Fortinet
--MikroTik RouterOS - Configuration Guide
--Mist Systems - Configuration Guide
--Mojo Networks
--Motorola
--Open-Mesh - Configuration Guide
--OPNsense - Configuration Guide
--pfSense - Configuration Guide
--Peplink - Configuration Guide
--Ruckus Wireless - Configuration Guide
--SonicWall - Configuration Guide
--Ubiquiti Networks - Configuration Guide
--Teltonika - Configuration Guide
--TP-Link EAP - Configuration Guide
--Trapeze Wireless/Juniper Networks
--TrendNet
--Valuepoint
--WatchGuard
--Xirrus - Configuration Guide
+- FortiGate
+- ICC Networking [Configuration Guide](https://www.ironwifi.com/icc/)
+- Keenetic [Configuration Guide](https://www.ironwifi.com/keenetic/)
+- Meraki [Configuration Guide](https://www.ironwifi.com/cisco-meraki/)
+- Meru Networks/Fortinet
+- MikroTik RouterOS [Configuration Guide](https://www.ironwifi.com/mikrotik/)
+- Mist Systems [Configuration Guide](https://www.ironwifi.com/mist-systems/)
+- Mojo Networks
+- Motorola
+- Open-Mesh [Configuration Guide](https://www.ironwifi.com/open-mesh-cloudtrax/)
+- OPNsense [Configuration Guide](https://www.ironwifi.com/opnsense/)
+- pfSense [Configuration Guide](https://www.ironwifi.com/pfsense-with-captive-portal/)
+- Peplink [Configuration Guide](https://www.ironwifi.com/aruba-captive-portal/)
+- Ruckus Wireless [Configuration Guide](https://www.ironwifi.com/ruckus-cloud/)
+- SonicWall [Configuration Guide](https://www.ironwifi.com/sonicwall/)
+- Ubiquiti Networks [Configuration Guide](https://www.ironwifi.com/ubiquiti/)
+- Teltonika [Configuration Guide](https://wiki.teltonika.lt/view/Ironwifi.com_Hotspot_Configuration)
+- TP-Link EAP [Configuration Guide](https://www.ironwifi.com/tp-link-eap/)
+- Trapeze Wireless/Juniper Networks
+- TrendNet
+- Valuepoint
+- WatchGuard
+- Xirrus [Configuration Guide](https://www.ironwifi.com/xirrus/)
 
-List of vendors that can work if you flash OpenWRT firmware and install the CoovaChilli package. IronWifi does not provide support configuring these devices.
-
-- 3Com/HP
-- 7Links
-- 8devices
-ADI Engineering
-ALFA Network
-Abicom International
-Accton
-Actiontec
-Agestar
-Airlink101
-Alcatel-Sbell
-Allnet
-Alpha Networks
-Arcadyan/Astoria
-Arduino.cc
-AsiaRF
-Asmax
-Asus
-Atmel
-Aztech
-BT
-Belkin
-Buffalo
-COMFAST
-Cisco
-Cobalt Networks
-Compex
-Comtrend
-Cubitech
-D-Link
-Davolink
-Dovado
-Dragino
-Edimax
-Embedded Wireless
-EnGenius
-Fon
-GL.iNet
-Gainstrong
-Gateworks
-HiWiFi
-HooToo
-Huawei
-Intellidesign
-Iomega
-JCG
-Kingston
-Lemaker
-Lenovo
-Linksprite
-Linksys
-MQMaker
-MeLE
-MediaTek
-Medion
-Meraki
-Mercury
-MikroTik
-Multilaser
-NetComm
-Netgear
-Netis
-Nexx
-NuCom
-Olimex
-On Networks/Netgear
-Open-Mesh
-PC Engines
-PHICOMM
-Pacific Networks
-Patriot Memory
-Planex
-Pogoplug
-ProLink
-Qi hardware
-Raspberry Pi Foundation
-RavPower
-Redwave
-Rosewill
-SMC Networks
-Sagem
-SamKnows
-Seagate
+IronWifi can be used also with DD-WRT and OpenWRT firmware if you install the CoovaChilli package. IronWifi does not provide support configuring these devices.
