@@ -47,4 +47,6 @@ Not all products of these manufacturers support external Captive Portal for auth
 - WatchGuard
 - Xirrus [Configuration Guide](https://www.ironwifi.com/xirrus/)
 
-IronWifi can be used also with DD-WRT and OpenWRT firmware if you install the CoovaChilli package. IronWifi does not provide support configuring these devices.
+<call-out>
+IronWifi can be used with DD-WRT and OpenWRT firmware if you install the CoovaChilli package. IronWifi does not provide support configuring these devices.
+</call-out>
