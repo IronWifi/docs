@@ -11,7 +11,7 @@ Click on Networks -> **Captive Portals** and create a new Captive Portal. Make s
 
 
 
-#### MikroTik AP Setup
+#### MIKROTIK AP SETUP
 
 Sign-in to your MikroTik configuration interface, usually http://192.168.88.1
 
@@ -72,16 +72,4 @@ $ put mikrotik_login.html login.html
 ```
 
 ![ninthScreenshot](mikrotik/mikrotik10.png)
-
-
-
-
-
-
-
-
-
-
-
-
 
