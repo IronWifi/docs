@@ -48,9 +48,9 @@ WatchGuard
 Xirrus - Configuration Guide
 List of vendors that can work if you flash OpenWRT firmware and install the CoovaChilli package. IronWifi does not provide support configuring these devices.
 
-3Com/HP
-7Links
-8devices
+- 3Com/HP
+- 7Links
+- 8devices
 ADI Engineering
 ALFA Network
 Abicom International
