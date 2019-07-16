@@ -15,41 +15,41 @@ Not all products of these manufacturers support external Captive Portal for auth
 - 4IPnet
 - AeroHive Networks
 - Alcatel-Lucent
-- Aruba Networks [Configuration Guide](https://www.ironwifi.com/aruba-captive-portal/)
+- [Aruba Networks](https://www.ironwifi.com/aruba-captive-portal/)
 - Avaya
 - Bluesocket
 - Cambium Networks
 - Casa Systems
 - ChilliSpot
-- CoovaChilli [Configuration Guide](https://www.ironwifi.com/coovachilli/)
-- Cisco Systems WLC [Configuration Guide](https://www.ironwifi.com/cisco-wlc/)
+- [CoovaChilli](https://www.ironwifi.com/coovachilli/)
+- [Cisco WLC](https://www.ironwifi.com/cisco-wlc/)
 - Dell
 - Draytek
 - EnGenius
 - ExtremeWireless
 - FortiGate
-- ICC Networking [Configuration Guide](https://www.ironwifi.com/icc/)
-- Keenetic [Configuration Guide](https://www.ironwifi.com/keenetic/)
-- Meraki [Configuration Guide](https://www.ironwifi.com/cisco-meraki/)
+- [ICC Networking](https://www.ironwifi.com/icc/)
+- [Keenetic](https://www.ironwifi.com/keenetic/)
+- [Meraki](https://www.ironwifi.com/cisco-meraki/)
 - Meru Networks/Fortinet
-- MikroTik RouterOS [Configuration Guide](https://www.ironwifi.com/mikrotik/)
-- Mist Systems [Configuration Guide](https://www.ironwifi.com/mist-systems/)
+- [MikroTik RouterOS](https://www.ironwifi.com/mikrotik/)
+- [Mist Systems](https://www.ironwifi.com/mist-systems/)
 - Mojo Networks
 - Motorola
-- Open-Mesh [Configuration Guide](https://www.ironwifi.com/open-mesh-cloudtrax/)
-- OPNsense [Configuration Guide](https://www.ironwifi.com/opnsense/)
-- pfSense [Configuration Guide](https://www.ironwifi.com/pfsense-with-captive-portal/)
-- Peplink [Configuration Guide](https://www.ironwifi.com/aruba-captive-portal/)
-- Ruckus Wireless [Configuration Guide](https://www.ironwifi.com/ruckus-cloud/)
-- SonicWall [Configuration Guide](https://www.ironwifi.com/sonicwall/)
-- Ubiquiti Networks [Configuration Guide](https://www.ironwifi.com/ubiquiti/)
-- Teltonika [Configuration Guide](https://wiki.teltonika.lt/view/Ironwifi.com_Hotspot_Configuration)
-- TP-Link EAP [Configuration Guide](https://www.ironwifi.com/tp-link-eap/)
+- [Open-Mesh](https://www.ironwifi.com/open-mesh-cloudtrax/)
+- [OPNsense](https://www.ironwifi.com/opnsense/)
+- [pfSense](https://www.ironwifi.com/pfsense-with-captive-portal/)
+- [Peplink](https://www.ironwifi.com/aruba-captive-portal/)
+- [Ruckus Wireless](https://www.ironwifi.com/ruckus-cloud/)
+- [SonicWall](https://www.ironwifi.com/sonicwall/)
+- [Ubiquiti Networks](https://www.ironwifi.com/ubiquiti/)
+- [Teltonika](https://wiki.teltonika.lt/view/Ironwifi.com_Hotspot_Configuration)
+- [TP-Link EAP](https://www.ironwifi.com/tp-link-eap/)
 - Trapeze Wireless/Juniper Networks
 - TrendNet
 - Valuepoint
 - WatchGuard
-- Xirrus [Configuration Guide](https://www.ironwifi.com/xirrus/)
+- [Xirrus](https://www.ironwifi.com/xirrus/)
 
 <call-out type="warning">
   
