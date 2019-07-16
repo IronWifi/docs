@@ -1,10 +1,10 @@
 You can configure and control everything about your IronWifi account. All of the settings that you can manage through the User Interface can also be achieved through the API.
 
-<callout>
+<call-out>
 
 Your profile provides IronWifi with the information we need to contact you with alerts and notifications. You can edit the value for each section of your profile by clicking on the value. Once you have made your changes, click the “OK” button and it will only save the settings for that section. If you decide to abandon your changes, click the “Cancel” button.
 
-</callout>
+</call-out>
 
 **Full name** - This is the first and last name of the representative from your company.
 
@@ -21,11 +21,11 @@ Your profile provides IronWifi with the information we need to contact you with 
 **CA certificate** - Link to download the CA certificate. This certificate is used with EAP encrypted authentication requests.
 
 
-## Changing Your Password ##
+## Changing Your Password
 There are two ways to change your password. Through the portal and the Forgot Password page.
 
 
-### Changing your Password through the portal ###
+### Changing your Password through the portal
 
 **Old Password** - This is the current password on your account. Without this, you will not be able to change your password.
 
@@ -33,6 +33,6 @@ There are two ways to change your password. Through the portal and the Forgot Pa
 
 **Confirm New Password** - Enter the same password that you put into "New Password." If the password entered here is not the same as what you put into "New Password," the form will not accept your new password.
 
-### Changing your Password via Forgot Password ###
+### Changing your Password via Forgot Password
 
 If for some reason you cannot remember your password, go to the [Login page](https://console.ironwifi.com/login) and click [Forgot Password](https://console.ironwifi.com/forgot-password). From here, you will need to enter your IronWifi registered e-mail address and answer to your Security Question. We will send you an email with account reactivation steps, so please follow these steps to access your account again.
