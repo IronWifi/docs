@@ -21,7 +21,7 @@ Your profile provides IronWifi with the information we need to contact you with 
 **CA certificate** - Link to download the CA certificate. This certificate is used with EAP encrypted authentication requests.
 
 
-## Changing Your Password
+# Changing Your Password
 There are two ways to change your password. Through the portal and the Forgot Password page.
 
 
