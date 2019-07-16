@@ -1,4 +1,8 @@
+<callout>
+
 If your vendor is not listed here, don't hesitate to [contact us](mailto:support@ironwifi.com).
+
+</callout>
 
 **Radius / WPA-Enterprise authentication:**
 
@@ -47,8 +51,8 @@ Not all products of these manufacturers support external Captive Portal for auth
 - WatchGuard
 - Xirrus [Configuration Guide](https://www.ironwifi.com/xirrus/)
 
-<call-out>
+<call-out type="warning">
   
-IronWifi can be used with DD-WRT and OpenWRT firmware if you install the CoovaChilli package but we do not provide support configuring these devices.
+IronWifi can be used with DD-WRT and OpenWRT firmware if you install the CoovaChilli package. This configuration is not officially supported.
 
 </call-out>
