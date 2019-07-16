@@ -22,7 +22,7 @@ Your profile provides IronWifi with the information we need to contact you with 
 
 
 
-## Changing Your Password.
+## Changing Your Password
 There are two ways to change your password. Through the portal and the Forgot Password page.
 
 
