@@ -8,7 +8,7 @@ Your profile provides IronWifi with the information we need to contact you with 
 
 **Phone** - Your phone number, where IronWifi can reach the representative that should be contacted.
 
-**Password** - This is the password used for authentication to the IronWifi Console. Please see our Password requirements page.
+**Password** - This is the password used for authentication to the IronWifi Console. Please see the [Password requirements page](https://www.ironwifi.com/user-guide/passwords/).
 
 **Security Question** - The question used to confirm your identity in case of a lost password.
 
