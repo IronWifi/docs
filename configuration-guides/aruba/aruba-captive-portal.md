@@ -80,11 +80,10 @@ White list: all IP addresses and host-names from the IronWifi console
 
 By default, the Aruba controller will intercept HTTPS traffic to all external servers breaking SSL connections. To prevent this, we need to create a new Role permitting TCP connections to port 443 on external servers - splash.ironwifi.com, europe-west2.ironwifi.com, google.com, facebook.com, etc.
 
-![portal7](aruba_cp_ssl.png)
 
 Enable the Assign pre-authentication role and select create a role. Click on the **Finish button** to apply new settings.
 
-pre-authentication
+![allow 443](allow_443.png)
 
 To fix the SSL error, you will need to replace the default invalid certificate.
 
@@ -98,6 +97,6 @@ Certificate type: **Captive portal server certificate**
 
 Certificate format: **PAM**
 
-
+![portal7](aruba_cp_ssl.png)
 
 Click on the **Upload Certificate** button to apply new settings.
