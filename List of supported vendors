@@ -8,44 +8,45 @@ RADIUS authentication and accounting provided by IronWifi will work with any dev
 
 * not all products of these manufacturers support external Captive Portal for authentication
 
-4IPnet
-AeroHive Networks
-Alcatel-Lucent
-Aruba Networks - [Configuration Guide](https://www.ironwifi.com/aruba-captive-portal/)
-Avaya
-Bluesocket
-Cambium Networks
-Casa Systems
-ChilliSpot
-CoovaChilli - Configuration Guide
-Cisco Systems WLC - Configuration Guide
-Dell
-Draytek
-EnGenius
-ExtremeWireless
-FortiGate
-ICC Networking - Configuration Guide
-Keenetic - Configuration Guide
-Meraki - Configuration Guide
-Meru Networks/Fortinet
-MikroTik RouterOS - Configuration Guide
-Mist Systems - Configuration Guide
-Mojo Networks
-Motorola
-Open-Mesh - Configuration Guide
-OPNsense - Configuration Guide
-pfSense - Configuration Guide
-Peplink - Configuration Guide
-Ruckus Wireless - Configuration Guide
-SonicWall - Configuration Guide
-Ubiquiti Networks - Configuration Guide
-Teltonika - Configuration Guide
-TP-Link EAP - Configuration Guide
-Trapeze Wireless/Juniper Networks
-TrendNet
-Valuepoint
-WatchGuard
-Xirrus - Configuration Guide
+- 4IPnet
+- AeroHive Networks
+- Alcatel-Lucent
+- Aruba Networks - [Configuration Guide](https://www.ironwifi.com/aruba-captive-portal/)
+- Avaya
+- Bluesocket
+- Cambium Networks
+- Casa Systems
+- ChilliSpot
+- CoovaChilli - Configuration Guide
+- Cisco Systems WLC - Configuration Guide
+- Dell
+- Draytek
+- EnGenius
+- ExtremeWireless
+-FortiGate
+-ICC Networking - Configuration Guide
+-Keenetic - Configuration Guide
+-Meraki - Configuration Guide
+-Meru Networks/Fortinet
+-MikroTik RouterOS - Configuration Guide
+-Mist Systems - Configuration Guide
+-Mojo Networks
+-Motorola
+-Open-Mesh - Configuration Guide
+-OPNsense - Configuration Guide
+-pfSense - Configuration Guide
+-Peplink - Configuration Guide
+-Ruckus Wireless - Configuration Guide
+-SonicWall - Configuration Guide
+-Ubiquiti Networks - Configuration Guide
+-Teltonika - Configuration Guide
+-TP-Link EAP - Configuration Guide
+-Trapeze Wireless/Juniper Networks
+-TrendNet
+-Valuepoint
+-WatchGuard
+-Xirrus - Configuration Guide
+
 List of vendors that can work if you flash OpenWRT firmware and install the CoovaChilli package. IronWifi does not provide support configuring these devices.
 
 - 3Com/HP
