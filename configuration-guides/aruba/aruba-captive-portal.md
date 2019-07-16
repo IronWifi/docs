@@ -76,11 +76,11 @@ Click on the Walled garden link and enter values from the IronWifi console:
 
 White list: all IP addresses and host-names from the IronWifi console
 
-![portal7](aruba_captive_portal7.png)
+![portal7](aruba_walled_garden7.png)
 
 By default, the Aruba controller will intercept HTTPS traffic to all external servers breaking SSL connections. To prevent this, we need to create a new Role permitting TCP connections to port 443 on external servers - splash.ironwifi.com, europe-west2.ironwifi.com, google.com, facebook.com, etc.
 
-allow https
+![portal7](aruba_cp_ssl.png)
 
 Enable the Assign pre-authentication role and select create a role. Click on the Finish button to apply new settings.
 
