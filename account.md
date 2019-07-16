@@ -36,4 +36,4 @@ There are two ways to change your password. Through the portal and the Forgot Pa
 
 ### Changing your Password via Forgot Password
 
-If for some reason you cannot remember your password, go to the [Login page](https://console.ironwifi.com/login) and click [Forgot Password](https://console.ironwifi.com/forgot-password). From here, you will need to enter your IronWifi registered e-mail address and answer to your Security Question. We will send you an email with account reactivation steps, so please follow these steps to access your account again.
+If for some reason you cannot remember your password, go to the [Login page](https://console.ironwifi.com/login) and click [Forgot Password](https://console.ironwifi.com/forgot-password). From here, you will need to enter your IronWifi registered e-mail address and answer to your Security Question. We will send you an email with account reactivation steps, so please follow these steps to access your account again.Test2233
