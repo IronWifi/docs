@@ -1,6 +1,10 @@
 You can configure and control everything about your IronWifi account. All of the settings that you can manage through the User Interface can also be achieved through the API.
 
+<callout>
+
 Your profile provides IronWifi with the information we need to contact you with alerts and notifications. You can edit the value for each section of your profile by clicking on the value. Once you have made your changes, click the “OK” button and it will only save the settings for that section. If you decide to abandon your changes, click the “Cancel” button.
+
+</callout>
 
 **Full name** - This is the first and last name of the representative from your company.
 
@@ -16,8 +20,10 @@ Your profile provides IronWifi with the information we need to contact you with 
 
 **CA certificate** - Link to download the CA certificate. This certificate is used with EAP encrypted authentication requests.
 
+
 ## Changing Your Password ##
 There are two ways to change your password. Through the portal and the Forgot Password page.
+
 
 ### Changing your Password through the portal ###
 
