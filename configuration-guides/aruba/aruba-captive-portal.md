@@ -14,53 +14,53 @@ Configure the Client IP & VLAN Assignment. In our example, we keep the default s
 
 Navigate to the Security tab and configure Security Level:
 
-Splash page type: **External
+Splash page type: **External**
 
 Captive portal profile: QA in our example
 
 Auth server 1: QA in our case
 
-Accounting: **Use authentication servers
+Accounting: **Use authentication servers**
 
-Encryption: **Disabled
+Encryption: **Disabled**
 
 ![portal4](aruba_captive_portal4.png)
 
 Click on the Edit button next to the Captive portal profile. Find the Splash page URL in the IronWifi Console -> Captive Portal settings page, for example, https://europe-west1.ironwifi.com/api/pages/r-3wcpj-eezn3-b32pa/
 
-Type: **Radius Authentication
+Type: **Radius Authentication**
 
-IP or hostname: **europe-west1.ironwifi.com
+IP or hostname: **europe-west1.ironwifi.com**
 
 (extract hostname from the Splash page URL)
 
-URL: **/api/pages/r-3wcpj-eezn3-b47pa/
+URL: **/api/pages/r-3wcpj-eezn3-b47pa/**
 
 (URL from the Splash page URL)
 
-Port: **443
+Port: **443**
 
-Use https: **Enabled
+Use https: **Enabled**
 
-Captive Portal failure: **Deny internet
+Captive Portal failure: **Deny internet**
 
-Automatic URL Whitelisting: **Enabled
+Automatic URL Whitelisting: **Enabled**
 
-Redirect URL: **empty
+Redirect URL: **empty**
 
 ![portal5](aruba_captive_portal5.png)
 
 Click on the Edit button next to the Auth server. Find the RADIUS server information in the IronWifi Console, for example, IP 81.89.56.92, Authentication port 5701, Accounting port 5702.
 
-IP address: **81.89.**.**
+IP address: **11.22.33.44**
 
 (assigned RADIUS server IP address)
 
-Auth port: **12345
+Auth port: **12345**
 
 (designated RADIUS server authentication port)
 
-Accounting port: **12345
+Accounting port: **12345**
 
 (assigned RADIUS server accounting port)
 
@@ -92,11 +92,11 @@ You can generate a valid SSL certificate for free on this URL - (https://www.ssl
 
 Copy content of downloaded files certificate.crt, ca_bundle.crt, and private.key to a single file (aruba.pem).
 
-Upload this file to your Aruba IAP - click on **Maintenance -> Certificates.
+Upload this file to your Aruba IAP - click on **Maintenance -> Certificates**.
 
-Certificate type: **Captive portal server certificate
+Certificate type: **Captive portal server certificate**
 
-Certificate format: **PAM
+Certificate format: **PAM**
 
 
 
