@@ -1,17 +1,17 @@
 If your vendor is not listed here, don't hesitate to contact us.
 
-Radius / WPA-Enterprise authentication:
+**Radius / WPA-Enterprise authentication:**
 
 RADIUS authentication and accounting provided by IronWifi will work with any device that supports WPA-Enterprise and allows you to use custom RADIUS ports or set custom NAS-ID parameter.
 
-Verified Captive Portal Integrations:
+**Verified Captive Portal Integrations:**
 
 * not all products of these manufacturers support external Captive Portal for authentication
 
 4IPnet
 AeroHive Networks
 Alcatel-Lucent
-Aruba Networks - Configuration Guide
+Aruba Networks - [Configuration Guide](https://www.ironwifi.com/aruba-captive-portal/)
 Avaya
 Bluesocket
 Cambium Networks
