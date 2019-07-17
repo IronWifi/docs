@@ -83,8 +83,11 @@ kinit bob@TESTGMAIL.ONMICROSOFT.COM
         cups options = raw
 ```
 
-Restart Samba and Winbind
+Create service startup script and restart Samba and Winbind
 ```
+service samba enable
+service winbind enable
+
 service samba restart
 service winbind restart
 ```
