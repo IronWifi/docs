@@ -1,27 +1,57 @@
-- create CentOS virtual machine
-- create Azure AD Domain Services
-- create AAD domain admin user BOB
 
-Follow instructions from [this page](https://docs.microsoft.com/en-us/azure/active-directory-domain-services/join-centos-linux-vm)
+- enable [Azure AD Domain Services](https://docs.microsoft.com/en-us/azure/active-directory-domain-services/create-instance) 
+- create CentOS virtual machine
+- create AAD domain admin user **bob**
+
 
 ### Join Linux machine to Domain ###
 
-- update /etc/hosts and add machine information
+Follow instructions from [this page](https://docs.microsoft.com/en-us/azure/active-directory-domain-services/join-centos-linux-vm)
+
+Update /etc/hosts and add machine information
 ```
 echo "127.0.0.1 ironwificentos.testgmail.onmicrosoft.com ironwificentos" >> /etc/hosts
 ```
   
-- install required packages on Linux machine
+Install required packages on Linux machine
 ```
 sudo yum install realmd sssd krb5-workstation krb5-libs oddjob oddjob-mkhomedir samba-common-tools
 ```
 
-- discover the domain
+Discover the AAD Domain Services managed domain. In your SSH terminal, type the following command:
 ```
 sudo realm discover TESTGMAIL.ONMICROSOFT.COM
 ```
 
-- initialize
+Update kerberos config file /etc/krb5.conf
+
+```
+[libdefaults]
+ dns_lookup_realm = true
+ dns_lookup_kdc = true
+ ticket_lifetime = 24h
+ renew_lifetime = 7d
+ forwardable = true
+ rdns = false
+ pkinit_anchors = /etc/pki/tls/certs/ca-bundle.crt
+ default_realm = TESTGMAIL.ONMICROSOFT.COM
+ default_ccache_name = KEYRING:persistent:%{uid}
+ default_realm = TESTGMAIL.ONMICROSOFT.COM
+ 
+ [realms]
+ TESTGMAIL.ONMICROSOFT.COM = {
+  kdc = 10.3.0.4
+  admin_server = testgmail.onmicrosoft.com
+  default_domain = testgmail.onmicrosoft.com
+ }
+ 
+ [domain_realm]
+ .testgmail.onmicrosoft.com = TESTGMAIL.ONMICROSOFT.COM
+ testgmail.onmicrosoft.com = TESTGMAIL.ONMICROSOFT.COM
+```
+
+
+- Initialize Kerberos. Try to get a valid Kerberos ticket for your active directory administrator account,
 ```
 kinit bob@TESTGMAIL.ONMICROSOFT.COM
 ```
@@ -53,31 +83,10 @@ kinit bob@TESTGMAIL.ONMICROSOFT.COM
         cups options = raw
 ```
 
-- update /etc/krb5.conf
-
+Restart Samba and Winbind
 ```
-[libdefaults]
- dns_lookup_realm = true
- dns_lookup_kdc = true
- ticket_lifetime = 24h
- renew_lifetime = 7d
- forwardable = true
- rdns = false
- pkinit_anchors = /etc/pki/tls/certs/ca-bundle.crt
- default_realm = TESTGMAIL.ONMICROSOFT.COM
- default_ccache_name = KEYRING:persistent:%{uid}
- default_realm = TESTGMAIL.ONMICROSOFT.COM
- 
- [realms]
- TESTGMAIL.ONMICROSOFT.COM = {
-  kdc = 10.3.0.4
-  admin_server = testgmail.onmicrosoft.com
-  default_domain = testgmail.onmicrosoft.com
- }
- 
- [domain_realm]
- .testgmail.onmicrosoft.com = TESTGMAIL.ONMICROSOFT.COM
- testgmail.onmicrosoft.com = TESTGMAIL.ONMICROSOFT.COM
+service samba restart
+service winbind restart
 ```
 
 - Joing the Linux machine to domain
@@ -85,7 +94,7 @@ kinit bob@TESTGMAIL.ONMICROSOFT.COM
 net join -w testgmail.onmicrosoft.com -U bob@testgmail.onmicrosoft.com
 ```
 
-- test authentication
+Test authentication
 ```
 wbinfo -a 'bob%__PASSWORD__'
 plaintext password authentication succeeded
@@ -94,38 +103,38 @@ challenge/response password authentication succeeded
 
 ### Installing the web server ###
 
-- install EPEL repository
+Install the EPEL repository
 ```
 yum install epel-release -y
 ```
 
-- import the EPEL GPG key
+Import the EPEL GPG key
 ```
 rpm --import /etc/pki/rpm-gpg/RPM-GPG-KEY-EPEL-7
 ```
 
-- install Lighttpd web server
+Install the Lighttpd web server
 ```
 yum install lighttpd -y
 ```
 
-- open /etc/lighttpd/lighttpd.conf and disable IPv6
+Open /etc/lighttpd/lighttpd.conf and disable IPv6
 ```
 #server.use-ipv6 = "enable"
 ```
 
-- start the service and create startup links
+Start the service and create startup links
 ```
 systemctl enable lighttpd
 systemctl start lighttpd
 ```
 
-- install PHP
+Install the PHP-FPM and FastCGI packages
 ```
 yum -y install php-fpm lighttpd-fastcgi
 ```
 
-- Open /etc/php-fpm.d/www.conf
+Open /etc/php-fpm.d/www.conf
 ```
 nano /etc/php-fpm.d/www.conf
 ```
@@ -143,13 +152,13 @@ group = lighttpd
 [...]
 ```
 
-- Create the system startup links for PHP-FPM and start it:
+Create the system startup links for PHP-FPM and start it:
 ```
 systemctl enable  php-fpm.service
 systemctl start  php-fpm.service
 ```
 
-##Configuring Lighttpd to Work With PHP ##
+## Configuring Lighttpd to Work With PHP ##
 
 To enable PHP to work with Lighttpd web server, we will need to make few configuration changes. Open your /etc/php.ini file in your favorite editor:
 ```
