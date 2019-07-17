@@ -88,6 +88,8 @@ net join -w testgmail.onmicrosoft.com -U bob@testgmail.onmicrosoft.com
 - test authentication
 ```
 wbinfo -a 'bob%__PASSWORD__'
+plaintext password authentication succeeded
+challenge/response password authentication succeeded
 ```
 
 ### Installing the web server ###
