@@ -247,9 +247,9 @@ echo $out[0];
 ?>
 ```
 
-Configure permission or disable the SELINUX so Lighttpd can access /bin/ntlm_auth. 
+If you have SELINUX enabled, allow lighttpd access winbind 
 ```
-setenforce 0
+setsebool -P httpd_mod_auth_ntlm_winbind 1
 ```
 
 Now browse the following file through frontend using your favorite web browser. Go to the following URL.
