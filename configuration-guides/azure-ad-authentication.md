@@ -1,6 +1,6 @@
 
 - enable [Azure AD Domain Services](https://docs.microsoft.com/en-us/azure/active-directory-domain-services/create-instance) 
-- create CentOS virtual machine
+- create [CentOS virtual machine](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/quick-create-portal)
 - create AAD domain admin user **bob**
 
 
