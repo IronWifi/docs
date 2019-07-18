@@ -1,10 +1,8 @@
+# Account
+
 You can configure and control everything about your IronWifi account. All of the settings that you can manage through the User Interface can also be achieved through the API.
 
-<call-out>
-
 Your profile provides IronWifi with the information we need to contact you with alerts and notifications. You can edit the value for each section of your profile by clicking on the value. Once you have made your changes, click the “OK” button and it will only save the settings for that section. If you decide to abandon your changes, click the “Cancel” button.
-
-</call-out>
 
 **Full name** - This is the first and last name of the representative from your company.
 
