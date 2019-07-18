@@ -1,6 +1,7 @@
 
 - enable [Azure AD Domain Services](https://docs.microsoft.com/en-us/azure/active-directory-domain-services/create-instance) 
 - create [CentOS virtual machine](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/quick-create-portal)
+  - Make sure to choose the same resource group as in your Azure AD Domain Services, but different subnet.
 - create AAD domain admin user **bob**
 
 
