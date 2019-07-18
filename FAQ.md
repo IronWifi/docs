@@ -4,7 +4,7 @@
 IronWifi provides easy-to-setup wifi authentication for public places, offices...etc.
 
 #### Where are the IronWifi headquarters?
-We are based in both Orlando, USA, and Slovakia, though we work remotely for the most part.
+We are based in both Orlando(USA) and Slovakia, though we work remotely for the most part.
 
 #### What are Access Points (AP)?
 Access Points are any devices broadcasting a wireless signal. Access Points include wireless routers, any lightweight and stand-alone access points, including wireless signal repeaters. Our Guest-Wifi licensing is based on the number of APs, so if you have a single router/firewall with multiple APs behind it, you will still have to purchase a license for all these APs.
