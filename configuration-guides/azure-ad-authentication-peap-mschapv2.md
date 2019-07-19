@@ -280,5 +280,5 @@ hex decode of  failed!
 
 Return to the IronWifi console and set the Bridge URL value in your Azure Connector.
 ```
-[http://your-IP-addr/ntlm.php](http://your-IP-addr/ntlm.php)
+Bridge URL:    http://your-IP-addr/ntlm.php
 ```
