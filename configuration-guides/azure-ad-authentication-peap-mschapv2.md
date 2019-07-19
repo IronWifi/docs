@@ -1,4 +1,4 @@
-# Azure AD Domain Services Bridge
+# Azure AD Authentication with PEAP-MSCHAPv2
 
 This tutorial provides instructions on how to make PEAP-MSCHAPv2 authentication work with IronWifi and Azure AD.
 
