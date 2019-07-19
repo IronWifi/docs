@@ -1,7 +1,8 @@
 # Azure AD Authentication with PEAP-MSCHAPv2
 
-This tutorial provides instructions on how to make PEAP-MSCHAPv2 authentication work with IronWifi and Azure AD.
+This tutorial provides instructions on how to make PEAP-MSCHAPv2 authentication work with IronWifi and Azure AD Domain Services.
 
+- enable [Azure AD Connector](https://www.ironwifi.com/azure-active-directory/)
 - enable [Azure AD Domain Services](https://docs.microsoft.com/en-us/azure/active-directory-domain-services/create-instance) 
 - create [CentOS virtual machine](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/quick-create-portal)
   - Make sure to choose the same resource group as in your Azure AD Domain Services, but different subnet.
@@ -277,3 +278,7 @@ You will see following message. This shows that you have a working Lighttpd web 
 hex decode of  failed!
 ```
 
+Return to the IronWifi console and set the Bridge URL value in your Azure Connector.
+```
+[http://your-IP-addr/ntlm.php](http://your-IP-addr/ntlm.php)
+```
