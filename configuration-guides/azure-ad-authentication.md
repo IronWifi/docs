@@ -1,3 +1,6 @@
+# Azure AD Domain Services Bridge
+
+This tutorial provides instructions on how to make PEAP-MSCHAPv2 authentication work with IronWifi and Azure AD.
 
 - enable [Azure AD Domain Services](https://docs.microsoft.com/en-us/azure/active-directory-domain-services/create-instance) 
 - create [CentOS virtual machine](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/quick-create-portal)
