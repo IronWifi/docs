@@ -7,3 +7,16 @@ Before configuring the Captive Portal, please update your access points to the l
 Sign-in to the EAP controller or directly to the AP settings. In **Wireless Settings** click on the **Edit** button next to the SSID you wish to use for Captive Portal - _tplink eap cp_ in our example.
 
 ![firstScreenshot](tplink_eap/tplink1.png)
+
+Change **Security Mode** to _None_ and enable **Portal**.
+
+![firstScreenshot](tplink_eap/tplink2.png)
+
+Click on **Wireless Control -> Portal** and change Authentication Type to _External Radius Server_ and add server details. Change **External Web Portal URL** to the _Splash page URL_ from the IronWifi Console
+
+![firstScreenshot](tplink_eap/tplink3.png)
+
+Click on **Free Authentication Policy** and enter IronWifi load-balancer IP address which is 107.178.250.42/32
+
+![firstScreenshot](tplink_eap/tplink4.png)
+
