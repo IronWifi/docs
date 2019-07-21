@@ -5,3 +5,5 @@ This page explains the configuration of TP-Link wireless access points in standa
 Before configuring the Captive Portal, please update your access points to the latest firmware and use the newest version of the TP-Link Controller software.
 
 Sign-in to the EAP controller or directly to the AP settings. In **Wireless Settings** click on the **Edit** button next to the SSID you wish to use for Captive Portal - _tplink eap cp_ in our example.
+
+![firstScreenshot](tplink_eap/tplink1.png)
