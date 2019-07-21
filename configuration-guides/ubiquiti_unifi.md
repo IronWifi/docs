@@ -30,3 +30,23 @@ Configuring UniFi Controller for external Captive Portal authentication
 
 ![firstScreenshot](ubiquiti_unifi/unifi1.png)
 
+![firstScreenshot](ubiquiti_unifi/unifi2.png)
+
+## Configuring UniFi Controller for WPA-Enterprise
+
+If you wish to have a WPA-Enterprise protected network without Captive Portal, navigate to **Wireless Networks** and change Security to WPA-Enterprise. Enter information about the RADIUS servers, IP addresses, ports, and shared secrets are available in IronWifi Console -> Networks.
+
+![firstScreenshot](ubiquiti_unifi/unifi3.png)
+
+## Common Errors
+
+Captive Portal can return different error codes in the error_message parameter.
+
+- **unifi_authentication_failed** - credentials configured in the Captive Portal settings are probably not valid. Sign in to the Ubiquiti Controller and create a new admin user and password. Configure this username and password in the Captive Portal configuration page in our Console.
+
+ 
+
+- **500 Gateway Timeout** or **unifi_gw_connection_failed** - our servers could not connect to your Controller. Make sure the Controller is reachable over the internet, check your firewall settings and port forwarding rules if necessary. The controller should listen on port 8443/TCP.
+
+
+
