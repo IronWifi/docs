@@ -11,7 +11,8 @@ This tutorial provides instructions on how to make PEAP-MSCHAPv2 authentication 
 
 ### Join Linux machine to Domain ###
 
-Follow instructions from [this page](https://docs.microsoft.com/en-us/azure/active-directory-domain-services/join-centos-linux-vm)
+Follow instructions from [this page](https://docs.microsoft.com/en-us/azure/active-directory-domain-services/join-centos-linux-vm) 
+- You may need to change bob's password before executing 'kinit'
 
 Update /etc/hosts and add machine information
 ```
