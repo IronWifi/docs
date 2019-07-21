@@ -6,6 +6,7 @@ This tutorial provides instructions on how to make PEAP-MSCHAPv2 authentication 
 - enable [Azure AD Domain Services](https://docs.microsoft.com/en-us/azure/active-directory-domain-services/create-instance) 
 - create [CentOS virtual machine](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/quick-create-portal)
   - Make sure to choose the same resource group as in your Azure AD Domain Services, but different subnet.
+  - Allow ports 80 and 443 by following [this](https://linuxconfig.org/redhat-8-open-http-port-80-and-https-port-443-with-firewalld) tutorial
 - create AAD domain admin user **bob**
 
 
