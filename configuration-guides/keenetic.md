@@ -14,5 +14,8 @@ This page explains the configuration of [Keenetic Access Points](https://keeneti
 
 1. Log in to the Keenetic AP Web-Browser interface and go to **Guest Network -> Captive Portal** settings
 
-![firstScreen](keenetik/keenetik1.png)
+![firstScreen](keenetik/keenetic1.png)
 
+2. Update the settings - add RADIUS NAS ID, RADIUS Secret and UAM Secret (same as the RADIUS Secret). If you are using a different region than the europe-west3, update the Splash Page hostname and RADIUS server IP address accordingly.
+
+![firstScreen](keenetik/keenetic2.png)
