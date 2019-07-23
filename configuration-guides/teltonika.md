@@ -82,7 +82,7 @@ Select **External radius** from **Authentication mode** dropbox
 
 Type configuration details **RADIUS Server, Authentication port, Accounting port** and **Radius secret key**
 
-![SecondScreen](teltonika/teltonika14.png)
+![SecondScreen](teltonika/teltonika14.jpg)
 
 Click **save**
 
@@ -94,14 +94,14 @@ Try connecting to your router using computer or mobile phone.
 
 Select your router
 
-![firstScreen](teltonika/teltonika15.png)
+![firstScreen](teltonika/teltonika15.jpg)
 
 Type your username and password.
 
 Click **Login** 
 
-![firstScreen](teltonika/teltonika16.png)
+![firstScreen](teltonika/teltonika16.jpg)
 
 You should see a message **Authorization Successful**
 
-![firstScreen](teltonika/teltonika17.png)
+![firstScreen](teltonika/teltonika17.jpg)
