@@ -82,7 +82,7 @@ Select **External radius** from **Authentication mode** dropbox
 
 Type configuration details **RADIUS Server, Authentication port, Accounting port** and **Radius secret key**
 
-![firstScreen](teltonika/teltonika14.png)
+![SecondScreen](teltonika/teltonika14.png)
 
 Click **save**
 
@@ -91,6 +91,8 @@ Wait up to **5** minutes from the time you saved the changes.
 ## Test your hotspot
 
 Try connecting to your router using computer or mobile phone.
+
+Select your router
 
 ![firstScreen](teltonika/teltonika15.png)
 
@@ -103,9 +105,3 @@ Click **Login**
 You should see a message **Authorization Successful**
 
 ![firstScreen](teltonika/teltonika17.png)
-
-
-
-
-Select your router. 
-
