@@ -4,11 +4,11 @@ This page explains the configuration of Cisco Meraki wireless access points for 
 
 Sign-in to the Meraki cloud portal.
 
-![firstScreenshot](meraki/meraki1.png)
+![firstScreenshot](https://github.com/IronWifi/docs/edit/master/configuration-guides/meraki/meraki1.png)
 
 Navigate to **Wireless -> Configure -> SSIDs** and define a network that we will protect with a Captive Portal with RADIUS authentication - Students in this example.
 
-![secondScreenshot](meraki/meraki2.png)
+![secondScreenshot](https://github.com/IronWifi/docs/edit/master/configuration-guides/meraki/meraki2.png)
 
 **Association requirements**: Open (no encryption)
 
@@ -18,9 +18,9 @@ Navigate to **Wireless -> Configure -> SSIDs** and define a network that we will
 
 **Walled garden ranges**: add all Walled garden IP addresses from the IronWifi console
 
-![thirdScreenshot](meraki/meraki3.png)
+![thirdScreenshot](https://github.com/IronWifi/docs/edit/master/configuration-guides/meraki/meraki3.png)
 
 Navigate to **Wireless -> Configure -> Splash page** and add **Custom splash URL** from the IronWifi console 
 
-![fourthScreenshot](meraki/meraki4.png)
+![fourthScreenshot](https://github.com/IronWifi/docs/edit/master/configuration-guides/meraki/meraki4.png)
 
