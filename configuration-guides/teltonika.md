@@ -82,7 +82,7 @@ Select **External radius** from **Authentication mode** dropbox
 
 Type configuration details **RADIUS Server, Authentication port, Accounting port** and **Radius secret key**
 
-![SecondScreen](teltonika/teltonika14.jpg)
+![SecondScreen](teltonika/teltonika14.png)
 
 Click **save**
 
