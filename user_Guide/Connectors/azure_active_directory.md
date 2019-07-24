@@ -70,3 +70,5 @@ b. If you prefer to do it manually Follow system specific instructions on how to
 - [Android Clients](https://www.ironwifi.com/android-clients/)
 - [Apple iOS, Mac OS X Clients](https://www.ironwifi.com/ios-mac-os-clients/)
 
+
+![screenshot](azure/azure1.png)
