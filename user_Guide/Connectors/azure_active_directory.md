@@ -72,3 +72,17 @@ b. If you prefer to do it manually Follow system specific instructions on how to
 
 
 ![screenshot](azure/azure1.png)
+![screenshot](azure/azure2.png)
+![screenshot](azure/azure3.png)
+![screenshot](azure/azure4.png)
+![screenshot](azure/azure5.png)
+![screenshot](azure/azure6.png)
+![screenshot](azure/azure7.png)
+![screenshot](azure/azure8.png)
+![screenshot](azure/azure9.png)
+![screenshot](azure/azure10.png)
+![screenshot](azure/azure11.png)
+![screenshot](azure/azure12.png)
+![screenshot](azure/azure13.png)
+![screenshot](azure/azure14.png)
+
