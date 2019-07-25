@@ -20,7 +20,7 @@ If you want to manage your wireless users using Google Apps account, you can ena
 9. Click Continue
 10. In the **Select Group for Import** window, select the **_Organizational Unit_** or **_Group_** that you want to import
 
-![firstScreen](google_apps/googlesetup3.jpg)
+![firstScreen](google_apps/googlesetup3.png)
 
 Every imported user will have a random password generated. Please do not delete these generated passwords. They can be used for authentication if there is some problem with your Google Apps account and deleting the generated password will disable the user's ability to authenticate.
 
