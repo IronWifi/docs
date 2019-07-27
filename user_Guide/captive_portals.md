@@ -20,7 +20,7 @@
 
 **Portal Pages** - these are editable pages that we display to the user in different phases of the authorization process. Further information is available on the [Portal Pages](https://www.ironwifi.com/captive-portals/portal-pages/) page.
 
-**File Library** - upload and manage static files that should be available on a [Portal page](https://www.ironwifi.com/captive-portals/portal-pages/). Use an relative path to refer to uploaded files - eg. <img src="./logo.png"> or <link type="text/css"  href="custom.css" />
+**File Library** - upload and manage static files that should be available on a [Portal page](https://www.ironwifi.com/captive-portals/portal-pages/). Use an relative path to refer to uploaded files - eg. ```<img src="./logo.png">``` or ```<link type="text/css"  href="custom.css" />```
 
 **Cloud CDN** - this option will enable [Google Caching](https://cloud.google.com/cdn/docs/caching) by adding required headers to static files served from this Captive Portal
 
