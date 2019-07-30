@@ -40,7 +40,7 @@ Test Splash page authentication, authorize application access to the user profil
 
 ![firstScreen](facebook/fb9.png)
 
-Congratulation. Your guests can now use a Facebook account to authenticate on your Captive Portal.
+Congratulations. Your guests can now use a Facebook account to authenticate on your Captive Portal.
 
 
 
