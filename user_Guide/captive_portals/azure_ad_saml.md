@@ -16,7 +16,7 @@ This page provides instructions on how to configure your Azure Active Directory 
 13. copy **SAML Entity ID** value
 14. copy **SAML Signing Certificate - Base64 encoded** content
 
-**Sign in to IronWifi Console**
+## Sign in to IronWifi Console
 
 1. click on **_Networks -> Captive Portals_**
 2. create new Captive Portal
