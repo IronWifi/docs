@@ -66,3 +66,57 @@ Sections for Authentication Providers, each div will be replaced with the source
 <div id="hotspot_placeholder"></div>
 
 ```
+
+
+
+**Success page** - the Success page that will be displayed to the user if authentication was successful and On Success Redirect to is set to "Success page".
+
+**Returning User page** - the page will be displayed to the user after the guest is authenticated based on client MAC address. To display this page, MAC-Based Reauthentication must be enabled.
+
+Success page and Returning User page can include form to allow users change their password.
+
+Sample form:
+
+```
+<form action="#" method="post">
+
+<input name="new_password" type="text" />
+
+<input name="request_id" type="hidden" value="${request_id}" />
+
+<input type="submit" />
+
+</form>
+```
+
+**Terms & Conditions** - the page describing acceptable usage and Terms & Conditions that the user has to accept before allowing access.
+
+**Pending page** - page displayed to the guest while waiting for Access Authorization by Sponsor.
+
+**Not Found page** - page displayed if requested content is not available.
+
+**Variables** - You can include the following variables in your pages:
+
+- ${request_id}
+- ${fullName}
+- ${firstName}
+- ${lastName}
+- ${phone}
+- ${email}
+- ${approve_link} - for pending approval requests
+- ${reject_link} - for pending approval requests
+- ${auth_user}  - display generated username
+- ${auth_pass}   - display generated password
+- ${device_mac} - display client mac address
+- ${redir_url} - display target URL
+- ${totalData} - total allowed data
+- ${usedData} - already used data
+- ${availableData} - available data
+- ${remainingTime} - session expiration time in human readable form
+- ${remainingSeconds} - session expiration time in seconds
+- ${language} - based on client's browser settings
+- ${country_code} - based on client's source IP address
+- ${country} - based on client's source IP address
+- ${city} - based on client's source IP address
+
+
