@@ -32,7 +32,8 @@ if(msg=="You are already logged in - access denied")var msg=$("#error_container"
 
 Sections for Authentication Providers, each div will be replaced with the source code from Authentication Provider's Container Source Code. Unused DIVs will be replaced with empty string.
 
-_<div id="anonymousreg_placeholder"></div>
+```
+<div id="anonymousreg_placeholder"></div>
 
 <div id="onetimeaccess_placeholder"></div>
 
@@ -62,4 +63,6 @@ _<div id="anonymousreg_placeholder"></div>
 
 <div id="employeeauth_placeholder"></div>
 
-<div id="hotspot_placeholder"></div>_
+<div id="hotspot_placeholder"></div>
+
+```
