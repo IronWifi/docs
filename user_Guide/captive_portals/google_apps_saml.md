@@ -40,19 +40,19 @@ Copy the **ACS URL** and **Entity ID** from Console and add it the the Service P
 
 Click the **Finish** button.
 
-![firstScreen](google_apps_saml/google8.png)
+![firstScreen](google_apps_saml/google9.png)
 
 Click the **OK** button.
 
-![firstScreen](google_apps_saml/google9.png)
+![firstScreen](google_apps_saml/google10.png)
 
 Click the Settings button available in top right corner and click ON for everyone.
 
-![firstScreen](google_apps_saml/google10.png)
+![firstScreen](google_apps_saml/google11.png)
 
 Click **TURN ON FOR EVERYONE** button. This will enable this Service Provider to be used by all members of your domain.
 
-![firstScreen](google_apps_saml/google11.png)
+![firstScreen](google_apps_saml/google12.png)
 
 
 
