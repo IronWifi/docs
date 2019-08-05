@@ -43,7 +43,7 @@ Click the trash icon in the same row as the key you want to inactivate. Choose "
 
 ## Sending Commands with an API Key
 
-You will need an API key to control your IronWifi account, and we have provided basic instructions on how to send requests with our API Keys in case you need them, see [REST API documentation](href="https://www.ironwifi.com/documentation/api/").
+You will need an API key to control your IronWifi account, and we have provided basic instructions on how to send requests with our API Keys in case you need them, see [REST API documentation](https://www.ironwifi.com/documentation/api/) .
 
 
 
