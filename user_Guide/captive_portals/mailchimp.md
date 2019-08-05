@@ -16,23 +16,25 @@ Go to Captive Portal settings -> Guest Profile and enable the "Add to MailChimp"
 
 ![screen](mailchimp/mailchimp4.png)
 
+![screen](mailchimp/mailchimp5.png)
+
 Test the guest registration process. To add users to your MailChimp list, include checkbox with the name "opt_in", or type "hidden" if you wish to sign up all guests.
 
-<input type="checkbox" name="opt_in" />
+```<input type="checkbox" name="opt_in" />```
 
 or
 
-<input type="hidden" name="opt_in" value="on" />
-
-![screen](mailchimp/mailchimp5.png)
-
-If an invalid or suspicious email address was entered, an error message will be displayed.
+```<input type="hidden" name="opt_in" value="on" />```
 
 ![screen](mailchimp/mailchimp6.png)
 
-Member will be automatically added to the selected MailChimp list.
+If an invalid or suspicious email address was entered, an error message will be displayed.
 
 ![screen](mailchimp/mailchimp7.png)
+
+Member will be automatically added to the selected MailChimp list.
+
+![screen](mailchimp/mailchimp8.png)
 
 
 
