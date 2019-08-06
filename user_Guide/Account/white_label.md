@@ -91,16 +91,16 @@ To set up an alias, do the following:
 
 1. Identify the type of hostname that your WiFi vendor requires. You can see the required format in the Captive Portal settings after you select your WiFi Vendor. Depending on the required format, make the following changes to your DNS server settings:
 
-        1. **_splash.YOUR_DOMAIN_**
+        1. splash.YOUR_DOMAIN
            - add a CNAME record and redirect host splash.YOUR_DOMAIN to ghs.googlehosted.com
            - ask the IronWifi support team to add your domain alias to Google Apps Engine settings.
            - Cooperate with the support team during the domain validation process
            
-        2. **_splash-static.YOUR_DOMAIN_**
+        2. splash-static.YOUR_DOMAIN
            - Add an A record and connect splash-static.YOUR_DOMAIN to 35.184.225.240 (US region), or 35.195.230.167 (EU region), or 35.201.240.80 (Asia Pacific region)
            - generate an SSL certificate for this sub-domain and send both private key and public certificate to the IronWifi support team.
            
-        3. **_splashUNIQUE_ID.YOUR_DOMAIN_**
+        3. splashUNIQUE_ID.YOUR_DOMAIN
            - Add a CNAME record and redirect splashUNIQUE_ID.YOUR_DOMAIN to ghs.googlehosted.com. UNIQUE_ID is displayed in the Captive Portal settings in IronWifi Console
            - ask the IronWifi support team to add your domain alias to Google Apps Engine settings.
            - cooperate with the support team during the domain validation process
