@@ -70,7 +70,7 @@ $ curl "https://console.ironwifi.com/api/reports/115?earliest=-1d@d&format=csvfi
 "accept: application/json, text/plain, */*"
 ```
 
-**To retrieve prepared report data. **
+**To retrieve prepared report data.**
 ```
 $ curl "https://console.ironwifi.com/api/reports/tasks?format=csvfile&task_name=$task_name"
 -H "authorization: Bearer $key"
