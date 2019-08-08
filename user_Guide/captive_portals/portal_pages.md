@@ -67,6 +67,32 @@ Sections for Authentication Providers, each div will be replaced with the source
 
 ```
 
+You can also use combination of authentication providers, for example to provide 30 minutes access and require authentication with a valid voucher after the free access is expired.
+
+````
+<div id="voucher_hide" style="display:none">
+    <form id="voucher_form" action="" onsubmit="voucherAccess(); return false;" method="post">
+.....
+
+<div id="selfregister_hide" style="display:none">
+    <div id="error_container" class="alert alert-danger hidden">
+        <div id="error_inner_container"></div>
+    </div>
+    <form id="email_guest_self_registration_submit_form" action="" onsubmit="guestSelfRegUserValidate(); return false;"
+          method="post">
+.....
+
+<script type="text/javascript">
+if (window.location.href.indexOf("error_message") != -1) {
+console.log('show voucher');
+document.getElementById("voucher_hide").style.display = "block";
+}
+else {
+console.log('show selfregister');
+document.getElementById("selfregister_hide").style.display = "block";
+}
+</script>
+````
 
 
 **Success page** - the Success page that will be displayed to the user if authentication was successful and On Success Redirect to is set to "Success page".
