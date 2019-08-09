@@ -58,9 +58,9 @@ To add an attribute to a user, click **Add Attribute** button. In the pop-up win
 
 **Operator** - The following is a list of operators and their meaning.
 
+![screen](users/table.png)
 
-
-
+**Value** - Provides the value of the Attribute. For time-related attributes, the value is usually in seconds. For data-related attributes, the value is representing bytes.
 
 
 
