@@ -50,3 +50,11 @@ Tunnel-Private-Group-Id - VLAN defining attribute
 
 Egress-VLANID - VLAN defining attribute
 
+## Combination of Attributes
+
+It's possible to combines attributes for filtering purpose. For example, if you want to allow users to connect only to SSID1, and not SSID2, do the following.
+- create an Organizational Unit
+- create Group1 with check attribute Called-Station-SSID
+- create Group2 and change the status to Disabled
+- assign both groups to the Organizational Unit - Group1 with priority 1 and Group2 with priority 2
+- assign your users to the Organizational Unit
