@@ -2,10 +2,12 @@ Last updated: May 25th, 2018
 
 Please read these Terms of Service (hereinafter as “Terms“) carefully before using IronWifi (hereinafter as “Service“) operated by IronWifi, LLC, 3071 N Orange Blossom Trail, Ste C, Orlando FLORIDA, 32804, United States (hereinafter as “us“, or “we“, or “our“). The Service is a non-exclusive license to software-as-a-service (SaaS) offered by us at www.ironwifi.com, further described in the Description of the Service in these Terms. Your access to and use of the Service is conditioned on your acceptance of and compliance with these Terms, our Privacy Notice and Data Processing Agreement (hereinafter as “DPA”). These Terms apply to all visitors, users and others who access or use the Service. By accessing or using the Service you agree to be bound by these Terms. On the moment you start using Service these Terms become a legal agreement between you as the Service’s user and us. If you disagree with any part of the terms, then you may not access the Service.
 
-**1. Description of the Service**
+*1. Description of the Service*
+
 The Service is a non-exclusive license to software-as-a-service (SaaS) offered by us at www.ironwifi.com. Part of the Service are various modules including, but not limited to, authentication (network access), accounting, data collection and processing. Modules and features available to you may vary based on your package, you can find them described in our pricing at https://www.ironwifi.com/pricing
 
-**2. Access to the Service**
+*2. Access to the Service*
+
 Internet connection is required to access the Service.
 You are responsible for ensuring functionality of your computer or mobile device and network connections that connect you to the Service, including, but not limited to, “browser” software. We assume no responsibility for the reliability or performance of your internet provider or any connections or devices as described in this section.
 Your access to the service might be temporarily limited or suspended (a) during planned downtime for upgrades and maintenance of the Service; or (b) during any unavailability caused by downtime, technical failures, acts undertaken by third parties (such as our hosting providers etc.), connectivity issues on the internet networks, acts of God, acts of government, acts of terror or civil unrest, distributed denial of service or other attacks on the Service;  (c) if we suspect or detect any malicious software, code or activity within your account, (d) if you breach these Terms, DPA or any other rule or law regulating your use of the Service.
