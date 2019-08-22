@@ -2,7 +2,7 @@ Last updated: May 25th, 2018
 
 Please read these Terms of Service (hereinafter as “Terms“) carefully before using IronWifi (hereinafter as “Service“) operated by IronWifi, LLC, 3071 N Orange Blossom Trail, Ste C, Orlando FLORIDA, 32804, United States (hereinafter as “us“, or “we“, or “our“). The Service is a non-exclusive license to software-as-a-service (SaaS) offered by us at www.ironwifi.com, further described in the Description of the Service in these Terms. Your access to and use of the Service is conditioned on your acceptance of and compliance with these Terms, our Privacy Notice and Data Processing Agreement (hereinafter as “DPA”). These Terms apply to all visitors, users, and others who access or use the Service. By accessing or using the Service, you agree to be bound by these Terms. On the moment you start using Service these Terms become a legal agreement between you as the Service’s user and us. If you disagree with any part of the terms, then you may not access the Service.
 
-*1. Description of the Service*
+**1. Description of the Service**
 
 The Service is a non-exclusive license to software-as-a-service (SaaS) offered by us at www.ironwifi.com. Part of the Service is various modules including, but not limited to, authentication (network access), accounting, data collection, and processing. Modules and features available to you may vary based on your package, you can find them described in our pricing at https://www.ironwifi.com/pricing
 
