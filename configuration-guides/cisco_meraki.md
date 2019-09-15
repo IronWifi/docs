@@ -4,7 +4,7 @@ This page explains the configuration of Cisco Meraki wireless access points for 
 
 Sign-in to the Meraki cloud portal.
 
-![firstScreenshot](https://github.com/IronWifi/docs/edit/master/configuration-guides/meraki/meraki1.png)
+![firstScreenshot](https://github.com/IronWifi/docs/blob/master/configuration-guides/meraki/meraki1.png?raw=true)
 
 Navigate to **Wireless -> Configure -> SSIDs** and define a network that we will protect with a Captive Portal with RADIUS authentication - Students in this example.
 
