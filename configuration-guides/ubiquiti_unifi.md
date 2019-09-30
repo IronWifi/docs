@@ -28,15 +28,15 @@ Configuring UniFi Controller for external Captive Portal authentication
 9. Add 107.178.250.42/32 to the Pre-Authorization Access list
 10. Apply settings and try with your phone or computer
 
-![firstScreenshot](ubiquiti_unifi/unifi1.png)
+![firstScreenshot](https://raw.githubusercontent.com/IronWifi/docs/master/configuration-guides/ubiquiti_unifi/unifi1.png)
 
-![firstScreenshot](ubiquiti_unifi/unifi2.png)
+![firstScreenshot](https://raw.githubusercontent.com/IronWifi/docs/master/configuration-guides/ubiquiti_unifi/unifi2.png)
 
 ## Configuring UniFi Controller for WPA-Enterprise
 
 If you wish to have a WPA-Enterprise protected network without Captive Portal, navigate to **Wireless Networks** and change Security to WPA-Enterprise. Enter information about the RADIUS servers, IP addresses, ports, and shared secrets are available in IronWifi Console -> Networks.
 
-![firstScreenshot](ubiquiti_unifi/unifi3.png)
+![firstScreenshot](https://raw.githubusercontent.com/IronWifi/docs/master/configuration-guides/ubiquiti_unifi/unifi3.png)
 
 ## Common Errors
 
