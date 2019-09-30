@@ -15,11 +15,11 @@ This page explains the necessary configuration for Peplink Access Points and ext
 
 Sign in to the InControl control panel, find the Access Point -> Settings -> **Remote Web Admin**
 
-![firstScreen](peplink/peplink1.png)
+![firstScreen](https://raw.githubusercontent.com/IronWifi/docs/master/configuration-guides/peplink/peplink1.png)
 
 In the Access Point settings page, click on **Network -> Captive Portal**
 
-![firstScreen](peplink/peplink2.png)
+![firstScreen](https://raw.githubusercontent.com/IronWifi/docs/master/configuration-guides/peplink/peplink2.png)
 
 Enter the values copied from IronWifi console -
 
@@ -27,4 +27,4 @@ Enter the values copied from IronWifi console -
 - Accounting Server, Port, Accounting Server Secret
 - Splash page - change to External and past the splash page URL
 
-![firstScreen](peplink/peplink3.png)
+![firstScreen](https://raw.githubusercontent.com/IronWifi/docs/master/configuration-guides/peplink/peplink3.png)
