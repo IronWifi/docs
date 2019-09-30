@@ -16,7 +16,7 @@ This page explains configuration of ICC Access Points to work with IronWifi Capt
 
 2. Go to **Network -> Wi-Fi** and click the **Edit** button
 
-![secondScreenshot](ICC_Networking/ICC2.png)
+![secondScreenshot](https://raw.githubusercontent.com/IronWifi/docs/master/configuration-guides/ICC_Networking/ICC2.png)
 
 3. In the **Interface Configuration** section, click on the **Captive Portal** and fill in required information:
 
@@ -30,4 +30,4 @@ This page explains configuration of ICC Access Points to work with IronWifi Capt
 
 **Splash Page Secret**: RADIUS secret from IronWifi Console
 
-![thirdScreenshot](ICC_Networking/ICC3.png)
+![thirdScreenshot](https://raw.githubusercontent.com/IronWifi/docs/master/configuration-guides/ICC_Networking/ICC3.png)
