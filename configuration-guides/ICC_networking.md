@@ -12,7 +12,7 @@ This page explains configuration of ICC Access Points to work with IronWifi Capt
 
 1. Log in to the ICC AP Web-Browser interface and go to Services -> Captive Portal
 
-![firstScreenshot](https://github.com/IronWifi/docs/raw/master/configuration-guides/ICC_Networking/ICC.png)
+![firstScreenshot](https://raw.githubusercontent.com/IronWifi/docs/master/configuration-guides/ICC_Networking/ICC.png)
 
 2. Go to **Network -> Wi-Fi** and click the **Edit** button
 
