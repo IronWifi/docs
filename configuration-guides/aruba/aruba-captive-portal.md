@@ -84,15 +84,15 @@ Create a default role that will permit access to all destinations.
 
 Create a pre-authentication role. At a minimum, allow access to the captive portal server.
 
-![allow all](https://github.com/IronWifi/docs/raw/master/configuration-guides/aruba/aruba_allow_all.png)
+![allow cp_only](https://github.com/IronWifi/docs/raw/master/configuration-guides/aruba/aruba_cp_only.png)
 
 Aruba controller will intercept HTTPS traffic to all external servers breaking SSL connections. To prevent this, you can create a new Role permitting TCP connections to port 443 on external servers - splash.ironwifi.com, europe-west2.ironwifi.com, google.com, facebook.com, etc.
 
-![allow 443](https://github.com/IronWifi/docs/raw/master/configuration-guides/aruba/allow_443.png)
+Optionally, allow HTTPS to all destination.
+
+![allow 443](https://github.com/IronWifi/docs/raw/master/configuration-guides/aruba/allow_cp_only.png)
 
 Enable the Assign pre-authentication role and select create a role. Click on the **Finish button** to apply new settings.
-
-![allow 443](https://github.com/IronWifi/docs/raw/master/configuration-guides/aruba/allow_443.png)
 
 To fix the SSL error, you will need to replace the default invalid certificate.
 
