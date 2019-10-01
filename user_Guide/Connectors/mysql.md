@@ -10,9 +10,9 @@ This page describes how to add a MySQL database as an external source of users. 
  4. Map table columns to user attributes
  5. Click Continue for the initial import
  
-![firstScreen](mysql/mysql1.png)
-![firstScreen](mysql/mysql2.png)
-![firstScreen](mysql/mysql3.png)
-![firstScreen](mysql/mysql4.png)
-![firstScreen](mysql/mysql5.png)
+![firstScreen](https://raw.githubusercontent.com/IronWifi/docs/master/user_Guide/Connectors/mysql/mysql1.png)
+![firstScreen](https://raw.githubusercontent.com/IronWifi/docs/master/user_Guide/Connectors/mysql/mysql2.png)
+![firstScreen](https://raw.githubusercontent.com/IronWifi/docs/master/user_Guide/Connectors/mysql/mysql3.png)
+![firstScreen](https://raw.githubusercontent.com/IronWifi/docs/master/user_Guide/Connectors/mysql/mysql4.png)
+![firstScreen](https://raw.githubusercontent.com/IronWifi/docs/master/user_Guide/Connectors/mysql/mysql5.png)
 
