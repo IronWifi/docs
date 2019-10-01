@@ -6,7 +6,7 @@ This topic describes how to configure ADFS and IronWifi to allow users to sign i
 
 In ADFS, navigate to **Trust Relationships > Relying Party Trust**, and choose Add Relying Party Trust.
 
-![firstScreen](trusted_idp/idp1.jpg)
+![firstScreen](https://raw.githubusercontent.com/IronWifi/docs/master/user_Guide/Connectors/trusted_idp/idp1.jpg)
 
 IronWifi does not currently support federation Metadata URL, so select the radio button for “Enter the data about relying party manually” and continue.
 
@@ -38,17 +38,17 @@ openssl x509 -inform der -in adfs.cer -out adfs.pem
 
 In IronWifi Console, go to **Networks -> Captive Portals  > Your Portal** to configure your trusted IdP settings. If you have not created an Authentication Provider for this ADFS account, click the **Add New** button.  If you have already created the SAML Authentication Provider, click on edit and enter the URL of the ADFS Federation Service Identifier in the format _http://fully_qualified_domain_name/adfs/services/trust_ to SSO URL.  Under **Certificate**, enter the public key from ADFS in PEM format (include the begin and end certificate tags).
 
-![firstScreen](trusted_idp/idp2.png)
-![firstScreen](trusted_idp/idp3.png)
-![firstScreen](trusted_idp/idp4.png)
-![firstScreen](trusted_idp/idp5.png)
-![firstScreen](trusted_idp/idp6.png)
-![firstScreen](trusted_idp/idp7.png)
-![firstScreen](trusted_idp/idp8.png)
-![firstScreen](trusted_idp/idp9.png)
-![firstScreen](trusted_idp/idp10.png)
-![firstScreen](trusted_idp/idp11.png)
-![firstScreen](trusted_idp/idp12.png)
+![firstScreen](https://raw.githubusercontent.com/IronWifi/docs/master/user_Guide/Connectors/trusted_idp/idp2.png)
+![firstScreen](https://raw.githubusercontent.com/IronWifi/docs/master/user_Guide/Connectors/trusted_idp/idp3.png)
+![firstScreen](https://raw.githubusercontent.com/IronWifi/docs/master/user_Guide/Connectors/trusted_idp/idp4.png)
+![firstScreen](https://raw.githubusercontent.com/IronWifi/docs/master/user_Guide/Connectors/trusted_idp/idp5.png)
+![firstScreen](https://raw.githubusercontent.com/IronWifi/docs/master/user_Guide/Connectors/trusted_idp/idp6.png)
+![firstScreen](https://raw.githubusercontent.com/IronWifi/docs/master/user_Guide/Connectors/trusted_idp/idp7.png)
+![firstScreen](https://raw.githubusercontent.com/IronWifi/docs/master/user_Guide/Connectors/trusted_idp/idp8.png)
+![firstScreen](https://raw.githubusercontent.com/IronWifi/docs/master/user_Guide/Connectors/trusted_idp/idp9.png)
+![firstScreen](https://raw.githubusercontent.com/IronWifi/docs/master/user_Guide/Connectors/trusted_idp/idp10.png)
+![firstScreen](https://raw.githubusercontent.com/IronWifi/docs/master/user_Guide/Connectors/trusted_idp/idp11.png)
+![firstScreen](https://raw.githubusercontent.com/IronWifi/docs/master/user_Guide/Connectors/trusted_idp/idp12.png)
 
 
 
