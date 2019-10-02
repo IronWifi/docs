@@ -14,11 +14,11 @@ This page explains different configuration scenarios for pfSense Firewall and au
 
 Sign-in to the pfSense Firewall administration console.
 
-![firstScreenshot](pfSense/pfsense1.png)
+![firstScreenshot](https://raw.githubusercontent.com/IronWifi/docs/master/configuration-guides/pfSense/pfsense1.png)
 
 Navigate to **Services -> Captive Portal** and add a new zone representing network that should be protected with a Captive Portal with RADIUS authentication - test_zone in our example.
 
-![firstScreenshot](pfSense/pfsense2.png)
+![firstScreenshot](https://raw.githubusercontent.com/IronWifi/docs/master/configuration-guides/pfSense/pfsense2.png)
 
 
 Configure Zone, important parts are:
