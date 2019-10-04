@@ -92,7 +92,9 @@ Enable the Assign pre-authentication role and select create a role. Click on the
 
 To fix the SSL error, you will need to replace the default invalid certificate.
 
-You can generate a valid SSL certificate for free on this URL - (https://www.sslforfree.com/). You can let the page create a certificate signing request for you, or visit the following page for detailed instructions on how to generate a request manually - (https://community.arubanetworks.com/t5/Controller-less-WLANs/How-to-Create-a-Certificate-for-Instant-Captive-Portal-using/ta-p/277025). Don't use a wildcard SSL certificate.
+You can generate a valid SSL certificate for free on this URL - [https://www.sslforfree.com/]. You can let the page create a certificate signing request for you, or visit the following page for detailed instructions on how to generate a request manually - [https://community.arubanetworks.com/t5/Controller-less-WLANs/How-to-Create-a-Certificate-for-Instant-Captive-Portal-using/ta-p/277025].
+
+Don't use a wildcard SSL certificate.
 
 Copy content of downloaded files certificate.crt, ca_bundle.crt, and private.key to a single file (aruba.pem).
 
