@@ -15,7 +15,7 @@ Not all products of these manufacturers support external Captive Portal for auth
 - 4IPnet
 - AeroHive Networks
 - Alcatel-Lucent
-- [Aruba Networks](https://www.ironwifi.com/aruba-captive-portal/)
+- [Aruba Networks](https://www.ironwifi.com/aruba-captive-portal/) - including IAP and Mobility Controller 
 - Avaya
 - Bluesocket
 - Cambium Networks
@@ -40,7 +40,7 @@ Not all products of these manufacturers support external Captive Portal for auth
 - [OPNsense](https://www.ironwifi.com/opnsense/)
 - [pfSense](https://www.ironwifi.com/pfsense-with-captive-portal/)
 - [Peplink](https://www.ironwifi.com/aruba-captive-portal/)
-- [Ruckus Wireless](https://www.ironwifi.com/ruckus-cloud/)
+- [Ruckus Wireless](https://www.ironwifi.com/ruckus-cloud/) - including CloudPath, vSZ, SZ and ZoneDirector
 - [SonicWall](https://www.ironwifi.com/sonicwall/)
 - [Ubiquiti Networks](https://www.ironwifi.com/ubiquiti/)
 - [Teltonika](https://wiki.teltonika.lt/view/Ironwifi.com_Hotspot_Configuration)
