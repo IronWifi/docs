@@ -2,7 +2,7 @@
 
 This page explains the configuration of TP-Link wireless access points in standalone mode or managed by the EAP controller. We will configure the device to use an external Captive  Portal and RADIUS server authentication.
 
-Before configuring the Captive Portal, please update your access points to the latest firmware and use the newest version of the TP-Link Controller software.
+**Before configuring the Captive Portal, please update your access points to the latest firmware and use the newest version of the TP-Link Controller software.**
 
 Sign-in to the EAP controller or directly to the AP settings. In **Wireless Settings** click on the **Edit** button next to the SSID you wish to use for Captive Portal - _tplink eap cp_ in our example.
 
