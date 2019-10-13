@@ -89,23 +89,12 @@ Partners, Resellers, and Enterprise customers can improve their brand by using t
 
 To set up an alias, do the following:
 
-1. Identify the type of hostname that your WiFi vendor requires. You can see the required format in the Captive Portal settings after you select your WiFi Vendor. Depending on the required format, make the following changes to your DNS server settings:
+1. Identify the type of subdomain that your WiFi vendor requires. You can see the required format in the Captive Portal settings after you select your WiFi Vendor. Identify used subdomain format, it can be one of the following - splash.DOMAIN, splash-static.DOMAIN, or splashUNIQUE_ID.DOMAIN.
 
-        1. splash.YOUR_DOMAIN
-           - add a CNAME record and redirect host splash.YOUR_DOMAIN to ghs.googlehosted.com
-           - ask the IronWifi support team to add your domain alias to Google Apps Engine settings.
-           - Cooperate with the support team during the domain validation process
-           
-        2. splash-static.YOUR_DOMAIN
-           - Add an A record and connect splash-static.YOUR_DOMAIN to 35.184.225.240 (US region), or 35.195.230.167 (EU region), or 35.201.240.80 (Asia Pacific region)
-           - generate an SSL certificate for this sub-domain and send both private key and public certificate to the IronWifi support team.
-           
-        3. splashUNIQUE_ID.YOUR_DOMAIN
-           - Add a CNAME record and redirect splashUNIQUE_ID.YOUR_DOMAIN to ghs.googlehosted.com. UNIQUE_ID is displayed in the Captive Portal settings in IronWifi Console
-           - ask the IronWifi support team to add your domain alias to Google Apps Engine settings.
-           - cooperate with the support team during the domain validation process
-           
-2. You can get a valid SSL certificate for free here - https://www.sslforfree.com/
-3. Update your WiFi controller with a new URL and test to confirm everything works fine.
+2. Add a CNAME record and redirect host splash.YOUR_DOMAIN, splash-static, or splashUNIQUE_ID to 35.184.225.240 (US region), or 35.195.230.167 (EU region), or 35.201.240.80 (Asia Pacific region)
+
+3. Generate an SSL certificate for this sub-domain and send both private key and public certificate to the IronWifi support team at support@ironwifi.com. You can get a valid SSL certificate for free here - (https://www.sslforfree.com/)
+
+4. Update your WiFi controller with the new URL and test to confirm everything works fine.
 
 
