@@ -91,7 +91,7 @@ To set up an alias, do the following:
 
 1. Identify the type of subdomain that your WiFi vendor requires. You can see the required format in the Captive Portal settings after you select your WiFi Vendor. Identify used subdomain format, it can be one of the following - splash.DOMAIN, splash-static.DOMAIN, or splashUNIQUE_ID.DOMAIN.
 
-2. Add a CNAME record and redirect host splash.YOUR_DOMAIN, splash-static, or splashUNIQUE_ID to 35.184.225.240 (US region), or 35.195.230.167 (EU region), or 35.201.240.80 (Asia Pacific region)
+2. Add a CNAME record and redirect subdomain (splash.YOUR_DOMAIN, or splash-static.YOUR_DOMAIN, or splashUNIQUE_ID.YOUR_DOMAIN) to 35.184.225.240 (US region), or 35.195.230.167 (EU region), or 35.201.240.80 (Asia Pacific region)
 
 3. Generate an SSL certificate for this sub-domain and send both private key and public certificate to the IronWifi support team at support@ironwifi.com. You can get a valid SSL certificate for free here - (https://www.sslforfree.com/)
 
