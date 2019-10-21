@@ -50,6 +50,8 @@ Tunnel-Private-Group-Id - VLAN defining attribute
 
 Egress-VLANID - VLAN defining attribute
 
+WISPr-Bandwidth-Max-Down / WISPr-Bandwidth-Max-Up - speed limit
+
 ## Combination of Attributes
 
 It's possible to combines attributes for filtering purpose. For example, if you want to allow users to connect only to SSID1, and not SSID2, do the following.
