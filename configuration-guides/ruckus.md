@@ -1,3 +1,5 @@
+# Ruckus
+
 1. Begin by creating a new network with the following attributes
 
 ![firstScreenshot](https://raw.githubusercontent.com/IronWifi/docs/master/configuration-guides/ruckus/ruckus1.png)
