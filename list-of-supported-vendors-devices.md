@@ -15,7 +15,7 @@ Not all products of these manufacturers support external Captive Portal for auth
 - 4IPnet
 - AeroHive Networks
 - Alcatel-Lucent
-- [Aruba Networks](https://www.ironwifi.com/aruba-captive-portal/) - including IAP and Mobility Controller 
+- Aruba Networks - including [IAP](https://www.ironwifi.com/aruba-captive-portal/), Aruba Central, and Mobility Controller 
 - Avaya
 - Bluesocket
 - Cambium Networks
