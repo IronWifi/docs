@@ -35,7 +35,11 @@ Configure Zone, important parts are:
 
 Click on the **Save** button to apply new settings.
 
-![firstScreenshot](https://raw.githubusercontent.com/IronWifi/docs/master/configuration-guides/pfSense/pfsense3.png)
+![firstScreenshot](https://raw.githubusercontent.com/IronWifi/docs/master/configuration-guides/pfSense/pfsense3a.png)
+![firstScreenshot](https://raw.githubusercontent.com/IronWifi/docs/master/configuration-guides/pfSense/pfsense2a.png)
+![firstScreenshot](https://raw.githubusercontent.com/IronWifi/docs/master/configuration-guides/pfSense/pfsense4a.png)
+![firstScreenshot](https://raw.githubusercontent.com/IronWifi/docs/master/configuration-guides/pfSense/pfsense5a.png)
+![firstScreenshot](https://raw.githubusercontent.com/IronWifi/docs/master/configuration-guides/pfSense/pfsense6a.png)
 
 Click on Allowed IP addresses Tab and add IP addresses and networks that the user should be allowed to access before authentication. Typically, you will enter the IP addresses from the Walled garden that will include IP address of the External Captive Portal, Google, Facebook, LinkedIn, PayPal, SAML Identity Provider or any other Authentication Provider you select.
 
@@ -43,7 +47,7 @@ Please all IP addresses and hostname from IronWifi console
 
 Click on the **Save** button to apply new settings.
 
-![firstScreenshot](https://raw.githubusercontent.com/IronWifi/docs/master/configuration-guides/pfSense/pfsense4.png)
+![firstScreenshot](https://raw.githubusercontent.com/IronWifi/docs/master/configuration-guides/pfSense/pfsense8a.png)
 
 ## Optional: PfSense + OpenWrt - PfSense as shared captive provider
 
