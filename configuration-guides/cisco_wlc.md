@@ -49,7 +49,9 @@ Click on the **AAA Servers** tab and select IronWifi RADIUS authentication and a
 
 ![twelfthScreenshot](cisco_wlc/wlc12.png)
 
-Finally, click on the **Save Configuration** link to save and apply new settings.
+Click on the **Save Configuration** link to save and apply new settings.
+
+Finally, install a valid SSL certificate on your controller to prevent warning messages displayed to your clients.
 
 
 
