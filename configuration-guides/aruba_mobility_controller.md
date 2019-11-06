@@ -12,15 +12,15 @@
 
 3. Enter the IP address of IronWifi **RADIUS server** in the entry box and click **Add**.
 
-![firstScreenshot](https://raw.githubusercontent.com/IronWifi/docs/master/configuration-guides/aruba_mobility_controller/image17.png)
+![firstScreenshot](https://raw.githubusercontent.com/IronWifi/docs/master/configuration-guides/aruba_mobility_controller/image19.jpg)
 
 4. Click on the IP address of **IronWifi RADIUS** server that appears in the left column under **RFC 3576 Server**.
 
-![firstScreenshot](https://raw.githubusercontent.com/IronWifi/docs/master/configuration-guides/aruba_mobility_controller/image43.png)
+![firstScreenshot](https://raw.githubusercontent.com/IronWifi/docs/master/configuration-guides/aruba_mobility_controller/image5.png)
 
 5. You will be presented with a screen in the right column that looks like this:
 
-![firstScreenshot](https://raw.githubusercontent.com/IronWifi/docs/master/configuration-guides/aruba_mobility_controller/image5.png)
+![firstScreenshot](https://raw.githubusercontent.com/IronWifi/docs/master/configuration-guides/aruba_mobility_controller/image42.png)
 
 6. You MUST enter the **RADIUS shared key** into the key boxes. Enter _IronWifi RADIUS server shared secret_ in both boxes and click **Apply** at the bottom of the page to save the changes.
 
