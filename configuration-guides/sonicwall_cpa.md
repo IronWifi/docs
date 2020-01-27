@@ -1,58 +1,104 @@
 # SonicWall
 
-This page explains the configuration of SonicWall devices to work with IronWifi Captive Portal.
+This page explains the configuration of SonicWall devices to work with IronWifi Captive Portal and Captive Portal Authentication.
 
-### Assumptions
+Log in to your SonicWall firewall and click Manage at the top. On the left menu, click on VPN > Base Setting and ensure the Unique Firewall Identifier is the original serial number of the device (as shown on the Licenses page).
 
-1. SonicWall Access Point is set up and running the latest firmware.
-2. DHCP and DNS are appropriately configured.
-3. IronWifi initial setup is complete. This setup includes Network and Captive Portal settings.
-4. SonicWall Access Point can communicate with IronWifi servers.
-5. The Guest SSID VLAN can communicate with IronWifi servers.
-6. All systems are appropriately licensed.
 
-### Instructions
+Next, click on **Users > Settings** on the left menu and on the Authentication tab at the top configure with:
 
-Sign in to SonicWall Administration Interface. Click Network, click Zones and click the WLAN edit button.
+User authentication method: **RADIUS + Local Users**
+Click the Configure RADIUS button. Under the Settings header > RADIUS Servers sub-header click ADD...
 
-![firstScreen](https://raw.githubusercontent.com/IronWifi/docs/master/configuration-guides/sonic_wall/sonicwall1.png)
 
-Leave the "General" options default and click **Guest Services**
 
-![firstScreen](https://raw.githubusercontent.com/IronWifi/docs/master/configuration-guides/sonic_wall/sonicwall2.png)
+On the Settings tab:
 
-Check **Enable Guest Services** and check **Enable External Guest Authentication**. Change the Max Guests value to **255**.
+Host Name or IP Address: **insert primary RADIUS IP here**
+Port: **authentication port**
+Shared Secret: **insert shared secret here**
+Confirm Shared Secret: as above
 
-![firstScreen](https://raw.githubusercontent.com/IronWifi/docs/master/configuration-guides/sonic_wall/sonicwall3.png)
 
-Select **HTTP** client Redirect Protocol.
+On the Advanced tab:
 
-Under "Web Server," select **HTTPS** protocol and create a new object for Splash page - FQDN hostname from Console - e.g., splash-static.ironwifi.com, st-us-east1.ironwifi.com, splash-static-eu.ironwifi.com, etc.., zone DMZ.
+User Name Format: **Name@Domain**
+Click Save.  Click ADD... again and configure exactly as above with the following change:
 
-Enter **443** as the Port Number.
+Host Name or IP Address: **insert backup RADIUS IP here**
 
-![firstScreen](https://raw.githubusercontent.com/IronWifi/docs/master/configuration-guides/sonic_wall/sonicwall4.png)
 
-Select **Auth Pages** tab and enter "/api/pages/xxxxxx/" to all input fields. "xxxxxx" is your Splash page identifier, from Console.
+Click Save again. On the RADIUS Users header:
 
-![firstScreen](https://raw.githubusercontent.com/IronWifi/docs/master/configuration-guides/sonic_wall/sonicwall5.png)
+Default user group to which all RADIUS users belong: **Guest Services**
 
-Review other settings and click **OK** to save Changes.
 
-![firstScreen](https://raw.githubusercontent.com/IronWifi/docs/master/configuration-guides/sonic_wall/sonicwall6.png)
+Finally, click OK to save. Next, on the Accounting tab at the top configure with:
 
-![firstScreen](https://raw.githubusercontent.com/IronWifi/docs/master/configuration-guides/sonic_wall/sonicwall7.png)
+Send RADIUS Accounting information: **Enabled**
+Under RADIUS Accounting Servers click ADD... and configure with:
 
-The last step is to Allow remote connections on your Firewall. IronWifi needs to be able to connect to the SonicWall Guest Services to authorize connected clients. Guest Services are listening on port 4043 and IronWifi will try to connect to the URL in this format:
+Host Name or IP Address: **insert primary RADIUS IP here**
+Port: **accounting port**
+Shared Secret: **insert shared secret here**
+Confirm Shared Secret: as above
+User Name Format: **Name@Domain**
+Click Save. Click ADD... again and configure exactly as above with the following change:
 
-https://SOURCE_IP_ADDRESS:4043
+Host Name or IP Address: **insert backup RADIUS IP here**
+Click Save again.
 
-* SOURCE_IP_ADDRESS - IP address that we have received the authentication request from
+Send accounting data for: **Guest Users**
+Include: **Domain and local users**
+Send interim updates: **Every 2 minutes**
 
-We will be connecting directly from the web server, so no further changes are required in your SonicWall firewall rules.\
+Click Accept at the bottom to save changes. Next, on the left menu click on **Objects > Address Objects** and click Add at the top. Here, you will need to add multiple rules to allow pre-authentication traffic to be permitted. For each of the entries below you need to add a rule as follows, changing the Name and FQDN Hostname each time:
 
-## Common Errors
+Name: **ironwifi**
+Zone Assignment: WAN
+Type: FQDN
+FQDN Hostname: **insert *.ironwifi.com here**
 
-IronWifi needs to be able to connect to your Access Point to authorize the connecting device. If not successful, the Captive Portal will return different error codes in the error_message parameter.
+Additionally. if you wish to support social network logins, you also need to add the entries below for each network you plan to support.
 
-- **sonicwall_gw_connection_failed** - our servers could not connect to your SonicWall AP. Make sure the Access Point Guest Services port is reachable over the internet, check your firewall settings and port forwarding rules if necessary. The Guest Services service is listening on port 4043/TCP by default, and you can override this value using the Controller URL parameter in the Captive Portal settings in our Console.
+
+Facebook
+*.facebook.com
+*.fbcdn.net
+*.akamaihd.net
+connect.facebook.net
+Twitter
+*.twitter.com
+*.twimg.com
+LinkedIn
+*.linkedin.com
+*.licdn.com
+Instagram
+*.instagram.com
+*.akamaihd.net
+
+
+Once all the required entries are added click on the Address Groups tab and click Add at the top. Enter a name of guestwifi and then for each of the entries you created above click the -> arrow to move them to the right hand box. Click OK to save.
+
+
+
+Next, on the left menu click on **Network > Zones** and edit the zone you are using for your guest users (typically the WLAN zone). Under the Guest Services tab configure with:
+
+Enable Guest Services: **Enabled**
+
+
+Enable the Captive Portal Authentication checkbox and click Configure. Set the following:
+
+External Captive Portal Vendor URL: **insert splash page URL here**
+Auto Relay Login Credential to SonicWall: **Enabled**
+Captive Portal Welcome URL Source: **Custom**
+Custom Captive Portal Welcome URL: **insert success page URL here**
+Session Timeout Source: **From Radius**
+Idle Timeout Source: **From Radius**
+Radius Authentication Method: **CHAP**
+
+Click OK to save.
+
+Enable the Pass Networks checkbox and select guestwifi from the dropdown. Be sure to also set the Max Guests option to a suitable concurrent number else new guest users might be denied access.
+
+Click OK to save. Finally, if you are using SonicWall Access Points be sure to create an open SSID to enable guest users to connect.
