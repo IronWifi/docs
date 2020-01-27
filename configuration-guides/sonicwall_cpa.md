@@ -13,12 +13,12 @@ Click the Configure RADIUS button. Under the Settings header > RADIUS Servers su
 
 
 On the Settings tab:
-```
+``
 Host Name or IP Address: **insert primary RADIUS IP here**
 Port: **authentication port**
-*Shared Secret: **insert shared secret here**
-*Confirm Shared Secret: as above
-```
+Shared Secret: **insert shared secret here**
+Confirm Shared Secret: as above
+``
 
 On the Advanced tab:
 
