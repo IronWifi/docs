@@ -8,8 +8,8 @@ Log in to your SonicWall firewall and click Manage at the top. On the left menu,
 Next, click on **Users > Settings** on the left menu and on the Authentication tab at the top configure with:
 
 User authentication method: **RADIUS + Local Users**
-Click the Configure RADIUS button. Under the Settings header > RADIUS Servers sub-header click ADD...
 
+Click the Configure RADIUS button. Under the Settings header > RADIUS Servers sub-header click ADD...
 
 
 On the Settings tab:
@@ -23,10 +23,10 @@ Confirm Shared Secret: as above
 On the Advanced tab:
 
 User Name Format: **Name@Domain**
+
 Click Save.  Click ADD... again and configure exactly as above with the following change:
 
 Host Name or IP Address: **insert backup RADIUS IP here**
-
 
 Click Save again. On the RADIUS Users header:
 
