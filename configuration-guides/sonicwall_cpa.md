@@ -22,7 +22,7 @@ Confirm Shared Secret: as above
 
 On the Advanced tab:
 ```
-User Name Format: **Name@Domain**
+User Name Format: **Simple-Name**
 ```
 
 Click Save.  Click ADD... again and configure exactly as above with the following change:
@@ -48,7 +48,7 @@ Host Name or IP Address: **insert primary RADIUS IP here**
 Port: **accounting port**
 Shared Secret: **insert shared secret here**
 Confirm Shared Secret: as above
-User Name Format: **Name@Domain**
+User Name Format: **Simple-Name**
 ```
 Click Save. Click ADD... again and configure exactly as above with the following change:
 
