@@ -15,6 +15,8 @@ This page describes the SendGrid registration process and instructions on how to
 ![screen](https://raw.githubusercontent.com/IronWifi/docs/master/user_Guide/Account/sendgrid/sendgrid4.jpg)
 ![screen](https://raw.githubusercontent.com/IronWifi/docs/master/user_Guide/Account/sendgrid/sendgrid5.jpg)
 
+If you wish to perform email validation, add the required permissions - Reporting (read access) and Validation (full access).
+
 3. Paste API key into the IronWifi console/account tab.
 
 ![screen](https://raw.githubusercontent.com/IronWifi/docs/master/user_Guide/Account/sendgrid/sendgrid6.jpg)
