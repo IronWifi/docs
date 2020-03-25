@@ -27,32 +27,32 @@ Please follow the steps below to monitor our service yourself in order to reduce
 
     e) Now, navigate to [https://www.ironwifi.com/authentication-test/](https://www.ironwifi.com/authentication-test/) , and input your radius server's ip, port and secret + username and password of your test user
 
-    ![firstScreenshot](https://raw.githubusercontent.com/IronWifi/docs/master/user_Guide/serviceMonitor/monitor4.png)
-
-    ![firstScreenshot](https://raw.githubusercontent.com/IronWifi/docs/master/user_Guide/serviceMonitor/monitor6.png)
-
-    f) Now, click "Submit query", and copy the URL with parameters
-
     ![firstScreenshot](https://raw.githubusercontent.com/IronWifi/docs/master/user_Guide/serviceMonitor/monitor7.png)
-
-    g) Next, go back to uptime robot dashboard and add a new monitor
 
     ![firstScreenshot](https://raw.githubusercontent.com/IronWifi/docs/master/user_Guide/serviceMonitor/monitor8.png)
 
-    h) Choose monitor type → HTTP(s), type in your desired friendly name and paste the previously obtained URL
+    f) Now, click "Submit query", and copy the URL with parameters
+
+    ![firstScreenshot](https://raw.githubusercontent.com/IronWifi/docs/master/user_Guide/serviceMonitor/monitor6.png)
+
+    g) Next, go back to uptime robot dashboard and add a new monitor
 
     ![firstScreenshot](https://raw.githubusercontent.com/IronWifi/docs/master/user_Guide/serviceMonitor/monitor9.png)
 
-    i) Don't forget to tick the box next to your email address so that you get notified, as stated in the picture, you can define new alert contacts in the "My Settings" page (You can get notified by SMS...etc.)
+    h) Choose monitor type → HTTP(s), type in your desired friendly name and paste the previously obtained URL
 
     ![firstScreenshot](https://raw.githubusercontent.com/IronWifi/docs/master/user_Guide/serviceMonitor/monitor10.png)
 
-    j) After that, just click "Create Monitor" and see it appear on the left hand side of your screen.
+    i) Don't forget to tick the box next to your email address so that you get notified, as stated in the picture, you can define new alert contacts in the "My Settings" page (You can get notified by SMS...etc.)
 
     ![firstScreenshot](https://raw.githubusercontent.com/IronWifi/docs/master/user_Guide/serviceMonitor/monitor11.png)
 
-    k) You can create another monitor for the backup server. Repeat the same process with the other IP address and port from the console (secret stays the same)
+    j) After that, just click "Create Monitor" and see it appear on the left hand side of your screen.
 
     ![firstScreenshot](https://raw.githubusercontent.com/IronWifi/docs/master/user_Guide/serviceMonitor/monitor12.png)
+
+    k) You can create another monitor for the backup server. Repeat the same process with the other IP address and port from the console (secret stays the same)
+
+    ![firstScreenshot](https://raw.githubusercontent.com/IronWifi/docs/master/user_Guide/serviceMonitor/monitor4.png)
 
 _Uptime robot offers an API in case you'd like to display monitoring data in an existing system._
