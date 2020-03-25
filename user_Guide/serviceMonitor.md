@@ -23,11 +23,11 @@ Please follow the steps below to monitor our service yourself in order to reduce
 
     d) Log in to the IronWifi console and create a test user in the users section
 
-    ![firstScreenshot](https://raw.githubusercontent.com/IronWifi/docs/master/user_Guide/serviceMonitor/monitor4.png)
+    ![firstScreenshot](https://raw.githubusercontent.com/IronWifi/docs/master/user_Guide/serviceMonitor/monitor5.png)
 
     e) Now, navigate to [https://www.ironwifi.com/authentication-test/](https://www.ironwifi.com/authentication-test/) , and input your radius server's ip, port and secret + username and password of your test user
 
-    ![firstScreenshot](https://raw.githubusercontent.com/IronWifi/docs/master/user_Guide/serviceMonitor/monitor5.png)
+    ![firstScreenshot](https://raw.githubusercontent.com/IronWifi/docs/master/user_Guide/serviceMonitor/monitor4.png)
 
     ![firstScreenshot](https://raw.githubusercontent.com/IronWifi/docs/master/user_Guide/serviceMonitor/monitor6.png)
 
