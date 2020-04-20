@@ -30,21 +30,21 @@ IronWifi sends emails in different situations. The white label allows you to cus
 
 **Certificates Link** - email sent to the User when a new authentication certificate is generated. This template is used when the Email link delivery method is chosen during the Certificate generation process.
 
-__LINK__ - will be replaced with a link to download the client certificate
+\_\_LINK\_\_ - will be replaced with a link to download the client certificate
 
-__PASSWORD__ - will be replaced with a generated password needed to install the downloaded certificate
+\_\_PASSWORD\_\_ - will be replaced with a generated password needed to install the downloaded certificate
 
 Certificates Attachment - email sent to the User when a new authentication certificate is generated. This template is used when the Email certificate delivery method is chosen during the Certificate generation process.
 
-__PASSWORD__ - will be replaced with a generated password needed to install the attached certificate
+\_\_PASSWORD\_\_ - will be replaced with a generated password needed to install the attached certificate
 
 Order Confirmation - email sent to the User when Internet Access package is purchased. This email typically contains a generated username and password that can be used to sign-in from a different device.
 
 Your email template can include these two variables
 
-__USERNAME__ - will be replaced with a generated username
+\_\_USERNAME\_\_ - will be replaced with a generated username
 
-__PASSWORD__ - will be replaced with a generated password
+\_\_PASSWORD\_\_ - will be replaced with a generated password
 
 You customer can use these credentials to sign in using the [Local Account](https://www.ironwifi.com/captive-portals/authentication-providers/) authentication provider.
 
@@ -54,11 +54,11 @@ You customer can use these credentials to sign in using the [Local Account](http
 
 Your email template should include at least these two variables
 
-__APPROVELINK__ - will be replaced with a link to approval access request
+\_\_APPROVELINK\_\_ - will be replaced with a link to approval access request
 
-__REJECTLINK__ - will be replaced with a link to reject the access request
+\_\_REJECTLINK\_\_ - will be replaced with a link to reject the access request
 
-__REQUESTEXPIRATION__ - will be replaced with a request expiration time in minutes
+\_\_REQUESTEXPIRATION\_\_ - will be replaced with a request expiration time in minutes
 
  
 
@@ -66,21 +66,21 @@ You can have the following additional variables in your email template, and they
 
  
 
-__FIRSTNAME__ - first name of the requester
+\_\_FIRSTNAME\_\_ - first name of the requester
 
-__LASTNAME__ - last name of the requester
+\_\_LASTNAME\_\_ - last name of the requester
 
-__FULLNAME__ - full name of the requester
+\_\_FULLNAME__ - full name of the requester
 
-__COMPANY__
+\_\_COMPANY\_\_
 
-__DEPARTMENT__
+\_\_DEPARTMENT\_\_
 
-__MANAGER__
+\_\_MANAGER\_\_
 
-__PHONE__
+\_\_PHONE\_\_
 
-__EMAIL__
+\_\_EMAIL\_\_
 
  
 ## Hostname White Label Settings
