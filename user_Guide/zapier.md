@@ -8,7 +8,7 @@ The integration is currently in beta as it has not been officially published, we
 
 ## Setup
 
-1. Click on this link to become a beta tester, you should see a webpage like below
+1. Click on [this link](https://zapier.com/developer/public-invite/80527/3616c5397dbe1b00a997d205f1d19bde/) to become a beta tester, you should see a webpage like below
 
   ![firstScreenshot](https://raw.githubusercontent.com/IronWifi/docs/master/user_Guide/zapier/zapier1.png)
 
