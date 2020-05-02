@@ -24,54 +24,241 @@ Generate an [API key](https://www.ironwifi.com/user-guide/api-keys/) and add it 
 
 key=’xxxxxxxxxxxxxxxxxxxx’;
 
-**To get a list of users**
-```
-$ curl 'https://console.ironwifi.com/api/users' -H "authorization: Bearer $key" -H 'accept: application/json, text/plain, */*'
-```
- 
+### To get a list of users
+```php
 
-**Create new user**
+<?php
+
+$api_key = "";
+$curl = curl_init();
+
+curl_setopt_array($curl, array(
+  CURLOPT_URL => "https://console.ironwifi.com/api/users",
+  CURLOPT_RETURNTRANSFER => true,
+  CURLOPT_ENCODING => "",
+  CURLOPT_MAXREDIRS => 10,
+  CURLOPT_TIMEOUT => 0,
+  CURLOPT_FOLLOWLOCATION => true,
+  CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
+  CURLOPT_CUSTOMREQUEST => "GET",
+  CURLOPT_HTTPHEADER => array(
+    "Authorization: Bearer " . $api_key
+  ),
+));
+
+$response = curl_exec($curl);
+
+curl_close($curl);
+echo $response;
+?>
+
 ```
-$ curl 'https://console.ironwifi.com/api/users' -H "authorization: Bearer $key" -H 'content-type: application/json;charset=UTF-8' -H 'accept: application/json, text/plain, */*' –data-binary '{"username":"USER1"}'
+
+### Create new user
+```php
+<?php
+
+$api_key = "";
+$curl = curl_init();
+
+curl_setopt_array($curl, array(
+  CURLOPT_URL => "https://console.ironwifi.com/api/users",
+  CURLOPT_RETURNTRANSFER => true,
+  CURLOPT_ENCODING => "",
+  CURLOPT_MAXREDIRS => 10,
+  CURLOPT_TIMEOUT => 0,
+  CURLOPT_FOLLOWLOCATION => true,
+  CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
+  CURLOPT_CUSTOMREQUEST => "POST",
+  CURLOPT_POSTFIELDS =>"{\"username\": \"Milan.Hand\"}",
+  CURLOPT_HTTPHEADER => array(
+    "Authorization: Bearer " . $api_key,
+    "Content-Type: application/json"
+  ),
+));
+
+$response = curl_exec($curl);
+
+curl_close($curl);
+echo $response;
+?>
 ```
 Response includes the user_id. It is required to manipulate the user profile.
 
 user_id=2969744;
 
-**Set a user password (add attribute)**
-```
-$ curl 'https://console.ironwifi.com/api/attributes' -H "authorization: Bearer $key" -H 'content-type: application/json;charset=UTF-8' -H 'accept: application/json, text/plain, */*' –data-binary "{\"userid\":\"$user_id\",\"attribute\":\"Cleartext-Password\",\"operator\":\":=\",\"table\":\"radcheck\",\"value\":\"abc123\"}"
+### Set a user password (add attribute)
+```php
+<?php
+
+$api_key = "";
+$curl = curl_init();
+
+curl_setopt_array($curl, array(
+  CURLOPT_URL => "https://console.ironwifi.com/api/attributes",
+  CURLOPT_RETURNTRANSFER => true,
+  CURLOPT_ENCODING => "",
+  CURLOPT_MAXREDIRS => 10,
+  CURLOPT_TIMEOUT => 0,
+  CURLOPT_FOLLOWLOCATION => true,
+  CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
+  CURLOPT_CUSTOMREQUEST => "POST",
+  CURLOPT_POSTFIELDS =>"{\n\t\n\"value\":\"tlGkkAjKw7xtCMq\",\n\"userid\": $user_id,\n\"attribute\":\"Cleartext-Password\",\n\"operator\":\":=\",\n\"table\":\"radcheck\"\n\t\n}",
+  CURLOPT_HTTPHEADER => array(
+    "Authorization: Bearer " . $api_key,
+    "Content-Type: application/json"
+  ),
+));
+
+$response = curl_exec($curl);
+
+curl_close($curl);
+echo $response;
+?>
 ```
  
 
-**Get a list of user attributes**
-```
-$ curl "https://console.ironwifi.com/api/attributes?table=radcheck&userid=$user_id" -H "authorization: Bearer $key" -H 'accept: application/json, text/plain, */*'
+### Get a list of user attributes
+```php
+
+<?php
+
+$api_key = "";
+$curl = curl_init();
+
+curl_setopt_array($curl, array(
+  CURLOPT_URL => "https://console.ironwifi.com/api/attributes?table=radcheck&userid=" . $user_id,
+  CURLOPT_RETURNTRANSFER => true,
+  CURLOPT_ENCODING => "",
+  CURLOPT_MAXREDIRS => 10,
+  CURLOPT_TIMEOUT => 0,
+  CURLOPT_FOLLOWLOCATION => true,
+  CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
+  CURLOPT_CUSTOMREQUEST => "GET",
+  CURLOPT_HTTPHEADER => array(
+    "Authorization: Bearer " . $api_key
+  ),
+));
+
+$response = curl_exec($curl);
+
+curl_close($curl);
+echo $response;
+?>
 ```
 
 Response provides attribute_id. It is required to manipulate the attribute.
 
 attribute_id=5505687;
 
-**To delete an attribute**
-```
-$ curl "https://console.ironwifi.com/api/attributes/$attribute_id?table=radcheck" -X DELETE -H "authorization: Bearer $key" -H 'accept: application/json, text/plain, *.*'
+### To delete an attribute
+```php
+<?php
+
+$api_key = "";
+$curl = curl_init();
+
+curl_setopt_array($curl, array(
+  CURLOPT_URL => "https://console.ironwifi.com/api/attributes/" . $attribute_id . "?table=radcheck",
+  CURLOPT_RETURNTRANSFER => true,
+  CURLOPT_ENCODING => "",
+  CURLOPT_MAXREDIRS => 10,
+  CURLOPT_TIMEOUT => 0,
+  CURLOPT_FOLLOWLOCATION => true,
+  CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
+  CURLOPT_CUSTOMREQUEST => "DELETE",
+  CURLOPT_HTTPHEADER => array(
+    "Authorization: Bearer " . $api_key
+  ),
+));
+
+$response = curl_exec($curl);
+
+curl_close($curl);
+echo $response;
+?>
 ``` 
 
-**Download a report data synchronously, works with data up to 4 hours old.**
+### Download a report data synchronously, works with data up to 4 hours old.
 
-```
-$ curl "https://console.ironwifi.com/api/110?earliest=-4h&latest=now&page=1&period=1" -H "authorization: Bearer $key" -H 'accept: application/json, text/plain, *.*'
+```php
+<?php
+
+$api_key = "";
+$curl = curl_init();
+
+curl_setopt_array($curl, array(
+  CURLOPT_URL => "https://console.ironwifi.com/api/110?earliest=-4h&latest=now&page=1&period=1",
+  CURLOPT_RETURNTRANSFER => true,
+  CURLOPT_ENCODING => "",
+  CURLOPT_MAXREDIRS => 10,
+  CURLOPT_TIMEOUT => 0,
+  CURLOPT_FOLLOWLOCATION => true,
+  CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
+  CURLOPT_CUSTOMREQUEST => "GET",
+  CURLOPT_HTTPHEADER => array(
+    "Authorization: Bearer " . $api_key
+  ),
+));
+
+$response = curl_exec($curl);
+
+curl_close($curl);
+echo $response;
+?>
 ```
 
-**Get report data asynchronously, returns task_name.**
-```
-$ curl "https://console.ironwifi.com/api/reports/115?earliest=-1d@d&format=csvfile&latest=now&page=1&period=1&columns=fullname,email,phone,client_mac,address,creationdate" -H "authorization: Bearer $key" -H
-"accept: application/json, text/plain, */*"
+### Get report data asynchronously, returns task_name.
+```php
+<?php
+
+$curl = curl_init();
+
+curl_setopt_array($curl, array(
+  CURLOPT_URL => "https://console.ironwifi.com/api/reports/115?earliest=-1d@d&format=csvfile&latest=now&page=1&period=1&columns=fullname,email,phone,client_mac,address,creationdate",
+  CURLOPT_RETURNTRANSFER => true,
+  CURLOPT_ENCODING => "",
+  CURLOPT_MAXREDIRS => 10,
+  CURLOPT_TIMEOUT => 0,
+  CURLOPT_FOLLOWLOCATION => true,
+  CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
+  CURLOPT_CUSTOMREQUEST => "GET",
+  CURLOPT_HTTPHEADER => array(
+    "Authorization: Bearer c4509c72afd5ceb496a1768cded7ac01d218d9e0"
+  ),
+));
+
+$response = curl_exec($curl);
+
+curl_close($curl);
+echo $response;
+?>
 ```
 
-**To retrieve prepared report data.**
-```
-$ curl "https://console.ironwifi.com/api/reports/tasks?format=csvfile&task_name=$task_name"
--H "authorization: Bearer $key"
+### To retrieve prepared report data.
+```php
+<?php
+
+$api_key = "";
+$curl = curl_init();
+
+curl_setopt_array($curl, array(
+  CURLOPT_URL => "https://console.ironwifi.com/api/reports/tasks?format=csvfile&task_name=" . $task_name,
+  CURLOPT_RETURNTRANSFER => true,
+  CURLOPT_ENCODING => "",
+  CURLOPT_MAXREDIRS => 10,
+  CURLOPT_TIMEOUT => 0,
+  CURLOPT_FOLLOWLOCATION => true,
+  CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
+  CURLOPT_CUSTOMREQUEST => "GET",
+  CURLOPT_HTTPHEADER => array(
+    "Authorization: Bearer " . $api_key
+  ),
+));
+
+$response = curl_exec($curl);
+
+curl_close($curl);
+echo $response;
+?>
 ```
