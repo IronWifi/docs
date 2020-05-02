@@ -212,6 +212,7 @@ echo $response;
 ```php
 <?php
 
+$api_key = "";
 $curl = curl_init();
 
 curl_setopt_array($curl, array(
