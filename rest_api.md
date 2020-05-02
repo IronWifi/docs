@@ -26,9 +26,7 @@ key=’xxxxxxxxxxxxxxxxxxxx’;
 
 ### To get a list of users
 ```php
-
 <?php
-
 $api_key = "";
 $curl = curl_init();
 
@@ -57,7 +55,6 @@ echo $response;
 ### Create new user
 ```php
 <?php
-
 $api_key = "";
 $curl = curl_init();
 
@@ -90,7 +87,6 @@ user_id=2969744;
 ### Set a user password (add attribute)
 ```php
 <?php
-
 $api_key = "";
 $curl = curl_init();
 
@@ -120,9 +116,7 @@ echo $response;
 
 ### Get a list of user attributes
 ```php
-
 <?php
-
 $api_key = "";
 $curl = curl_init();
 
@@ -183,7 +177,6 @@ echo $response;
 
 ```php
 <?php
-
 $api_key = "";
 $curl = curl_init();
 
@@ -211,7 +204,6 @@ echo $response;
 ### Get report data asynchronously, returns task_name.
 ```php
 <?php
-
 $api_key = "";
 $curl = curl_init();
 
@@ -239,7 +231,6 @@ echo $response;
 ### To retrieve prepared report data.
 ```php
 <?php
-
 $api_key = "";
 $curl = curl_init();
 
