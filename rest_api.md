@@ -10,7 +10,7 @@ If you are a software developer or integrator, you might want to use the provide
 
 The API communication interface is available at https://console.ironwifi.com/api, and communication is provided strictly through the HTTPS protocol and JSON arrays.
 
-Full documentation of our API is available at https://api.ironwifi.com.
+Full documentation of our API is available at [api.ironwifi.com]https://api.ironwifi.com.
 
 **For best performance, please send your requests to https://console.ironwifi.com/api**
 
