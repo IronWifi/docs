@@ -12,8 +12,6 @@ The API communication interface is available at https://console.ironwifi.com/api
 
 Full documentation of our API is available on [this webpage](https://documenter.getpostman.com/view/10902824/SzmZdLRy?version=latest).
 
-**For best performance, please send your requests to https://console.ironwifi.com/api**
-
 All requests have to include authorization header with valid API token which is generated in Console -> Account -> API Keys.
 
 ## Examples on how to use the Rest API
@@ -217,7 +215,7 @@ curl_setopt_array($curl, array(
   CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
   CURLOPT_CUSTOMREQUEST => "GET",
   CURLOPT_HTTPHEADER => array(
-    "Authorization: Bearer c4509c72afd5ceb496a1768cded7ac01d218d9e0"
+    "Authorization: Bearer $api_key"
   ),
 ));
 
