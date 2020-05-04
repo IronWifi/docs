@@ -8,7 +8,7 @@ If you are a software developer or integrator, you might want to use the provide
 - Billing system
 - Hotel check-in, checkout system
 
-The API communication interface is available at https://console.ironwifi.com/api, and communication is provided strictly through the HTTPS protocol and JSON arrays.
+The API communication interface is available at https://console.ironwifi.com/api (or at selected region eg. us-east1.ironwifi.com/api, https://europe-west2.ironwifi.com/api, etc.), and communication is provided strictly through the HTTPS protocol and JSON arrays.
 
 Full documentation of our API is available on [this webpage](https://documenter.getpostman.com/view/10902824/SzmZdLRy?version=latest).
 
