@@ -37,7 +37,7 @@ Not all products of these manufacturers support external Captive Portal for auth
 - [Mist Systems](https://www.ironwifi.com/mist-systems/)
 - Mojo Networks
 - Motorola
-- Netgear
+- [Netgear](https://www.ironwifi.com/netgear/)
 - [Open-Mesh](https://www.ironwifi.com/open-mesh-cloudtrax/)
 - [OPNsense](https://www.ironwifi.com/opnsense/)
 - [pfSense](https://www.ironwifi.com/pfsense-with-captive-portal/)
