@@ -10,4 +10,4 @@ This page explains configuration of Captive Portal with authentication through I
 4. Provide your radius server's details (can be found under networks in the IronWifi console)
 5. Add all necessary IP addresses and domains to the walled garden list (this depends on your authentication provider)
 
-![https://raw.githubusercontent.com/IronWifi/docs/master/configuration-guides/netgear/netgear.png]
+![screenshot](https://raw.githubusercontent.com/IronWifi/docs/master/configuration-guides/netgear/netgear.png)
