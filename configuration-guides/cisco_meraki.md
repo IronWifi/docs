@@ -18,6 +18,8 @@ Navigate to **Wireless -> Configure -> SSIDs** and define a network that we will
 
 **Walled garden ranges**: add all Walled garden IP addresses from the IronWifi console
 
+Tip: If you need accounting data and don't see RADIUS Accounting servers, contact Meraki support to enable this feature in your account.
+
 ![thirdScreenshot](https://github.com/IronWifi/docs/blob/master/configuration-guides/meraki/meraki3.png?raw=true)
 
 Navigate to **Wireless -> Configure -> Splash page** and add **Custom splash URL** from the IronWifi console 
