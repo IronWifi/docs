@@ -24,3 +24,4 @@ Navigate to **Wireless -> Configure -> Splash page** and add **Custom splash URL
 
 ![fourthScreenshot](https://github.com/IronWifi/docs/blob/master/configuration-guides/meraki/meraki4.png?raw=true)
 
+For accurate accounting, please enable the Data-Carrier Detect feature under the Access Control Page.
