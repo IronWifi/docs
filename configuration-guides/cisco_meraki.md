@@ -25,3 +25,5 @@ Navigate to **Wireless -> Configure -> Splash page** and add **Custom splash URL
 ![fourthScreenshot](https://github.com/IronWifi/docs/blob/master/configuration-guides/meraki/meraki4.png?raw=true)
 
 For accurate accounting, please enable the Data-Carrier Detect feature under the Access Control Page.
+
+If data-carrier detect is enabled, sessions will be revoked and accounted for whenever a client disassociates from a network. To allow clients to reassociate to the network without re-authorization, do not enable data-carrier detect.
