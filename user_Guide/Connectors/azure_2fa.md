@@ -1,7 +1,8 @@
 # **Azure 2-Factor Authentication**
 
 ---
-This pge explains the setup of two factor authentication in your Active Directory. This will then enable your users to authenticate with both username/password and sms code or OAuth for better security.
+
+This page explains the setup of two factor authentication in your Active Directory. This will then enable your users to authenticate with both username/password and sms code or OAuth for better security.
 
 **This configuration guide assumes that you have already followed these instructions to configure your Azure Active Directory users to authenticate through IronWifi**
 
