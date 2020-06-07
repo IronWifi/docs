@@ -1,4 +1,4 @@
-# Azure 2-Factor Authentication 
+# **Azure 2-Factor Authentication**
 
 This page explains the setup of two factor authentication in your Active Directory. This will then enable your users to authenticate with both username/password and sms code or OAuth for better security.
 
