@@ -36,3 +36,5 @@ If you wish to perform email validation, add the required permissions - Reportin
 
 ![screen](https://raw.githubusercontent.com/IronWifi/docs/master/user_Guide/Account/sendgrid/sendgrid10.png)
 
+7. If you decided to use your own templates, you have to define your own sender email address and verify the sender identity (https://sendgrid.com/docs/for-developers/sending-email/sender-identity/)
+
