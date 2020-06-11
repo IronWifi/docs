@@ -48,5 +48,48 @@ Captive Portal can return different error codes in the error_message parameter.
 
 - **500 Gateway Timeout** or **unifi_gw_connection_failed** - our servers could not connect to your Controller. Make sure the Controller is reachable over the internet, check your firewall settings and port forwarding rules if necessary. The controller should listen on port 8443/TCP.
 
+## Using multiple Captive Portals
+
+1. Create a **New Captive Portal**
+2. Replace the Splash page source code with the following code (The source code can be found under Portal Pages in the Captive Portal settings). 
+3. Replace the SSID1 and SSID2 with your SSID names. 
+4. Replace the splash page URLs with the URLs of the other Captive Portals.
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content=""><meta name="author" content="">
+<title>Wifi Access</title>
+<script>
+
+function getUrlParam(parameter, defaultvalue){
+    var urlparameter = defaultvalue;
+    if(window.location.href.indexOf(parameter) > -1){
+        urlparameter = getUrlVars()[parameter];
+        }
+    return urlparameter;
+}
+function getUrlVars() {
+    var vars = {};
+    var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m,key,value) {
+        vars[key] = value;
+    });
+    return vars;
+}
+var ssid = getUrlParam('ssid', 'none')
+
+if (ssid == 'SSID1'){
+  window.location.replace("https://us-east1-r-zzzzzzzzzzzzzzz.ironwifi.com/"+location.search);
+}else if (ssid == 'SSID2'){
+  window.location.replace("https://us-east1.ironwifi.com/api/pages/r-xxxxxxxxxxxxxxx/"+location.search);
+}else{
+  window.location.replace("https://us-east1.ironwifi.com/api/pages/r-yyyyyyyyyyyyyyyyyyyyyy/"+location.search);
+}
+</script>
+</head>
+</html>
+
+```
+
 
 
