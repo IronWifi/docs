@@ -25,7 +25,7 @@ Configuring UniFi Controller for external Captive Portal authentication
 6. Check the Use Secure Portal checkbox
 7. Check the **redirect using hostname** checkbox and enter the hostname from the Captive Portal settings page in IronWifi Console - for example, **splashr-bem7i-wud54-re5up.ironwifi.com**
 8. Uncheck the Enable HTTPS Redirection
-9. Add 107.178.250.42/32 to the Pre-Authorization Access list
+9. Add 107.178.250.42/32 to the Pre-Authorization Access list. If using an external DNS server, add the DNS server IP address to the list.
 10. Apply settings and try with your phone or computer
 
 ![firstScreenshot](https://raw.githubusercontent.com/IronWifi/docs/master/configuration-guides/ubiquiti_unifi/unifi1.png)
