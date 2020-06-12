@@ -89,9 +89,6 @@ if (ssid == 'SSID1'){
 </head>
 </html>
 
-<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ac&ref=qf_sp_asin_til&ad_type=product_link&tracking_id=ironwifi-20&marketplace=amazon&region=US&placement=B015PRO512&asins=B015PRO512&linkId=fcb7e62fb9cb0d697c2093f911230b0f&show_border=false&link_opens_in_new_window=false&price_color=333333&title_color=0066C0&bg_color=FFFFFF">
-    </iframe>
-
 ```
 
 
