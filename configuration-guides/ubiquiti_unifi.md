@@ -60,10 +60,11 @@ Captive Portal can return different error codes in the error_message parameter.
 ```html
 <!DOCTYPE html>
 <html lang="en">
-<head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content=""><meta name="author" content="">
-<title>Wifi Access</title>
-<script>
+<head>
+ <meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
 
+<script>
 function getUrlParam(parameter, defaultvalue){
     var urlparameter = defaultvalue;
     if(window.location.href.indexOf(parameter) > -1){
@@ -81,11 +82,11 @@ function getUrlVars() {
 var ssid = getUrlParam('ssid', 'none')
 
 if (ssid == 'SSID1'){
-  window.location.replace("https://us-east1-r-zzzzzzzzzzzzzzz.ironwifi.com/"+location.search);
+  window.location.replace("https://us-east1-r-zzzzzzz.ironwifi.com/"+location.search);
 }else if (ssid == 'SSID2'){
-  window.location.replace("https://us-east1.ironwifi.com/api/pages/r-xxxxxxxxxxxxxxx/"+location.search);
+  window.location.replace("https://us-east1-r-xxxxxxx.ironwifi.com/"+location.search);
 }else{
-  window.location.replace("https://us-east1.ironwifi.com/api/pages/r-yyyyyyyyyyyyyyyyyyyyyy/"+location.search);
+  window.location.replace("https://us-east1-r-yyyyyyy.ironwifi.com/"+location.search);
 }
 </script>
 </head>
