@@ -93,7 +93,7 @@ To set up an alias, do the following:
 
 2. Add a CNAME record and redirect subdomain (splash.YOUR_DOMAIN, or splash-static.YOUR_DOMAIN, or splashUNIQUE_ID.YOUR_DOMAIN) to 35.184.225.240 (US region), or 35.195.230.167 (EU region), or 35.201.240.80 (Asia Pacific region)
 
-3. Generate an SSL certificate for this sub-domain and send both private key and public certificate to the IronWifi support team at support@ironwifi.com. You can get a valid SSL certificate for free here - (https://www.sslforfree.com/)
+3. Generate an SSL certificate for this sub-domain and send both private key and public certificate to the IronWifi support team at support@ironwifi.com. You can get a valid SSL certificate for free here - [www.ssl.com](https://affiliates.ssl.com/623.html)
 
 4. Update your WiFi controller with the new URL and test to confirm everything works fine.
 
