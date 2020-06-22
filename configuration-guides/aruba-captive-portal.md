@@ -1,3 +1,7 @@
+# **Aruba Virtual Controller**
+
+---
+
 This page explains basic configuration for Aruba Virtual Controller and external Captive Portal with RADIUS authentication.
 
 Sign-in to the Aruba Administration console usually available at [https://instant.arubanetworks.com:4343](https://instant.arubanetworks.com:4343).
