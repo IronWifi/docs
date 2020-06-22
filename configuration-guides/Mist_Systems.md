@@ -1,4 +1,6 @@
-# Mist Systems
+# **Mist Systems**
+
+---
 
 This page explains the necessary configuration for Mist Systems Access Points and external Captive Portal with RADIUS authentication.
 
