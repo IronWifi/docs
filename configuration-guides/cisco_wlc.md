@@ -1,4 +1,6 @@
-#  Cisco WLC 
+#  **Cisco WLC**
+
+---
 
 This page explains the configuration of the Cisco Wireless LAN Controller to work with IronWifi Captive Portal.
 
