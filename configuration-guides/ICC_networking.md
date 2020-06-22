@@ -1,4 +1,6 @@
-# ICC Networking
+# **ICC Networking**
+
+---
 
 This page explains configuration of ICC Access Points to work with IronWifi Captive Portal.
 
