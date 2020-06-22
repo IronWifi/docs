@@ -1,4 +1,6 @@
-# CoovaChilli
+# **CoovaChilli**
+
+---
 
 This page explains the configuration of CoovaChilli installed on an OpenWRT compatible device (TP-Link) to work with IronWifi Captive Portal.
 
@@ -17,7 +19,7 @@ opkg install tcpdump
 reboot
 ```
 
-You can download the CoovaChilli configuration file from the console. To download this file, please go to the Console->Networks->CaptivePortals->your captive portal.
+You can download the CoovaChilli configuration file from the console. To download this file, please go to the **Console->Networks->CaptivePortals->your captive portal.**
 
 Set vendor to CoovaChilli and download Configuration files - defaults file and chilli init file.
 Under authentication providers, add anonymous (for testing).
