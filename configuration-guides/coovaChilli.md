@@ -24,10 +24,10 @@ You can download the CoovaChilli configuration file from the console. To downloa
 Set vendor to CoovaChilli and download Configuration files - defaults file and chilli init file.
 Under authentication providers, add anonymous (for testing).
 
-Copy downloaded defaults file to your wireless router to /etc/chilli/defaults and /etc/chilli/config
-Copy downloaded chilli init file to /etc/init.d/chilli
+Copy downloaded defaults file to your wireless router to _/etc/chilli/defaults_ and _/etc/chilli/config_
+Copy downloaded chilli init file to _/etc/init.d/chilli_
 
-chmod +x /etc/init.d/chilli
-/etc/init.d/chilli start
+_chmod +x /etc/init.d/chilli_
+_/etc/init.d/chilli start_
 
 At this moment, your OpenWRT router should be displaying our splash page to your new guests.
