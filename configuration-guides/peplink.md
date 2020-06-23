@@ -1,4 +1,6 @@
-# Peplink
+# **Peplink**
+
+---
 
 This page explains the necessary configuration for Peplink Access Points and external Captive Portal with RADIUS authentication.
 
