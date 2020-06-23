@@ -1,4 +1,6 @@
-# pfSense with Captive Portal
+# **pfSense with Captive Portal**
+
+---
 
 This page explains different configuration scenarios for pfSense Firewall and authentication with IronWifi.
 
