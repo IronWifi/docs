@@ -1,4 +1,6 @@
-# Open-Mesh Cloudtrax
+# **Open-Mesh Cloudtrax**
+
+---
 
 This page explains the configuration of Open-Mesh devices to work with IronWifi Captive Portal.
 
