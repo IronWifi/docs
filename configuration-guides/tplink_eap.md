@@ -1,4 +1,6 @@
-# TP-Link EAP
+# **TP-Link EAP**
+
+---
 
 This page explains the configuration of TP-Link wireless access points in standalone mode or managed by the EAP controller. We will configure the device to use an external Captive  Portal and RADIUS server authentication.
 
