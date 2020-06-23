@@ -1,4 +1,6 @@
-# SonicWall
+# **SonicWall**
+
+---
 
 This page explains the configuration of SonicWall devices to work with IronWifi Captive Portal.
 
