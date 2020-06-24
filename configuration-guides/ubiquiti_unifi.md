@@ -2,8 +2,6 @@
 
 ---
 
-[Purchase Access Points](https://amzn.to/3cWIPZC)
-
 This page explains different configuration scenarios for Ubiquiti UniFi Controller with IronWifi - Captive Portal and WPA-Enterprise with external RADIUS authentication and accounting.
 
 Configuring UniFi Controller for external Captive Portal authentication
