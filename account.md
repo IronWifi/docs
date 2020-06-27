@@ -1,4 +1,6 @@
-# Account
+# **Account**
+
+---
 
 You can configure and control everything about your IronWifi account. All of the settings that you can manage through the User Interface can also be achieved through the API.
 
