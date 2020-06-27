@@ -1,4 +1,7 @@
-# Roles
+# **Roles**
+
+---
+
 ## Role Permissions
 
 During the Role creation process, you will be given the option of selecting specific permissions, or scopes, that you would like to assign to your new Role. These permissions restrict which areas of your account, team members with Role will be allowed to access.
