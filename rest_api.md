@@ -1,4 +1,6 @@
-# REST API
+# **REST API**
+
+---
 
 If you are a software developer or integrator, you might want to use the provided API (Application Programming Interface) to integrate the IronWifi authentication service with your existing system easily. Possible system integrations include:
 
