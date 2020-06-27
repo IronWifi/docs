@@ -1,4 +1,6 @@
-# White Label
+# **White Label**
+
+---
 
 IronWiFi allows you to white label your landing page URL and emails and get rid of the IronWifi sender, subject, and design on your emails. You can start to build your domain’s email reputation and explicitly show all your recipients that you sent these emails. This should help increase your deliverability rates and reduce your potential for spam reports.
 
