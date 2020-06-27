@@ -1,4 +1,6 @@
-# Team Members
+# **Team Members**
+
+---
 
 Team Members are IronWifi accounts that belong to a parent account. They have their own permissions, which you assign as you invite the team members. Team members are provided in order to help you segment your account and API activity.
 
