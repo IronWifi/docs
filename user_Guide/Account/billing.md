@@ -1,4 +1,6 @@
-# Billing
+# **Billing**
+
+---
 
 When you create or upgrade to a paid plan, you will put a credit card in for automatic payments. This will allow IronWifi to make the recurring package charges for your account without having to notify you each month of the bill. IronWifi relies on a PCI-DSS compliant 3rd party billing provider to store, process, and manage payment card processing.
 
