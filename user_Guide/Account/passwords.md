@@ -1,4 +1,6 @@
-# Passwords
+# **Passwords**
+
+---
 
 Passwords are the keys that get you entry into so many things, including IronWifi. As an attack vector, bad actors may try to take advantage of your passwords in order to get vital information about you or your customers. We’ve created a couple of tips on how to create and manage your passwords to protect yourself both on and off the ‘Wifi.
 Password Minimum Requirements
