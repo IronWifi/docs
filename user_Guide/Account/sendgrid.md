@@ -1,4 +1,6 @@
-# SendGrid account setup
+# **SendGrid account setup**
+
+---
 
 IronWifi is using SendGrid cloud service to deliver emails to its clients and users. As part of the [Whitelabel](https://www.ironwifi.com/user-guide/whitelabel/) feature, you are allowed to prepare your email templates to match your company brand and design.
 
