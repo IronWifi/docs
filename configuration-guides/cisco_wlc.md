@@ -53,4 +53,4 @@ Click on the **AAA Servers** tab and select IronWifi RADIUS authentication and a
 
 Click on the **Save Configuration** link to save and apply new settings.
 
-Finally, install a valid SSL certificate on your controller to prevent warning messages displayed to your clients.
+Finally, change the default controller IP address from 1.1.1.1 to some IP address (1.1.1.50 for example) and install a valid SSL certificate on your controller to prevent warning messages displayed to your clients.
