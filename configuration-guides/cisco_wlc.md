@@ -53,4 +53,4 @@ Click on the **AAA Servers** tab and select IronWifi RADIUS authentication and a
 
 Click on the **Save Configuration** link to save and apply new settings.
 
-Finally, change the default controller IP address from 1.1.1.1 to some IP address (1.1.1.50 for example) and install a valid SSL certificate on your controller to prevent warning messages displayed to your clients.
+Finally, change the default virtual controller IP address from 1.1.1.1 to some [other IP address](https://www.cisco.com/c/en/us/support/docs/wireless-mobility/wireless-lan-wlan/213535-wlc-virtual-ip-address-1-1-1-1.html) and install a valid SSL certificate on your controller to prevent warning messages displayed to your clients.
