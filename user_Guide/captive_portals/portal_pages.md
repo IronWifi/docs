@@ -23,11 +23,20 @@ If you wish to display your own error message -
 
 ```
 <script>
-$(document).ready(function(){
-var msg=$("#error_container").html();
-if(msg=="You are already logged in - access denied")var msg=$("#error_container").html("New message");
-});
+(function(){
+
+	let error_cont = document.getElementById("error_container");
+	
+	let msg = error_cont.innerHTML;
+	
+	if(msg == "You are already logged in - access denied") error_cont.innerHTML = "New message"; 
+		  
+
+})();
 </script>
+
+
+
 ```
 
 Sections for Authentication Providers, each div will be replaced with the source code from Authentication Provider's Container Source Code. Unused DIVs will be replaced with empty string.
