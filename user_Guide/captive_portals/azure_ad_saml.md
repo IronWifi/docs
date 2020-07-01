@@ -1,4 +1,7 @@
-# Azure AD SAML
+# **Azure AD SAML**
+
+---
+
 This page provides instructions on how to configure your Azure Active Directory to allow Captive Portal authentication with SAML.
 
 1. Navigate to https://portal.azure.com
