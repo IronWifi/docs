@@ -1,4 +1,6 @@
-# Users
+# **Users**
+
+---
 
 **Username** – Unique identifier that the user will use for authentication.
 
