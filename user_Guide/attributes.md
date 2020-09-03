@@ -62,3 +62,7 @@ It's possible to combines attributes for filtering purpose. For example, if you 
 - create Group2 and change the status to Disabled
 - assign both groups to the Organizational Unit - Group1 with priority 1 and Group2 with priority 2
 - assign your users to the Organizational Unit
+
+
+![screen](https://raw.githubusercontent.com/IronWifi/docs/master/user_Guide/attributes/attribute1.png)
+![screen](https://raw.githubusercontent.com/IronWifi/docs/master/user_Guide/attributes/attribute2.png)
