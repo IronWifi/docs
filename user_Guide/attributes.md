@@ -1,4 +1,6 @@
-# Attributes
+# **Attributes**
+
+---
 
 IronWifi supports thousands of attributes from over 100 vendors.
 
