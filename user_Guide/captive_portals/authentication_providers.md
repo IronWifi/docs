@@ -1,4 +1,6 @@
-# Authentication Providers
+# **Authentication Providers**
+
+---
 
 Authentication Providers define how users are allowed to authenticate on a Splash page.
 
