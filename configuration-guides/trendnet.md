@@ -1,7 +1,7 @@
 # **TRENDnet** 
 - - - -
 
-This page explains configuration of Captive Portal with authentication through IronWifi for *netgear* Access Points.
+This page explains configuration of Captive Portal with authentication through IronWifi for *TRENDnet* Access Points.
 
 ## IronWifi Console Configuration
 1. Create a free *14-day demo account*  [here](https://console.ironwifi.com/register) 
