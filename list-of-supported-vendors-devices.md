@@ -49,6 +49,7 @@ Not all products of these manufacturers support external Captive Portal for auth
 - [SonicWall Guest Services](https://www.ironwifi.com/sonicwall/) and [Captive Portal Authentication](https://www.ironwifi.com/sonicwall-captive-portal-authentication/)
 - [Ubiquiti Networks](https://www.ironwifi.com/ubiquiti/)
 - [Teltonika](https://wiki.teltonika.lt/view/Ironwifi.com_Hotspot_Configuration)
+- [TRENDnet](https://www.ironwifi.com/trendnet/)
 - [TP-Link EAP](https://www.ironwifi.com/tp-link-eap/)
 - Trapeze Wireless/Juniper Networks
 - TrendNet
