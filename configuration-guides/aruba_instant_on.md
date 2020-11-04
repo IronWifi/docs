@@ -10,8 +10,6 @@ This page explains the configuration of Aruba Instant On with IronWifi.
 
 ## Access Point Configuration (Aruba Instant On controller)
 
-This page explains the configuration of Aruba Instant On with IronWifi.
-
 1. Click on *networks*
 
 ![](https://raw.githubusercontent.com/IronWifi/docs/master/configuration-guides/aruba_instant_on/aruba.png)
