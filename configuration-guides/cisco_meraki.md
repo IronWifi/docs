@@ -31,3 +31,5 @@ Navigate to **Wireless -> Configure -> Splash page** and add **Custom splash URL
 For accurate accounting, please enable the **Data-Carrier Detect** feature under the Access Control Page.
 
 If data-carrier detect is enabled, sessions will be revoked and accounted for whenever a client disassociates from a network. To allow clients to reassociate to the network without re-authorization, do not enable data-carrier detect.
+
+If you have devices that don't have support for two way authentication like printers, Smart TV, etc., you can white-list these devices directly in the Meraki Console - (https://documentation.meraki.com/General_Administration/Cross-Platform_Content/Blocking_and_Whitelisting_Clients)
