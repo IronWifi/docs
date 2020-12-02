@@ -1,4 +1,4 @@
-# *Azure Active Directory*
+# **Azure Active Directory**
 
 ---
 
