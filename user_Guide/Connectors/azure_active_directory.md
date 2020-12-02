@@ -11,37 +11,37 @@ To manage your wireless users using Azure Active Directory account, you can enab
 
 3. From the menu, go to **Azure Active Directory -> App registrations**
 
-![screenshot](https://raw.githubusercontent.com/IronWifi/docs/master/user_Guide/Connectors/azure/azure1.png)
+![screenshot](https://raw.githubusercontent.com/IronWifi/docs/master/user_Guide/Connectors/azure/azure2.png)
 
 4. Click on **New application registration** 1. Name - ironwifi for example 2. Application type - Web app / API 3. Sign-on URL - [https://www.ironwifi.com](https://www.ironwifi.com/)
 
-![screenshot](https://raw.githubusercontent.com/IronWifi/docs/master/user_Guide/Connectors/azure/azure1.png)
+![screenshot](https://raw.githubusercontent.com/IronWifi/docs/master/user_Guide/Connectors/azure/azure3.png)
 
 5. Copy the Application ID value.
 
-![screenshot](https://raw.githubusercontent.com/IronWifi/docs/master/user_Guide/Connectors/azure/azure1.png)
+![screenshot](https://raw.githubusercontent.com/IronWifi/docs/master/user_Guide/Connectors/azure/azure4.png)
 
 6. Click on the link next to **Redirect URIs** button.
 
-![screenshot](https://raw.githubusercontent.com/IronWifi/docs/master/user_Guide/Connectors/azure/azure1.png)
+![screenshot](https://raw.githubusercontent.com/IronWifi/docs/master/user_Guide/Connectors/azure/azure5.png)
 
 7. Under Redirect URIs, click add and paste this link [https://console.ironwifi.com/api/oauth2callback](https://console.ironwifi.com/api/oauth2callback). If you are using some other region, replace console with the territory, e.g., [us-west1.ironwifi.com](http://us-west1.ironwifi.com/). Don't forget to hit save.
 
-![screenshot](https://raw.githubusercontent.com/IronWifi/docs/master/user_Guide/Connectors/azure/azure1.png)
+![screenshot](https://raw.githubusercontent.com/IronWifi/docs/master/user_Guide/Connectors/azure/azure6.png)
 
 8. Click on **API permissions** in the left menu and click **Add Permission** 
 
-![screenshot](https://raw.githubusercontent.com/IronWifi/docs/master/user_Guide/Connectors/azure/azure1.png)
+![screenshot](https://raw.githubusercontent.com/IronWifi/docs/master/user_Guide/Connectors/azure/azure7.png)
 
 9. **API - Microsoft Graph** and **Application Permissions** and **Delegated Permissions** - Read directory data, scroll down for **Directory** → **Directory.Read.All**
 
-![screenshot](https://raw.githubusercontent.com/IronWifi/docs/master/user_Guide/Connectors/azure/azure1.png)
+![screenshot](https://raw.githubusercontent.com/IronWifi/docs/master/user_Guide/Connectors/azure/azure8.png)
 
-![screenshot](https://raw.githubusercontent.com/IronWifi/docs/master/user_Guide/Connectors/azure/azure1.png)
+![screenshot](https://raw.githubusercontent.com/IronWifi/docs/master/user_Guide/Connectors/azure/azure9.png)
 
 10. Now, navigate to **Certificates&Secrets** and create a new secret (set duration to never expires). Make sure to copy the value because you can only see it once.
 
-![screenshot](https://raw.githubusercontent.com/IronWifi/docs/master/user_Guide/Connectors/azure/azure1.png)
+![screenshot](https://raw.githubusercontent.com/IronWifi/docs/master/user_Guide/Connectors/azure/azure10.png)
 
 ## IronWifi Console
 
@@ -56,7 +56,7 @@ To manage your wireless users using Azure Active Directory account, you can enab
 9. Click Continue
 10. In the **Select Group for Import** window, select the Group that you want to import
 
-![screenshot](https://raw.githubusercontent.com/IronWifi/docs/master/user_Guide/Connectors/azure/azure1.png)
+![screenshot](https://raw.githubusercontent.com/IronWifi/docs/master/user_Guide/Connectors/azure/azure11.png)
 
 Every imported user will have a random password generated. Please do not delete these generated passwords. They can be used for authentication if there is some problem with your Azure account. Deleting the generated password will disable the user's ability to authenticate.
 
