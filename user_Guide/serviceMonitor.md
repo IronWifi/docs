@@ -1,8 +1,8 @@
 # **UptimeRobot configuration**
 
-Please follow the steps below to monitor our service yourself in order to reduce the impact of any issues that may arise.
-
 ---
+
+Please follow the steps below to monitor our service yourself in order to reduce the impact of any issues that may arise.
 
 1. Set up your own uptime robot to monitor our servers yourself 
 
