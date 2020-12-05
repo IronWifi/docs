@@ -1,4 +1,6 @@
-# Google Apps
+# **Google Apps**
+
+---
 
 If you want to manage your wireless users using Google Apps account, you can enable remote synchronization with your Google Apps account for users in specific groups and organizational units.
 
