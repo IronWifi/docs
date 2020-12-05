@@ -1,4 +1,4 @@
-# Twilio
+# **Twilio**
 
 This page provides instructions on how to set up a new Twilio account for SMS authentication and use it with IronWiFi Captive Portal.
 
