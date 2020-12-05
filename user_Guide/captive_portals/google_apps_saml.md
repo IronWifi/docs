@@ -1,4 +1,6 @@
-# Google Apps SAML
+# **Google Apps SAML**
+
+---
 
 This page provides instructions on how to configure your Google Apps account to allow Captive Portal authentication with SAML.
 
