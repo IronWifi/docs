@@ -1,4 +1,4 @@
-# Zapier & IronWifi integration
+# **Zapier & IronWifi integration**
 
 ---
 
