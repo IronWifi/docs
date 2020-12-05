@@ -1,4 +1,6 @@
-# MailChimp Integration
+# **MailChimp Integration**
+
+---
 
 Sign in to your MailChimp account, go to your Profile, click on Extras and API keys.
 
