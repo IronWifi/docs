@@ -1,4 +1,4 @@
-# UptimeRobot configuration
+# **UptimeRobot configuration**
 
 Please follow the steps below to monitor our service yourself in order to reduce the impact of any issues that may arise.
 
