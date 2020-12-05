@@ -1,4 +1,6 @@
- # MySQL DB
+ # **MySQL DB**
+ 
+ ---
 
 This page describes how to add a MySQL database as an external source of users. We will import Users and synchronize data regularly.
 
