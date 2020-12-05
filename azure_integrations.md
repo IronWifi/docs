@@ -2,7 +2,7 @@
 
 ---
 
-Our azure integrations allow you to import users from your Azure Active Directory, use Azure SAML authentication, set up 2FA and more. We provide instructions to help you get up and running as fast as possible, see the links below and follow the instructions based on what you need. If you need any help let us know at [support@ironwifi.com](mailto:support@ironwifi.com) or schedule a call with us [here](https://calendly.com/ironwifi/15min).
+Our azure integrations allow you to import users from your **_Azure Active Directory_**, use **_Azure SAML authentication_**, set up **_2FA_** and more. We provide instructions to help you get up and running as fast as possible, see the links below and follow the instructions based on what you need. If you need any help let us know at [support@ironwifi.com](mailto:support@ironwifi.com) or schedule a call with us [here](https://calendly.com/ironwifi/15min).
 
 
 
