@@ -1,4 +1,5 @@
-# **Google apps**
+# **Google Apps**
+
 ---
 
 We have integrated with google apps to provide authentication through SAML as well as to provide user management through a connector in the ironwifi console. 
