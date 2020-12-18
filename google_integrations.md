@@ -1,4 +1,4 @@
-# Google Apps
+ Google Apps
 
 ---
 
