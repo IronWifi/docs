@@ -2,7 +2,7 @@
 
 ---
 
-Zapier allows you to automate tasks in our console such as user creation or voucher generation. There are thousands of applications that you can seamelessly connect with IronWifi without the need to write a single line of code.
+Zapier allows you to automate tasks in our console such as user creation or voucher generation. There are thousands of applications that you can seamlessly connect with IronWifi without the need to write a single line of code.
 
 The integration is currently in beta as it has not been officially published, we are working on getting that done as soon as possible. Despite that, you can still start using it today by clicking on the invite link below. Once the integration is officially approved and published by Zapier, your settings will remain in place and you can continue using your zaps as usual.
 
