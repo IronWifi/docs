@@ -8,9 +8,9 @@ To restore the default version of any page, click the Edit button, click the Sou
 
 **Splash page** - the default Welcome page that is displayed to the user before authentication. You can customize this page as desired, but you have to keep these scripts and DIVs for the page to work properly.
 
-```<script src="/assets/js/jquery.js" />```
+```<script src="/assets/js/jquery.js">```
 
-```<script src="/assets/js/cp-scripts.js" />```
+```<script src="/assets/js/cp-scripts.js">```
 
 If you wish to replace the Logo file:
 
