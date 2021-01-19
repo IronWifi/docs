@@ -108,7 +108,7 @@ Success page and Returning User page can include form to allow users change thei
 
 Sample form:
 
-```
+````
 <form action="#" method="post">
 
 <input name="new_password" type="text" />
@@ -118,7 +118,7 @@ Sample form:
 <input type="submit" />
 
 </form>
-```
+````
 
 **Terms & Conditions** - the page describing acceptable usage and Terms & Conditions that the user has to accept before allowing access.
 
