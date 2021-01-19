@@ -1,4 +1,6 @@
-# Captive Portals
+# **Captive Portals**
+
+---
 
 **Name** – Give your Captive Portal a name
 
