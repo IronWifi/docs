@@ -8,22 +8,22 @@ To restore the default version of any page, click the Edit button, click the Sou
 
 **Splash page** - the default Welcome page that is displayed to the user before authentication. You can customize this page as desired, but you have to keep these scripts and DIVs for the page to work properly.
 
-```/assets/js/jquery.js```
+`/assets/js/jquery.js`
 
-```/assets/js/cp-scripts.js```
+`/assets/js/cp-scripts.js`
 
 If you wish to replace the Logo file:
 
 1. upload the file to the File Library - new_logo.jpg for example
-2. edit the image path in the Splash page source code - ```<img alt="logo" src="new_logo.jpg" style="width: 167px; height: 100px;">```
+2. edit the image path in the Splash page source code - `<img alt="logo" src="new_logo.jpg" style="width: 167px; height: 100px;">`
 
-```<div id="status_placeholder"></div>``` - will be replaced with any status messages.
+`<div id="status_placeholder"></div>` - will be replaced with any status messages.
 
-```<div id="error_placeholder"></div>```  - will be replaced with an error message generated during authorization.
+`<div id="error_placeholder"></div>` - will be replaced with an error message generated during authorization.
 
 If you wish to display your own error message -
 
-````
+```
 <script>
 (function(){
 	let error_cont = document.getElementById("error_container");
@@ -33,11 +33,11 @@ If you wish to display your own error message -
 	if(msg == "You are already logged in - access denied") error_cont.innerHTML = "New message"; 
 })();
 </script>
-````
+```
 
 Sections for Authentication Providers, each div will be replaced with the source code from Authentication Provider's Container Source Code. Unused DIVs will be replaced with empty string.
 
-````
+```
 <div id="anonymousreg_placeholder"></div>
 
 <div id="onetimeaccess_placeholder"></div>
@@ -70,11 +70,11 @@ Sections for Authentication Providers, each div will be replaced with the source
 
 <div id="hotspot_placeholder"></div>
 
-````
+```
 
 You can also use combination of authentication providers, for example to provide 30 minutes access and require authentication with a valid voucher after the free access is expired.
 
-````
+```
 <div id="voucher_hide" style="display:none">
     <form id="voucher_form" action="" onsubmit="voucherAccess(); return false;" method="post">
 .....
@@ -97,7 +97,7 @@ console.log('show selfregister');
 document.getElementById("selfregister_hide").style.display = "block";
 }
 </script>
-````
+```
 
 
 **Success page** - the Success page that will be displayed to the user if authentication was successful and On Success Redirect to is set to "Success page".
@@ -108,7 +108,7 @@ Success page and Returning User page can include form to allow users change thei
 
 Sample form:
 
-````
+```
 <form action="#" method="post">
 
 <input name="new_password" type="text" />
@@ -118,7 +118,7 @@ Sample form:
 <input type="submit" />
 
 </form>
-````
+```
 
 **Terms & Conditions** - the page describing acceptable usage and Terms & Conditions that the user has to accept before allowing access.
 
