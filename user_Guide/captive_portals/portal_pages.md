@@ -23,27 +23,21 @@ If you wish to replace the Logo file:
 
 If you wish to display your own error message -
 
-```
+````
 <script>
 (function(){
-
 	let error_cont = document.getElementById("error_container");
 	
 	let msg = error_cont.innerHTML;
 	
 	if(msg == "You are already logged in - access denied") error_cont.innerHTML = "New message"; 
-		  
-
 })();
 </script>
-
-
-
-```
+````
 
 Sections for Authentication Providers, each div will be replaced with the source code from Authentication Provider's Container Source Code. Unused DIVs will be replaced with empty string.
 
-```
+````
 <div id="anonymousreg_placeholder"></div>
 
 <div id="onetimeaccess_placeholder"></div>
@@ -76,7 +70,7 @@ Sections for Authentication Providers, each div will be replaced with the source
 
 <div id="hotspot_placeholder"></div>
 
-```
+````
 
 You can also use combination of authentication providers, for example to provide 30 minutes access and require authentication with a valid voucher after the free access is expired.
 
@@ -155,5 +149,3 @@ Sample form:
 - ${country_code} - based on client's source IP address
 - ${country} - based on client's source IP address
 - ${city} - based on client's source IP address
-
-
