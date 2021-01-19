@@ -1,4 +1,6 @@
-# Facebook
+# **Facebook**
+
+---
 
 This page provides instructions on how to configure your Facebook App to allow Captive Portal authentication with OAuth 2.0.
 
