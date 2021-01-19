@@ -8,18 +8,18 @@ To restore the default version of any page, click the Edit button, click the Sou
 
 **Splash page** - the default Welcome page that is displayed to the user before authentication. You can customize this page as desired, but you have to keep these scripts and DIVs for the page to work properly.
 
-<script src="/assets/js/jquery.js" />
+```<script src="/assets/js/jquery.js" />```
 
-<script src="/assets/js/cp-scripts.js" />
+```<script src="/assets/js/cp-scripts.js" />```
 
 If you wish to replace the Logo file:
 
 1. upload the file to the File Library - new_logo.jpg for example
 2. edit the image path in the Splash page source code - ```<img alt="logo" src="new_logo.jpg" style="width: 167px; height: 100px;">```
 
-<div id="status_placeholder"></div> - will be replaced with any status messages.
+```<div id="status_placeholder"></div>``` - will be replaced with any status messages.
 
-<div id="error_placeholder"></div>  - will be replaced with an error message generated during authorization.
+```<div id="error_placeholder"></div>```  - will be replaced with an error message generated during authorization.
 
 If you wish to display your own error message -
 
