@@ -24,7 +24,6 @@ If you wish to replace the Logo file:
 If you wish to display your own error message -
 
 ```
-<script>
 (function(){
 	let error_cont = document.getElementById("error_container");
 	
@@ -32,7 +31,6 @@ If you wish to display your own error message -
 	
 	if(msg == "You are already logged in - access denied") error_cont.innerHTML = "New message"; 
 })();
-</script>
 ```
 
 Sections for Authentication Providers, each div will be replaced with the source code from Authentication Provider's Container Source Code. Unused DIVs will be replaced with empty string.
