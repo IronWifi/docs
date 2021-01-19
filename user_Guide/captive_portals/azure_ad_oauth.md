@@ -1,5 +1,6 @@
-# Azure AD OAuth
+# **Azure AD OAuth**
 
+---
 
 This page provides instructions on how to configure your Azure Active Directory to allow Captive Portal authentication with OAuth.
 
