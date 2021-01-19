@@ -1,4 +1,6 @@
-# Rest API Connector
+# **Rest API Connector**
+
+---
 
 This page describes the format of messages for external authentication using REST API.
 
