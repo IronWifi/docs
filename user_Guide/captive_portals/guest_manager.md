@@ -1,4 +1,6 @@
-# Guest Manager
+# **Guest Manager**
+
+---
 
 This section configures temporary user accounts generated during the authentication process via Captive Portal.
 
