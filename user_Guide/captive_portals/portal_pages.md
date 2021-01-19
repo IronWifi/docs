@@ -1,4 +1,6 @@
-# Portal Pages
+# **Portal Pages**
+
+---
 
 Portal pages are displayed to the users in different authorization phases. Pages can be customized to match the Company design by clicking the Edit button in each row. You can also refer to files uploaded via the File Manager.
 
