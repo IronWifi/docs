@@ -1,4 +1,6 @@
-# Trusted IdP With ADFS
+# **Trusted IdP With ADFS**
+
+---
 
 This topic describes how to configure ADFS and IronWifi to allow users to sign in to the Captive Portal using ADFS as the trusted identity provider (IdP).
 
