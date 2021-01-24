@@ -12,6 +12,10 @@ If you are a software developer or integrator, you might want to use the provide
 
 The API communication interface is available at https://console.ironwifi.com/api (or at selected region eg. us-east1.ironwifi.com/api, https://europe-west2.ironwifi.com/api, etc.), and communication is provided strictly through the HTTPS protocol and JSON arrays.
 
+<div class="ttfmake-alert ttfmake-info">
+  <p>Full documentation of our API is available on <a href='#'>this webpage</a></p>
+</div>
+
 Full documentation of our API is available on [this webpage](https://documenter.getpostman.com/view/10902824/SzmfXxAW).
 
 All requests have to include authorization header with valid API token which is generated in Console -> Account -> API Keys.
