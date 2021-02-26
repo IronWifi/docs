@@ -4,7 +4,7 @@
 
 This page explains the Captive Portal configuration for MikroTik Router OS and authentication with IronWifi.
 
-#### IRONWIFI CONSOLE SETUP
+### **IronWifi console setup**
 
 Sign in to the **IronWifi Console -> Networks** and create a **new Network** to assign a set of RADIUS servers for your network.
 
@@ -12,7 +12,7 @@ Click on Networks -> **Captive Portals** and create a new Captive Portal. Make s
 
 
 
-#### MIKROTIK AP SETUP
+### **MIKROTIK AP SETUP**
 
 Sign-in to your MikroTik configuration interface, usually http://192.168.88.1
 
@@ -37,6 +37,14 @@ Address Pool of Network: **192.168.89.10 - 192.168.89.254**
 Select Certificate: **none**
 
 The access point will redirect you to the default Hotspot Authentication page. Sign in as **"user1"** and return to the Mikrotik configuration interface http://192.168.88.1
+
+Now, the newly created server was assigned the name "hotspot1", which you need to change for the mac address of your access point. Navigate to the quick set (main dashboard) to copy the mac address.
+
+![dashboard](https://raw.githubusercontent.com/IronWifi/docs/master/configuration-guides/mikrotik/mikrotik_dashboard.png)
+
+After you have copied the mac address, return to the hotspot settings and click on the server named "hotspot1". Then just paste the mac address to the name field and click apply.
+
+![servers](https://raw.githubusercontent.com/IronWifi/docs/master/configuration-guides/mikrotik/mikrotik_servers.png)
 
 ![thirdScreenshot](https://raw.githubusercontent.com/IronWifi/docs/master/configuration-guides/mikrotik/mikrotik3.png)
 
