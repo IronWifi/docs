@@ -34,6 +34,7 @@ Not all products of these manufacturers support external Captive Portal for auth
 - FortiGate
 - [ICC Networking](https://www.ironwifi.com/icc/)
 - [Keenetic](https://www.ironwifi.com/keenetic/)
+- Linksys
 - [Meraki](https://www.ironwifi.com/cisco-meraki/)
 - Meru Networks/Fortinet
 - [MikroTik RouterOS](https://www.ironwifi.com/mikrotik/)
