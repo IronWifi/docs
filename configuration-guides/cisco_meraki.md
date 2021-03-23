@@ -36,10 +36,15 @@ If you have devices that don't have support for two way authentication like prin
 
 **Identity PSK with RADIUS**
 
+RADIUS server is queried at association time to obtain a passphrase for a device based on its MAC address
+
 Meraki Documentation - (https://documentation.meraki.com/MR/Encryption_and_Authentication/IPSK_with_RADIUS_Authentication)
 
 ![ipsk_first](https://github.com/IronWifi/docs/blob/master/configuration-guides/meraki/Screenshot%202021-03-23%2011.50.50%20AM.png?raw=true)
 
+Create a user and set the username and password to be the cliend device MAC address.
+
+Add a Tunnel-Password reply attribute.
 ![ipsk_second](https://github.com/IronWifi/docs/blob/master/configuration-guides/meraki/Screenshot%202021-03-23%2011.54.06%20AM.png?raw=true)
 
 
