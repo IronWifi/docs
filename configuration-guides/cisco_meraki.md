@@ -38,5 +38,8 @@ If you have devices that don't have support for two way authentication like prin
 
 Meraki Documentation - (https://documentation.meraki.com/MR/Encryption_and_Authentication/IPSK_with_RADIUS_Authentication)
 
-![firstScreenshot](https://github.com/IronWifi/docs/blob/master/configuration-guides/meraki/meraki1.png?raw=true)
+![ipsk_first](https://github.com/IronWifi/docs/blob/master/configuration-guides/meraki/Screenshot%202021-03-23%2011.50.50%20AM.png?raw=true)
+
+![ipsk_second](https://github.com/IronWifi/docs/blob/master/configuration-guides/meraki/Screenshot%202021-03-23%2011.54.06%20AM.png?raw=true)
+
 
