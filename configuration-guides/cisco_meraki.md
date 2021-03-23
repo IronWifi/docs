@@ -33,3 +33,10 @@ For accurate accounting, please enable the **Data-Carrier Detect** feature under
 If data-carrier detect is enabled, sessions will be revoked and accounted for whenever a client disassociates from a network. To allow clients to reassociate to the network without re-authorization, do not enable data-carrier detect.
 
 If you have devices that don't have support for two way authentication like printers, Smart TV, etc., you can white-list these devices directly in the Meraki Console - (https://documentation.meraki.com/General_Administration/Cross-Platform_Content/Blocking_and_Whitelisting_Clients)
+
+**Identity PSK with RADIUS**
+
+Meraki Documentation - (https://documentation.meraki.com/MR/Encryption_and_Authentication/IPSK_with_RADIUS_Authentication)
+
+![firstScreenshot](https://github.com/IronWifi/docs/blob/master/configuration-guides/meraki/meraki1.png?raw=true)
+
