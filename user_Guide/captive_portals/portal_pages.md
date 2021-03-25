@@ -136,7 +136,7 @@ Sample form:
 - ${reject_link} - link to reject pending request
 - ${auth_user}  - generated username
 - ${auth_pass}   - generated password
-- ${device_mac} - client mac address
+- ${client_mac} - client mac address
 - ${redir_url} - target redirect URL
 - ${totalData} - total allowed data
 - ${usedData} - already used data
