@@ -144,6 +144,7 @@ Sample form:
 - ${remainingTime} - session expiration time in human readable form
 - ${remainingSeconds} - session expiration time in seconds
 - ${language} - language based on client's browser settings
-- ${country_code} - country code based on client's source IP address
-- ${country} - country based on client's source IP address
-- ${city} - city based on client's source IP address
+- ${country_code} - country code based on client's public IP address
+- ${country} - country based on client's public IP address
+- ${city} - city based on client's public IP address
+- ${ip_address} - client's public IP address
