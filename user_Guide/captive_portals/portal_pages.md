@@ -33,7 +33,7 @@ If you wish to display your own error message -
 })();
 ```
 
-Sections for Authentication Providers, each div will be replaced with the source code from Authentication Provider's Container Source Code. Unused DIVs will be replaced with empty string.
+Sections for Authentication Providers, each div will be replaced with the source code from Authentication Provider's Container Source Code. Unused DIVs will be replaced with an empty string.
 
 ```
 <div id="anonymousreg_placeholder"></div>
@@ -70,19 +70,19 @@ Sections for Authentication Providers, each div will be replaced with the source
 
 ```
 
-You can also use combination of authentication providers, for example to provide 30 minutes access and require authentication with a valid voucher after the free access is expired.
+You can also use a combination of authentication providers, for example, to provide 30 minutes access and require authentication with a valid voucher after the free access is expired.
 
 ```
 <div id="voucher_hide" style="display:none">
-    <form id="voucher_form" action="" onsubmit="voucherAccess(); return false;" method="post">
+    <form id="voucher_form" action="" onsubmit="voucherAccess(); return false;" method="post">
 .....
 
 <div id="selfregister_hide" style="display:none">
-    <div id="error_container" class="alert alert-danger hidden">
-        <div id="error_inner_container"></div>
-    </div>
-    <form id="email_guest_self_registration_submit_form" action="" onsubmit="guestSelfRegUserValidate(); return false;"
-          method="post">
+    <div id="error_container" class="alert alert-danger hidden">
+        <div id="error_inner_container"></div>
+    </div>
+    <form id="email_guest_self_registration_submit_form" action="" onsubmit="guestSelfRegUserValidate(); return false;"
+          method="post">
 .....
 
 <script type="text/javascript">
@@ -98,11 +98,11 @@ document.getElementById("selfregister_hide").style.display = "block";
 ```
 
 
-**Success page** - the Success page that will be displayed to the user if authentication was successful and On Success Redirect to is set to "Success page".
+**Success page** - the Success page that will be displayed to the user if authentication was successful and On Success Redirect to is set to "Success page."
 
-**Returning User page** - the page will be displayed to the user after the guest is authenticated based on client MAC address. To display this page, MAC-Based Reauthentication must be enabled.
+**Returning User page** - the page will be displayed to the user after the guest is authenticated based on the client MAC address. To display this page, MAC-Based Reauthentication must be enabled.
 
-Success page and Returning User page can include form to allow users change their password.
+Success page and Returning User page can include forms to allow users to change their password.
 
 Sample form:
 
@@ -122,7 +122,7 @@ Sample form:
 
 **Pending page** - page displayed to the guest while waiting for Access Authorization by Sponsor.
 
-**Not Found page** - page displayed if requested content is not available.
+**Not Found page** - page displayed if the requested content is not available.
 
 **Variables** - You can include the following variables in your pages:
 
@@ -132,18 +132,18 @@ Sample form:
 - ${lastName}
 - ${phone}
 - ${email}
-- ${approve_link} - for pending approval requests
-- ${reject_link} - for pending approval requests
-- ${auth_user}  - display generated username
-- ${auth_pass}   - display generated password
-- ${device_mac} - display client mac address
-- ${redir_url} - display target URL
+- ${approve_link} - link to approve pending request
+- ${reject_link} - link to reject pending request
+- ${auth_user}  - generated username
+- ${auth_pass}   - generated password
+- ${device_mac} - client mac address
+- ${redir_url} - target redirect URL
 - ${totalData} - total allowed data
 - ${usedData} - already used data
 - ${availableData} - available data
 - ${remainingTime} - session expiration time in human readable form
 - ${remainingSeconds} - session expiration time in seconds
-- ${language} - based on client's browser settings
-- ${country_code} - based on client's source IP address
-- ${country} - based on client's source IP address
-- ${city} - based on client's source IP address
+- ${language} - language based on client's browser settings
+- ${country_code} - country code based on client's source IP address
+- ${country} - country based on client's source IP address
+- ${city} - city based on client's source IP address
