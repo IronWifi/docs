@@ -33,7 +33,7 @@ To manage your wireless users using Azure Active Directory account, you can enab
 
 ![screenshot](https://raw.githubusercontent.com/IronWifi/docs/master/user_Guide/Connectors/azure/azure7.png)
 
-9. **API - Microsoft Graph** and **Application Permissions** and **Delegated Permissions** - Read directory data, scroll down for **Directory** → **Directory.Read.All**
+9. Click on **Microsoft Graph** -> **Application Permissions** and scroll down for **Directory** → **Directory.Read.All**. Click on Grant admin consent for the application (ironwifi)
 
 ![screenshot](https://raw.githubusercontent.com/IronWifi/docs/master/user_Guide/Connectors/azure/azure8.png)
 
