@@ -13,7 +13,7 @@ The API endpoint depends on the region you want to use, if you are using the us-
 
 In order to use IronWifi REST API to automate tasks or manipulate the with the console programmatically, you need to generate an API key. This can be done in the IronWifi console, section Account under _API keys_. Note that the API key will (for security reasons) only be visible once, upon generation. Therefore, make sure you store the API key in a secure place before closing the popup.
 
-![picture]()
+![api_key_screenshot](https://raw.githubusercontent.com/IronWifi/docs/master/api_key.png)
 
 You will need to use this API key in your authorization header as shown below.
 
