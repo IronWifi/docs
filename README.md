@@ -3,7 +3,7 @@
 - This is IronWifi documentation's GitHub repository, in case you see an error or a possible improvement, please pull a request or open an issue. Any contribution is appreciated.
 
 
-# API Quickstart
+# REST API Quickstart
 
 Endpoint: _https://console.ironwifi.com/api_
 
