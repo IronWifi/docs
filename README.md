@@ -1,6 +1,6 @@
 # IronWifi Documentation
 
-- This is IronWifi documentation's GitHub repository, in case you see an error or a possible improvement,please pull a request. Any contribution is appreciated.
+- This is IronWifi documentation's GitHub repository, in case you see an error or a possible improvement, please pull a request or open an issue. Any contribution is appreciated.
 
 
 # API Quickstart
@@ -35,6 +35,7 @@ Getting the list of users using JavaScript.
 
 ```javascript
 var myHeaders = new Headers();
+myHeaders.append("Authorization", "Bearer your_api_key");
 
 var requestOptions = {
   method: 'GET',
