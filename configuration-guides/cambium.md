@@ -1,5 +1,7 @@
-# **Cambium Instructions**
+# **Cambium Networks**
+
 ---
+
 This page explains the configuration of Cambium Networks access points for external Captive  Portal and RADIUS server authentication.
 
 1. In your controller UI, create a new wlan or edit an existing one.
