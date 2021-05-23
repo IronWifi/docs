@@ -22,7 +22,7 @@ Not all products of these manufacturers support external Captive Portal for auth
 - Aruba Networks - including [Instant Access Points (IAP)](https://www.ironwifi.com/aruba-captive-portal/), Aruba Central, [Aruba Instant On](https://www.ironwifi.com/aruba-instant-on/) and [Aruba Mobility Controller](https://www.ironwifi.com/aruba-mobility-controller-2/)
 - Avaya
 - Bluesocket
-- Cambium Networks
+- [Cambium Networks](https://www.ironwifi.com/cambium-networks)
 - Casa Systems
 - ChilliSpot
 - [CoovaChilli](https://www.ironwifi.com/coovachilli/)
