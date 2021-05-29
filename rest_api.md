@@ -3,7 +3,7 @@
 ---
 
 <div class="ttfmake-alert ttfmake-info">
-  <p>Full documentation of our API is available on <a href='https://documenter.getpostman.com/view/10902824/SzmfXxAW' target='_blank'>this webpage</a></p>
+  <p>Full documentation of our API is available on <a href='https://api.ironwifi.com' target='_blank'>this webpage</a></p>
 </div>
 
 If you are a software developer or integrator, you might want to use the provided API (Application Programming Interface) to integrate the IronWifi authentication service with your existing system easily. Possible system integrations include:
