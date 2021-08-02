@@ -17,14 +17,15 @@ RADIUS authentication and accounting provided by IronWifi will work with any dev
 Not all products of these manufacturers support external Captive Portal for authentication
 
 - 4IPnet
-- AeroHive Networks
+- AeroHive Networks (HiveManager)
 - Alcatel-Lucent
-- Aruba Networks - including [Instant Access Points (IAP)](https://www.ironwifi.com/aruba-captive-portal/), Aruba Central, [Aruba Instant On](https://www.ironwifi.com/aruba-instant-on/) and [Aruba Mobility Controller](https://www.ironwifi.com/aruba-mobility-controller-2/)
+- [Aruba Instant (IAP)](https://www.ironwifi.com/aruba-captive-portal/), Aruba Central, [Aruba Instant On](https://www.ironwifi.com/aruba-instant-on/) and [Aruba Mobility Controller](https://www.ironwifi.com/aruba-mobility-controller-2/)
 - Avaya
 - Bluesocket
 - [Cambium Networks](https://www.ironwifi.com/cambium-networks)
 - Casa Systems
 - ChilliSpot
+- [Cisco Meraki](https://www.ironwifi.com/cisco-meraki/)
 - Cradlepoint
 - [CoovaChilli](https://www.ironwifi.com/coovachilli/)
 - [Cisco WLC](https://www.ironwifi.com/cisco-wlc/)
@@ -32,11 +33,10 @@ Not all products of these manufacturers support external Captive Portal for auth
 - Draytek
 - EnGenius
 - ExtremeWireless
-- FortiGate
+- Fortinet (FortiGate)
 - [ICC Networking](https://www.ironwifi.com/icc/)
 - [Keenetic](https://www.ironwifi.com/keenetic/)
 - Linksys
-- [Meraki](https://www.ironwifi.com/cisco-meraki/)
 - Meru Networks/Fortinet
 - [MikroTik RouterOS](https://www.ironwifi.com/mikrotik/)
 - [Mist Systems](https://www.ironwifi.com/mist-systems/)
