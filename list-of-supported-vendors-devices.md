@@ -52,7 +52,7 @@ Not all products of these manufacturers support external Captive Portal for auth
 - [Ubiquiti Networks](https://www.ironwifi.com/ubiquiti/)
 - [Teltonika](https://wiki.teltonika.lt/view/Ironwifi.com_Hotspot_Configuration)
 - [TRENDnet](https://www.ironwifi.com/trendnet/)
-- [TP-Link EAP](https://www.ironwifi.com/tp-link-eap/)
+- [TP-Link EAP](https://www.ironwifi.com/tp-link-eap/), TP-Link Omada
 - Trapeze Wireless/Juniper Networks
 - TrendNet
 - Valuepoint
