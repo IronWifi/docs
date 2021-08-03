@@ -26,7 +26,10 @@ This page explains the configuration of TP Link access points with Omada version
 
 4. Import your SSL certificate under **Controller** 
 
-![tplink3](https://raw.githubusercontent.com/IronWifi/docs/master/configuration-guides/tp_link_omada_v4/tplink3.png)
+![tplink4](https://raw.githubusercontent.com/IronWifi/docs/master/configuration-guides/tp_link_omada_v4/tplink3.png)
+
+![tplink5](https://raw.githubusercontent.com/IronWifi/docs/master/configuration-guides/tp_link_omada_v4/tplink5.png)
+
 
 
 
