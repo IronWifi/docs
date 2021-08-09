@@ -44,3 +44,8 @@ connect.facebook.net |     | *.licdn.com |
 If you are asked to select which AP's to apply to, choose All APs unless you have a specific requirement.
 
 5. Click **Next** to confirm settings and then **Create** to finish.
+
+6. In the IronWifi console, under **captive portal settings**, use the following values so that we can connect to your controller
+
+- **Controller username -** api
+- **Controller password -** *integration key that you obtained in the 3rd step*
