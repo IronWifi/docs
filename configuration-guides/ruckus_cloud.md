@@ -30,7 +30,7 @@ Log in to your ruckus cloud dashboard at [https://cloud.ruckuswireless.com](http
 - **Integration Key -** *copy and save this key somewhere safe, you will need it*
 - **Walled Garden List -** 107.178.250.42
 
-You will also need the following domains if you want to make use of social login.
+You will also need to include the following domains in the walled garden list  if you want to make use of social login.
 
 **Facebook:**
 - *.facebook.com
