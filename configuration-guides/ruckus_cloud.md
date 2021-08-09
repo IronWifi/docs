@@ -32,20 +32,10 @@ Log in to your ruckus cloud dashboard at [https://cloud.ruckuswireless.com](http
 
 You will also need to include the following domains in the walled garden list  if you want to make use of social login.
 
-**Facebook:**
-- *.facebook.com
-- *.fbcdn.net
-- *.akamaihd.net
-- connect.facebook.net
+**Facebook:** | Twitter | Linkedin | Instagram |
+------------- | ------- | -------- | --------- |
+*.facebook.com | *.twitter.com | *.linkedin.com | *.instagram.com
+*.fbcdn.net | *.twimg.com | *.licdn.net |
+*.akamaihd.net |          | *.licdn.com |
+connect.facebook.net |     | *.licdn.com |
 
-**Twitter:**
-- *.twitter.com
-- *.twimg.com
-
-**LinkedIn:**
-- *.linkedin.com
-- *.licdn.net
-- *.licdn.com
-
-**Instagram:**
-- *.instagram.com
