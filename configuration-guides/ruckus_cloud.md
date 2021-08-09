@@ -39,3 +39,8 @@ You will also need to include the following domains in the walled garden list  i
 *.akamaihd.net |          | *.licdn.com |
 connect.facebook.net |     | *.licdn.com |
 
+4. Click **Next** and select which Venue to apply the configuration to. Enable the venue by turning the Activated switch to ON.
+
+If you are asked to select which AP's to apply to, choose All APs unless you have a specific requirement.
+
+5. Click **Next** to confirm settings and then **Create** to finish.
