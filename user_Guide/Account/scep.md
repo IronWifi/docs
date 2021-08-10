@@ -4,7 +4,7 @@
 
 The Simple Certificate Enrolment Protocol (SCEP) is a protocol that allows devices to easily enroll for a certificate by using a URL and a shared secret to communicate with a PKI. The following instructions explain how to set up SCEP and IronWifi with Microsoft Intune.
 
-What do you need ?
+### What do you need ?
 
 - **Owner id -** owner id is a unique identifier of your ironwifi account that can be found in the URL when you're logged in, it should look similar to this - 1759e879727a0432
 - **CA Certificate -** This can be downloaded in the IronWifi console under **Account**
