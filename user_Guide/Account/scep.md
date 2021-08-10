@@ -6,9 +6,11 @@ The Simple Certificate Enrolment Protocol (SCEP) is a protocol that allows devic
 
 ### What do you need ?
 
-- **Owner id -** owner id is a unique identifier of your ironwifi account that can be found in the URL when you're logged in, it should look similar to this - 1759e879727a0432
-- **CA Certificate -** This can be downloaded in the IronWifi console under **Account**
-- **SCEP Server URL -** This URL is provided by IronWifi
+- **owner_id-** owner id is a unique identifier of your ironwifi account that can be found in the URL when you're logged in, it should look similar to this - 1759e879727a0432
+- **CA Certificate -** This can be downloaded from [this link](https://console.ironwifi.com/assets/html/ironwifi.crt) or from within the IronWifi console, under **Account**
+- **SCEP Server URL -** https://{{region}}.ironwifi.com/api/{{owner_id}}
+
+**!Note!** Your users must exist in the ironwifi console in order for this to work, see [connectors](https://www.ironwifi.com/connectors/) for further information
 
 1. Create a new Trusted Certificate profile with the following configuration options:
 
@@ -33,7 +35,7 @@ Name | Object Identifier | Predefined values |
 Client authentication | 1.3.6.1.5.5.7.3.2 | Client Authentication
 
 - **Renewal threshold (%) -** 20
-- **SCEP Server URLs -** _url provided by ironwifi_
+- **SCEP Server URLs -** https://{{region}}.ironwifi.com/api/{{owner_id}}
 
 3. Create a new Wi-Fi profile with the following configuration options:
 
