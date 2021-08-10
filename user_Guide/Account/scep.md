@@ -8,6 +8,7 @@ The Simple Certificate Enrolment Protocol (SCEP) is a protocol that allows devic
 
 - **Owner id -** owner id is a unique identifier of your ironwifi account that can be found in the URL when you're logged in, it should look similar to this - 1759e879727a0432
 - **CA Certificate -** This can be downloaded in the IronWifi console under **Account**
+- **SCEP Server URL -** This URL is provided by IronWifi
 
 1. Create a new Trusted Certificate profile with the following configuration options:
 
