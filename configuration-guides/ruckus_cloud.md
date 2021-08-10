@@ -49,3 +49,4 @@ If you are asked to select which AP's to apply to, choose All APs unless you hav
 
 - **Controller username -** api
 - **Controller password -** *integration key that you obtained in the 3rd step*
+- **Vendor -** Ruckus NBI
