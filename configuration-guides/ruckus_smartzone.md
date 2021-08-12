@@ -1,4 +1,5 @@
 # **Ruckus SmartZone**
+
 ---
 
 **!Note!**: Please make sure you are running SmartZone v3.0 or above in order for this to work
