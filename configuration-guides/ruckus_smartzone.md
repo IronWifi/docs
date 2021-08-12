@@ -19,12 +19,12 @@ Log into your SmartZone web interface.
 - **Name -** Guest WiFi
 - **Service Protocol -** RADIUS
 - **Primary Server IP Address -** {{primary_ip}}
-- **Port -** {{primary_port}}
+- **Port -** {{auth_port}}
 - **Shared Secret -** {{shared_secret}}
 - **Confirm Secret -** {{shared_secret}}
 - **Backup RADIUS -** Enable Secondary Server
 - **Secondary Server IP Address -** {{backup_ip}}
-- **Port -** {{primary_port}}
+- **Port -** {{auth_port}}
 - **Shared Secret -** {{shared_secret}}
 - **Confirm Secret -** {{shared_secret}}
 
@@ -34,12 +34,12 @@ Click **OK** to save.
 
 - **Name -** Guest WiFi Acct
 - **Primary Server IP Address -** {{primary_ip}}
-- **Port -** {{primary_port}}
+- **Port -** {{auth_port}}
 - **Shared Secret -** {{shared_secret}}
 - **Confirm Secret -** {{shared_secret}}
 - **Backup RADIUS -** Enable Secondary Server
 - **Secondary Server IP Address -** {{backup_ip}} 
-- **Port -** {{primary_port}}
+- **Port -** {{auth_port}}
 - **Shared Secret -** {{shared_secret}}
 - **Confirm Secret -** {{shared_secret}}
 
