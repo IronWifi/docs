@@ -10,6 +10,8 @@
 2. Create a **new network**
 3. After that, create a **new captive portal**, with vendor **Ruckus NBI**
 
+### Access Point Configuration
+
 Log into your SmartZone web interface.
 
 1. Click **Services & Profiles > Authentication** on the left. Click the **Proxy (SZ Authenticator)** tab then **Create** and configure with:
