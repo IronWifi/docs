@@ -6,9 +6,9 @@ This page explains configuration of Captive Portal with authentication through I
 
 ### IronWifi Console Configuration
 
-1. Create a free _14-day demo account_ [here](https://console.ironwifi.com/register)
-2. Once you log in to the console, create a **new network**
-3. After that, create a **new captive portal**
+1. Log into the IronWifi console [Register for free](https://console.ironwifi.com/register)
+2. Create a **new network**
+3. After that, create a **new captive portal**, with vendor **Ruckus NBI**
 
 ### Access Point Configuration
 
