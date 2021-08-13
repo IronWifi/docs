@@ -142,3 +142,64 @@ On the **Security > Layer 3** tab, click **Show Advanced Settings >>>** and conf
 - **Splash Web Redirect -**	Disabled
 - **IPv4 ACL -**	preauth_v4
 
+Click **Apply to Device** to save.
+
+10. Next, click **Configuration > Security > URL Filters**. Click **Add** and configure with:
+
+- **List Name -**	guest_url_filter
+- **Type -**	PRE_AUTH
+- **Action -**	PERMIT
+- **URLs -** 107.178.250.42
+
+You will also need to include the following domains in the walled garden list  if you want to make use of social login.
+
+**Facebook:** | Twitter | Linkedin | Instagram |
+------------- | ------- | -------- | --------- |
+*.facebook.com | *.twitter.com | *.linkedin.com | *.instagram.com
+*.fbcdn.net | *.twimg.com | *.licdn.net |
+*.akamaihd.net |          | *.licdn.com |
+connect.facebook.net |     | *.licdn.com |
+
+Click **Apply** to save.
+
+Next, click **Configuration > Tags & Profiles > Policy** on the left. 
+
+11. Click **Add**, leaving all settings at default apart from the following:
+
+On the **General** tab:
+
+- **Name -**	guest_policy
+- **Status -**	Enabled
+
+On the **Access Policies** tab:
+
+- **URL Filters -**	guest_url_filter
+
+On the **Advanced** tab:
+
+- **Session Timeout -**	43200
+- **Idle Timeout -**	3600
+- **Allow AAA Override -**	Enabled
+- **Accounting List -**	guest_acct
+
+Click **Apply to Device** to save.
+
+13. Next, click **Configuration > Tags & Profiles > Tags** on the left. Click **Add** and configure with:
+
+- **Name -**	guest_tag
+- **WLAN Profile -**	Guest WiFi
+- **Policy Profile -**	guest_policy
+
+Click **Apply to Device** to save. 
+
+14. Finally, click **Administration > Management > HTTP/HTTPS/Netconf** on the left. Configure with:
+
+- **HTTP Access -**	Enabled
+- **HTTPS Access -**	Enabled
+
+Be sure to click on **Save Configuration** at the top right of the page to ensure your changes are persisted on reboot.
+
+The configuration is now complete.
+
+
+
