@@ -27,7 +27,7 @@ Click **Apply** to save.
 
 Click **Apply to Device** to save. 
 
-2. Next, click in to the profile you just created and configure with:
+3. Next, click in to the profile you just created and configure with:
 
 On the **General** tab:
 
@@ -51,7 +51,7 @@ On the **Advanced** tab:
 
 Click **Apply** to save. 
 
-3. Next, click on **Configuration > Security > AAA** on the left. Select the **Servers / Groups** tab click **Add**. Configure with:
+4. Next, click on **Configuration > Security > AAA** on the left. Select the **Servers / Groups** tab click **Add**. Configure with:
 
 - **Name -**	rad1
 - **IPv4 / IPv6 Server Address -** {{primary_ip}}
@@ -66,7 +66,7 @@ Click **Apply** to save.
 
 Click **Apply to Device** to save.
 
-4. Next, click **Add** again and configure with:
+5. Next, click **Add** again and configure with:
 
 - **Name -**	rad2
 - **IPv4 / IPv6 Server Address -** {{backup_ip}}
@@ -81,7 +81,7 @@ Click **Apply to Device** to save.
 
 Click **Apply to Device** to save. 
 
-5. On the **Server Groups** sub tab, click **Add**. Configure with:
+6. On the **Server Groups** sub tab, click **Add**. Configure with:
 
 - **Name -**	guest_radius
 - **Group Type -**	RADIUS
@@ -91,7 +91,7 @@ Click **Apply to Device** to save.
 
 Click **Apply to Device** to save. 
 
-6. Next, click on the **AAA Method List** tab. Click **Add** and configure with:
+7. Next, click on the **AAA Method List** tab. Click **Add** and configure with:
 
 - **Method List Name -**	guest_auth
 - **Type -**	login
@@ -100,7 +100,7 @@ Click **Apply to Device** to save.
 
 Click **Apply to Device** to save.
 
-7. Next, click the **Accounting** sub nav menu on the left and click **Add**. Configure with:
+8. Next, click the **Accounting** sub nav menu on the left and click **Add**. Configure with:
 
 - **Method List Name -**	guest_acct
 - **Type -**	identity
@@ -108,7 +108,7 @@ Click **Apply to Device** to save.
 
 Click **Apply to Device** to save. 
 
-8. Next, click the **AAA Advanced** tab and then the Show **Advanced Settings >>>** option. Configure both Accounting and Authentication with:
+9. Next, click the **AAA Advanced** tab and then the Show **Advanced Settings >>>** option. Configure both Accounting and Authentication with:
 
 - **Call Station ID -**	ap-macaddress-ssid
 - **Call Station ID Case -**	upper
@@ -118,7 +118,7 @@ Click **Apply to Device** to save.
 
 Click **Apply to Device** to save. 
 
-9. Next, click **Configuration > Tags & Policies > WLANs** on the left. Click **Add** or edit an existing WLAN and configure with:
+10. Next, click **Configuration > Tags & Policies > WLANs** on the left. Click **Add** or edit an existing WLAN and configure with:
 
 On the **General** tab:
 
@@ -144,7 +144,7 @@ On the **Security > Layer 3** tab, click **Show Advanced Settings >>>** and conf
 
 Click **Apply to Device** to save.
 
-10. Next, click **Configuration > Security > URL Filters**. Click **Add** and configure with:
+11. Next, click **Configuration > Security > URL Filters**. Click **Add** and configure with:
 
 - **List Name -**	guest_url_filter
 - **Type -**	PRE_AUTH
@@ -164,7 +164,7 @@ Click **Apply** to save.
 
 Next, click **Configuration > Tags & Profiles > Policy** on the left. 
 
-11. Click **Add**, leaving all settings at default apart from the following:
+12. Click **Add**, leaving all settings at default apart from the following:
 
 On the **General** tab:
 
@@ -184,7 +184,7 @@ On the **Advanced** tab:
 
 Click **Apply to Device** to save.
 
-13. Next, click **Configuration > Tags & Profiles > Tags** on the left. Click **Add** and configure with:
+14. Next, click **Configuration > Tags & Profiles > Tags** on the left. Click **Add** and configure with:
 
 - **Name -**	guest_tag
 - **WLAN Profile -**	Guest WiFi
@@ -192,7 +192,7 @@ Click **Apply to Device** to save.
 
 Click **Apply to Device** to save. 
 
-14. Finally, click **Administration > Management > HTTP/HTTPS/Netconf** on the left. Configure with:
+15. Finally, click **Administration > Management > HTTP/HTTPS/Netconf** on the left. Configure with:
 
 - **HTTP Access -**	Enabled
 - **HTTPS Access -**	Enabled
