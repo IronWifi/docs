@@ -28,7 +28,7 @@ Not all products of these manufacturers support external Captive Portal for auth
 - [Cisco Meraki](https://www.ironwifi.com/cisco-meraki/)
 - Cradlepoint
 - [CoovaChilli](https://www.ironwifi.com/coovachilli/)
-- [Cisco WLC](https://www.ironwifi.com/cisco-wlc/), Cisco Catalyst
+- [Cisco WLC](https://www.ironwifi.com/cisco-wlc/), [Cisco Catalyst](https://www.ironwifi.com/cisco-catalyst/)
 - Dell
 - Draytek
 - EnGenius
@@ -47,7 +47,7 @@ Not all products of these manufacturers support external Captive Portal for auth
 - [OPNsense](https://www.ironwifi.com/opnsense/)
 - [pfSense](https://www.ironwifi.com/pfsense-with-captive-portal/)
 - [Peplink](https://www.ironwifi.com/peplink/)
-- Ruckus Wireless - including [CloudPath](https://www.ironwifi.com/ruckus-cloud/), [ZoneFlex](https://www.ironwifi.com/ruckus-flex/), SmartZone, vSZ, and ZoneDirector
+- Ruckus Wireless - including [CloudPath](https://www.ironwifi.com/ruckus-cloud/), [ZoneFlex](https://www.ironwifi.com/ruckus-flex/), [SmartZone](https://www.ironwifi.com/ruckus-smartzone/), vSZ, and ZoneDirector
 - [SonicWall Guest Services](https://www.ironwifi.com/sonicwall/) and [Captive Portal Authentication](https://www.ironwifi.com/sonicwall-captive-portal-authentication/)
 - [Ubiquiti Networks](https://www.ironwifi.com/ubiquiti/)
 - [Teltonika](https://wiki.teltonika.lt/view/Ironwifi.com_Hotspot_Configuration)
