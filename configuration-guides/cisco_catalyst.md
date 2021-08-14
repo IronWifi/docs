@@ -43,7 +43,7 @@ On the **Advanced** tab:
 
 - **Redirect for log-in -**	{{splash_page_url}}
 - **Redirect On-Success -**	{{success_page_url}}
-- **Redirect On-Failure -**	{{splash_page_url }}
+- **Redirect On-Failure -**	{{splash_page_url}}
 - **Redirect Append for AP MAC Address -**	ap_mac
 - **Redirect Append for Client MAC Address -**	client_mac
 - **Redirect Append for WLAN SSID -**	wlan_ssid
