@@ -60,7 +60,7 @@ Click **Apply** to save.
 - **Confirm Key -**	{{shared_secret}}
 - **Auth Port -**	{{auth_port}}
 - **Acct Port -**	{{acct_port}}
-- Server Timeout	10
+- **Server Timeout -** 10
 - **Retry Count -**	3
 - **Support for CoA -**	Enabled
 
