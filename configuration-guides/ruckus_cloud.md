@@ -26,7 +26,7 @@ Log in to your ruckus cloud dashboard at [https://cloud.ruckuswireless.com](http
 3. Click **Next** and continue the configuration with:
 
 - **Portal Provider -** IronWifi
-- **Captive Portal URL -** *your splash page url from the ironwifi console (Networks -> Captive Portals -> Your Captive Portal)*
+- **Captive Portal URL -** {{splash_page_url}}
 - **Integration Key -** *copy and save this key somewhere safe, you will need it*
 - **Walled Garden List -** 107.178.250.42
 
