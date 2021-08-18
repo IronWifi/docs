@@ -14,9 +14,9 @@ This page explains the configuration of Aruba Instant On with IronWifi.
 
 1. Click on **Networks**
 
-2. Add a **new network** and choose “Portal” under “Security”
+2. Add a **new network** and choose **Portal** under **Security**
 
-3. Click on the newly created network and choose “customize guest portal”. Configure with:
+3. Click on the newly created network and choose **customize guest portal**. Configure with:
 
 - **Server URL -** {{splash_page_url}}
 - **Send RADIUS Accounting -** On
