@@ -4,11 +4,11 @@
 
 This page explains configuration of ICC Access Points to work with IronWifi Captive Portal.
 
-**IronWifi Console configuration**
+### IronWifi Console Configuration
 
-1. Log in to the IronWifi Console
-2. From the menu, go to **Network -> Captive Portals -> New Captive Portal**
-3. Fill in Name, select **Network**, select **_ICC_** as **Vendor** and add at least one Authentication Provider
+1. Log into the IronWifi console or [register for free](https://console.ironwifi.com/register)
+2. Create a **new network**
+3. After that, create a **new captive portal**, with vendor **ICC**
 
 **ICC Access Point configuration**
 
