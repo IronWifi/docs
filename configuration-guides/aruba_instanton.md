@@ -25,9 +25,3 @@ This page explains the configuration of Aruba Instant On with IronWifi.
 - **Secondary RADIUS Server -** On
 - **Server IP Address -** {{backup_ip}}
 - **Shared secret -** {{shared_secret}}
-
-![aruba1](https://raw.githubusercontent.com/IronWifi/docs/master/configuration-guides/aruba_instant_on/aruba.png)
-
-![aruba2](https://raw.githubusercontent.com/IronWifi/docs/master/configuration-guides/aruba_instant_on/aruba2.png)
-
-![aruba3](https://raw.githubusercontent.com/IronWifi/docs/master/configuration-guides/aruba_instant_on/aruba3.png)
