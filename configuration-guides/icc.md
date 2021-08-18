@@ -10,7 +10,7 @@ This page explains configuration of ICC Access Points to work with IronWifi Capt
 2. Create a **new network**
 3. After that, create a **new captive portal**, with vendor **ICC**
 
-**ICC Access Point configuration**
+### ICC Access Point configuration
 
 1. Log in to the ICC AP Web-Browser interface and go to Services -> Captive Portal. Configure with:
 
