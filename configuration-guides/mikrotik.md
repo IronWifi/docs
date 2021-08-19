@@ -51,7 +51,7 @@ Now, the newly created server was assigned the name "hotspot1", which you need t
 
 7. In the **MikroTik configuration menu**, navigate down to the **Radius** and click **Add New** to add RADIUS server. In the Service section, configure with:
 
-- **Service -** hotpost
+- **Service -** hotspot
 - **Address -** {{primary_ip}}
 - **Secret -** {{shared_secret}}
 - **Authentication Port -** {{auth_port}}
