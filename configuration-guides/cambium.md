@@ -6,16 +6,34 @@ This page explains the configuration of Cambium Networks access points for exter
 
 ### IronWifi Console Configuration
 
-1. Create a free _14-day demo account_ [here](https://console.ironwifi.com/register)
-2. Once you log in to the console, create a **new network**
-3. After that, create a **new captive portal**
+1. Log into the IronWifi console or [register for free](https://console.ironwifi.com/register)
+2. Create a **new network**
+3. After that, create a **new captive portal**, with vendor **Cambium Networks**
 
 ### Access Point Configuration
 
-1. In your controller UI, create a new wlan or edit an existing one.
-2. Navigate to **AAA servers** provide the necessary information from your ironwifi console. First host is the primary radius server and second host is the backup radius server. This information (IP, port and secret) can be found under networks in the IronWifi console.  Accounting server is optional, however, if you want to see accounting data in the reports then you will need to provide this as well. Further information such as the accounting port can be found by clicking on your network name in the IronWifi console.
+1. In your controller UI, create a **new wlan** or edit an existing one.
+2. Navigate to **AAA servers** and configure with:
+
+_Authentication Server_
+
+- **1. Host -** {{primary_ip}}
+- **Secret -** {{shared_secret}}
+- **Port -** {{auth_port}}
+- **2. Host -** {{backup_ip}}
+- **Secret -** {{shared_secret}}
+- **Port -** {{auth_port}}
+
+_Accounting Server_
+
+- **1. Host -** {{primary_ip}}
+- **Secret -** {{shared_secret}}
+- **Port -** {{acct_port}}
+
+3. Navigate to **Guest Access** and configure with the following values:
+
+- **Access Policy -** RADIUS
+- **External Page URL -** {{splash_page_url}}
+
 ![](https://raw.githubusercontent.com/IronWifi/docs/master/configuration-guides/cambium/cambium1.png)
-
-3. Navigate to Guest Access and provide the splash page URL from your captive portal settings in the IronWifi console to the “External Page URL” input field. Additionally, make sure you have chosen the _RADIUS_ Access Policy as highlighted in the picture.
-
 ![](https://raw.githubusercontent.com/IronWifi/docs/master/configuration-guides/cambium/cambium2.jpg)
