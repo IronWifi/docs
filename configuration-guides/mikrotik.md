@@ -15,8 +15,7 @@ This page explains the Captive Portal configuration for MikroTik Router OS and a
 
 Sign-in to your MikroTik configuration interface, usually http://192.168.88.1
 
-1. Navigate to **Hotspot -> Users** and add a temporary user called user1 and set a password for this new user.
-
+1. Navigate to **Hotspot -> Users** and add a temporary user called user1 and set a password for this new user
 2. Navigate to **Hotspot -> Servers** and click the **Hotspot Setup** button. Configure with:
 
 - **Hotspot Interface -** bridge
@@ -29,10 +28,8 @@ The access point will redirect you to the default Hotspot Authentication page. S
 
 Now, the newly created server was assigned the name "hotspot1", which you need to change for the mac address of your access point. Navigate to the quick set (main dashboard) to copy the mac address.
 
-3. After you have copied the mac address, return to the **hotspot settings** and click on the server named "hotspot1". Then just paste the mac address to the name field and click **apply**.
-
+3. After you have copied the mac address, return to the **hotspot settings** and click on the server named "hotspot1". Then just paste the mac address to the name field and click **apply**
 4. Navigate to **Hotspot -> Server Profiles** and click the newly created profile called **hsprof1**
-
 5. In the **Login by** section, configure with the following values:
 
 - **HTTP CHAP -** un-check
