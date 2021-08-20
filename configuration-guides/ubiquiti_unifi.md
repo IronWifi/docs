@@ -22,7 +22,9 @@ Make sure it is the PUBLIC IP address, and it's reachable through the Internet (
 
 ### Access Point Configuration
 
-> If you are running UniFi 6.0+ you need to disable the new UI until you've set everything up. To do so, click System Settings on the left menu and disable the New Settings option.
+<call-out type="warning">
+If you are running UniFi 6.0+ you need to disable the new UI until you've set everything up. To do so, click System Settings on the left menu and disable the New Settings option.
+</call-out>
 
 Log in to your UniFi controller and click the Setting icon (bottom left).
 
