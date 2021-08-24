@@ -9,7 +9,6 @@ This page explains the configuration of [Keenetic Access Points](https://keeneti
 1. Log into the IronWifi console or [register for free](https://console.ironwifi.com/register)
 2. Create a **new network**
 3. After that, create a **new captive portal**, with vendor **Keenetic**
-4. Scroll down to the **Controller Configuration** and copy the **Shared Secret** and **NAS ID**.
 
 ### Access Point Configuration
 
