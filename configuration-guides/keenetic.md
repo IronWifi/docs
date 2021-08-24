@@ -21,6 +21,6 @@ This page explains the configuration of [Keenetic Access Points](https://keeneti
 - **RADIUS Secret -** {{shared_secret}}
 - **RADIUS NAS ID -** {{nas_id}}
 
-![firstScreen](keenetik/keenetic1.png)
+![firstScreen](https://raw.githubusercontent.com/IronWifi/docs/master/configuration-guides/keenetik/keenetic1.png)
 
-![firstScreen](keenetik/keenetic2.png)
+![firstScreen](https://raw.githubusercontent.com/IronWifi/docs/master/configuration-guides/keenetik/keenetic2.png)
