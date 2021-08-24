@@ -1,4 +1,6 @@
-# Keenetic
+# **Keenetic**
+
+---
 
 This page explains the configuration of [Keenetic Access Points](https://keenetic.com) to work with IronWifi Captive Portal.
 
