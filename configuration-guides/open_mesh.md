@@ -2,6 +2,8 @@
 
 ---
 
+This page explains the configuration of Open-Mesh devices to work with IronWifi Captive Portal.
+
 ### IronWifi Console Configuration
 
 1. Log into the IronWifi console or [register for free](https://console.ironwifi.com/register)
@@ -9,8 +11,6 @@
 3. After that, create a **new captive portal**, with vendor **Open Mesh (Cloudtrax)**
 
 ### Access Point Configuration
-
-This page explains the configuration of Open-Mesh devices to work with IronWifi Captive Portal.
 
 Open the configuration page of Cloudtrax and navigate as follows. 
 
