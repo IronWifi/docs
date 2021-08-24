@@ -27,7 +27,6 @@ _RADIUS for splash page_
 - **2. Host -** {{backup_ip}}
 - **2. Port -** {{auth_port}}
 - **2. Secret -** {{shared_secret}}
-
 - **Failover policy -** Deny access
 - **Load balancing policy -** Strict priority order
 - **Network access control -** Disabled
