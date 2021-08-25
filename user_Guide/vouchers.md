@@ -25,7 +25,7 @@ Groups that this voucher is a member of.
 
 ## Attributes
 
-RADIUS Attributes assigned to this voucher.
+RADIUS Attributes assigned to this voucher. For more information about attributes visit [this webpage](https://www.ironwifi.com/user-guide/attributes/).
 
 ## Devices
 
