@@ -2,11 +2,13 @@
 
 ---
 
+This page explains configuration of Captive Portal with authentication through IronWifi for the Ubiquiti Unifi Controller (hotspot version). 
+
 ### IronWifi Console Configuration
 
 1. Log into the IronWifi console or [register for free](https://console.ironwifi.com/register)
 2. Create a **new network**
-3. After that, create a **new captive portal**, with vendor **Ubiquiti Unifi Hotspot**
+3. After that, create a **new captive portal**, with vendor **Ruckus NBI**
 
 ### Access Point Configuration
 
