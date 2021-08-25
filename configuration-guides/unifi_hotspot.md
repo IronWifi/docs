@@ -27,7 +27,7 @@ Click **Save** to apply.
 
 2. Next, click on **Guest Control** and configure with:
 
-_Under the Guest Policies header:_
+_Under the Guest Policies header_
 
 - **Enable Guest Portal -** Enabled
 - **Authentication -** Hotspot
@@ -38,16 +38,16 @@ _Under the Guest Policies header:_
 - **Enable HTTPS Redirection -** Disabled
 - **Enable encrypted redirect URL -** Disabled
 
-_Under the Portal Customization header:_
+_Under the Portal Customization header_
 
 - **Template Engine -**: AngularJS
 - **Override Default Templates -**: Enabled
 
-_Under the Hotspot header:_
+_Under the Hotspot header_
 
 - **RADIUS**: Enabled
 
-_Under the RADIUS header:_
+_Under the RADIUS header_
 
 Profile: click **Create New RADIUS Profile** and configure with:
 
@@ -67,7 +67,7 @@ Click **Save** to continue.
 
 - **Authentication type -** CHAP
 
-3. Under the **Access Control > Pre-Authorization header** enter the following IP address:
+3. Under the **Access Control -> Pre-Authorization header** enter the following IP address:
 
 - 107.178.250.42
 
