@@ -50,11 +50,15 @@ _Under the RADIUS header:_
 Profile: click **Create New RADIUS Profile** and configure with:
 
 - **Profile Name -** guestwifi
-- **RADIUS Auth Server -** {{primary_ip}}  Port: {{auth_port}}  Password: {{shared_secret}}
+- **RADIUS Auth Server -** {{primary_ip}}  
+- **Port -** {{auth_port}} 
+- **Password -** {{shared_secret}}
 
 Click **Add Auth Server** and configure with:
 
-- **RADIUS Auth Server -** {{backup_ip}} Port: {{auth_port}}  Password: {{shared_secret}}
+- **RADIUS Auth Server -** {{backup_ip}} 
+- **Port -** {{auth_port}}  
+- **Password -** {{shared_secret}}
 - **Accounting -** Disabled (this is not supported yet)
 
 Click **Save** to continue.
