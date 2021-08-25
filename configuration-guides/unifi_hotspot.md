@@ -140,3 +140,4 @@ Now, you need to copy these two html files to your UnifFi controller hotspot di
 
 (replace default in the folder structure with your site name if different)
 
+_If the sites folder is not present, you can created it by simply uploading a floorplan (even a dummy one if required) in the UniFi controller which will create the folder you need._
