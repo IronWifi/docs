@@ -40,18 +40,18 @@ _Under the Guest Policies header_
 
 _Under the Portal Customization header_
 
-- **Template Engine -**: AngularJS
-- **Override Default Templates -**: Enabled
+- **Template Engine -** AngularJS
+- **Override Default Templates -** Enabled
 
 _Under the Hotspot header_
 
-- **RADIUS**: Enabled
+- **RADIUS -** Enabled
 
 _Under the RADIUS header_
 
-Profile: click **Create New RADIUS Profile** and configure with:
+3. Profile: click **Create New RADIUS Profile** and configure with:
 
-- **Profile Name -** guestwifi
+- **Profile Name -** guestwifi
 - **RADIUS Auth Server -** {{primary_ip}}  
 - **Port -** {{auth_port}} 
 - **Password -** {{shared_secret}}
@@ -67,7 +67,7 @@ Click **Save** to continue.
 
 - **Authentication type -** CHAP
 
-3. Under the **Access Control -> Pre-Authorization header** enter the following IP address:
+4. Under the **Access Control -> Pre-Authorization header** enter the following IP address:
 
 - 107.178.250.42
 
