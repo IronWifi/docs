@@ -8,7 +8,7 @@ This page explains configuration of Captive Portal with authentication through I
 
 1. Log into the IronWifi console or [register for free](https://console.ironwifi.com/register)
 2. Create a **new network**
-3. After that, create a **new captive portal**, with vendor **Ruckus NBI**
+3. After that, create a **new captive portal**, with vendor **Ubiquiti Unifi Hotspot**
 
 ### Access Point Configuration
 
@@ -125,11 +125,10 @@ Click **Apply Changes** to save.
 
 Finally, you will need to modify two html on the controller so that it correctly redirects and authenticates. First of all, download the below two files:
 
--   [index.html](https://router-firmware.s3.amazonaws.com/unifi/index.html?new)
--   [auth.html](https://router-firmware.s3.amazonaws.com/unifi/auth.html?new)
+- [index.html](https://router-firmware.s3.amazonaws.com/unifi/index.html?new)
+- [auth.html](https://router-firmware.s3.amazonaws.com/unifi/auth.html?new)
 
 Open the **index.html** file and at the top of this document you will see an item named "splashurl": Edit this so that it shows:
-
 
 ```javascript
 var splashurl = "{{splash_page_url}}";
@@ -137,11 +136,11 @@ var splashurl = "{{splash_page_url}}";
 
 Now, you need to copy these two html files to your UnifFi controller hotspot directory. This is typically located at the below location:
 
--   Windows: C:\Users\<username>\Ubiquiti UniFi\data\sites\default\app-unifi-hotspot-portal
--   MAC: ~/Library/Application Support/UniFi/data/sites/default/app-unifi-hotspot-portal
--   Linux: /usr/lib/unifi/data/sites/default/app-unifi-hotspot-portal
--   UDM Pro: /data/unifi/data/sites/default/app-unifi-hotspot-portal
--   CloudKey: /srv/unifi/data/sites/default/app-unifi-hotspot-portal
+- Windows: C:\Users\<username>\Ubiquiti UniFi\data\sites\default\app-unifi-hotspot-portal
+- MAC: ~/Library/Application Support/UniFi/data/sites/default/app-unifi-hotspot-portal
+- Linux: /usr/lib/unifi/data/sites/default/app-unifi-hotspot-portal
+- UDM Pro: /data/unifi/data/sites/default/app-unifi-hotspot-portal
+- CloudKey: /srv/unifi/data/sites/default/app-unifi-hotspot-portal
 
 (replace default in the folder structure with your site name if different)
 
