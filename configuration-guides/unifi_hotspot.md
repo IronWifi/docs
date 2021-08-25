@@ -10,6 +10,8 @@
 
 ### Access Point Configuration
 
+_If you are running UniFi 6.0+ you need to disable the new UI until you've set everything up. To do so, click System Settings on the left menu and disable the New Settings option._
+
 Log in to your UniFi controller and click the **Setting** icon (bottom left).
 
 1. On the left menu, under **Wireless Networks** click **Create New Wireless Network** and configure with:
@@ -19,7 +21,7 @@ Log in to your UniFi controller and click the **Setting** icon (bottom left).
 - **Security -** Open
 - **Guest Policy -** Enabled
 
-Click Save to apply.
+Click **Save** to apply.
 
 2. Next, click on **Guest Control** and configure with:
 
@@ -67,7 +69,7 @@ Click **Save** to continue.
 If you wish to support social network logins, you also need to add further IP's as per below for each network you plan to support
 
 | Facebook\
- | 31.13.24.0/21\
+31.13.24.0/21\
 31.13.64.0/18\
 45.64.40.0/22\
 66.220.144.0/20\
@@ -82,9 +84,8 @@ If you wish to support social network logins, you also need to add further IP's 
 185.60.216.0/22\
 204.15.20.0/22
 
- |
 | Twitter\
- | 199.16.156.0/22\
+199.16.156.0/22\
 199.59.148.0/22\
 199.96.56.0/21\
 192.133.76.0/22\
@@ -92,9 +93,8 @@ If you wish to support social network logins, you also need to add further IP's 
 104.244.43.0/24\
 104.244.46.0/24
 
- |
 | LinkedIn\
- | 91.225.248.0/23\
+91.225.248.0/23\
 103.20.94.0/23\
 108.174.0.0/22\
 108.174.4.0/24\
@@ -114,7 +114,7 @@ If you wish to support social network logins, you also need to add further IP's 
 64.152.25.0/24\
 8.22.161.0/24
 
-|NOTE: These IP ranges are subject to change depending on the social network setup.
+**NOTE:** These IP ranges are subject to change depending on the social network setup.
 
 Click **Apply Changes** to save.
 
@@ -125,9 +125,8 @@ Finally, you will need to modify two html on the controller so that it correctly
 
 Open the **index.html** file and at the top of this document you will see an item named "splashurl": Edit this so that it shows:
 
-Js
 
-```
+```javascript
 var splashurl = "{{splash_page_url}}";
 ```
 
