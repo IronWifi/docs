@@ -13,7 +13,6 @@ This page explains the necessary configuration for Peplink Access Points and ext
 ### Access Point Configuration
 
 1. Sign in to the InControl control panel, find the **Access Point -> Settings -> Remote Web Admin**
-
 2. In the Access Point settings page, click on **Network -> Captive Portal**, and configure with:
 
 - **Hostname -** captive-portal.peplink.com
