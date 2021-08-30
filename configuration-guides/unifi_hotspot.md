@@ -61,7 +61,9 @@ Click **Add Auth Server** and configure with:
 - **RADIUS Auth Server -** {{backup_ip}} 
 - **Port -** {{auth_port}}  
 - **Password -** {{shared_secret}}
-- **Accounting -** Disabled (this is not supported yet)
+- **Accounting -** Enabled
+- **Accounting Server -** {{primary_ip}}
+- **Accounting Port -** {{acct_port}}
 
 Click **Save** to continue.
 
