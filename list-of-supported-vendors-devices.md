@@ -50,6 +50,7 @@ Not all products of these manufacturers support external Captive Portal for auth
 - Ruckus Wireless - including [CloudPath](https://www.ironwifi.com/ruckus-cloudpath/), [ZoneFlex](https://www.ironwifi.com/ruckus-flex/), [SmartZone](https://www.ironwifi.com/ruckus-smartzone/), vSZ, and ZoneDirector
 - [SonicWall Guest Services](https://www.ironwifi.com/sonicwall/) and [Captive Portal Authentication](https://www.ironwifi.com/sonicwall-captive-portal-authentication/)
 - [Ubiquiti Networks](https://www.ironwifi.com/unifi/)
+- [Ubiquiti Networks Hotspot Version](https://www.ironwifi.com/unifi-hotspot/)
 - [Teltonika](https://wiki.teltonika.lt/view/Ironwifi.com_Hotspot_Configuration)
 - [TRENDnet](https://www.ironwifi.com/trendnet/)
 - [TP-Link EAP series](https://www.ironwifi.com/tp-link-eap/), TP-Link Omada Controller, [TP-Link Omada Controller v4](https://www.ironwifi.com/tplink-omada4)
