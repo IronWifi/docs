@@ -128,6 +128,7 @@ Click **Apply Changes** to save.
 Finally, you will need to modify two html on the controller so that it correctly redirects and authenticates. First of all, download the below two files:
 
 - [index.html](https://router-firmware.s3.amazonaws.com/unifi/index.html?new)
+- <a href='http://localhost:8080/api/debug?file=index&url=www.ironwifi.com' download>new</a>
 - [auth.html](https://router-firmware.s3.amazonaws.com/unifi/auth.html?new)
 
 Open the **index.html** file and at the top of this document you will see an item named "splashurl": Edit this so that it shows:
