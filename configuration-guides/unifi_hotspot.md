@@ -139,7 +139,7 @@ Open the **index.html** file and at the top of this document you will see an i
 var splashurl = "{{splash_page_url}}";
 ```
 
-Now, you need to copy these two html files to your UnifFi controller hotspot directory. This is typically located at the below location:
+Now, you need to copy these two html files to your UniFi controller hotspot directory. This is typically located at the below location:
 
 - Windows: C:\Users\<username>\Ubiquiti UniFi\data\sites\default\app-unifi-hotspot-portal
 - MAC: ~/Library/Application Support/UniFi/data/sites/default/app-unifi-hotspot-portal
