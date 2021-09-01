@@ -131,7 +131,9 @@ Finally, you will need to modify two html on the controller so that it correctly
 - <a href='https://console-dev.ironwifi.com/api/debug?file=auth&url={{splash_page_url}}' download>auth.html</a>
 
 
-Open the **index.html** file and at the top of this document you will see an item named "splashurl": Edit this so that it shows:
+Open the **index.html** file and at the top of this document you will see an item named "splashurl", edit this so that it shows:
+
+!This has been done automatically if you opened these instructions from the ironwifi console!
 
 ```javascript
 var splashurl = "{{splash_page_url}}";
