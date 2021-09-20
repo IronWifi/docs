@@ -133,7 +133,7 @@ Finally, you will need to modify two html on the controller so that it correctly
 
 Open the **index.html** file and at the top of this document you will see an item named "splashurl", edit this so that it shows:
 
-!This has been done automatically if you opened these instructions from the ironwifi console!
+**!This has been done automatically if you opened these instructions from the ironwifi console!**
 
 ```javascript
 var splashurl = "{{splash_page_url}}";
