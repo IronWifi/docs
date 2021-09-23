@@ -15,4 +15,4 @@ We currently support the following external database types
 - [Azure AD](https://www.ironwifi.com/azure-active-directory/)
 - [Azure AD Authentication with PEAP-MSCHAPv2](https://www.ironwifi.com/azure-ad-authentication-peap-mschapv2/)
 - Hotel PMS
-- OKTA
+- [OKTA](https://www.ironwifi.com/okta-connector/)
