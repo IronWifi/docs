@@ -32,12 +32,12 @@ Click **done**.
 
 <div class="ttfmake-alert ttfmake-info">
 Your access point's walled garden list must include the following domains
-  
+</div>
+
 - {{your_subdomain}}.oktapreview.com
 - login.okta.com
 - .okta-emea.com
 - op1.static.oktacdn.com
-</div>
 
 {{your_subdomain}} - can be found in the url once you log in to your okta account
 
