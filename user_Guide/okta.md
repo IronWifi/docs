@@ -1,4 +1,4 @@
-# **Okta**
+# **Okta (SAML)**
 
 ---
 
@@ -16,7 +16,7 @@ Click **done**.
 
 4. Configure Advanced Sign On settings with (you need to replace the automatically added value):
 
-- **Base URL -** splash
+- **Base URL -** splash (depending on your region, global - splash, europe-west1 - europe-west1...etc.)
 
 5. After that, assign the newly created application **IronWifi CP Demo** to your users and click Next.
 
