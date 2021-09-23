@@ -24,14 +24,14 @@ The configuration is now complete.
 
 ---
 
-[screen1](https://raw.githubusercontent.com/IronWifi/docs/master/user_Guide/okta/okta3.png)
+![screen1](https://raw.githubusercontent.com/IronWifi/docs/master/user_Guide/okta/okta3.png)
 
-[screen1](https://raw.githubusercontent.com/IronWifi/docs/master/user_Guide/okta/okta5.png)
+![screen1](https://raw.githubusercontent.com/IronWifi/docs/master/user_Guide/okta/okta5.png)
 
-[screen1](https://raw.githubusercontent.com/IronWifi/docs/master/user_Guide/okta/okta1.png)
+![screen1](https://raw.githubusercontent.com/IronWifi/docs/master/user_Guide/okta/okta1.png)
 
-[screen1](https://raw.githubusercontent.com/IronWifi/docs/master/user_Guide/okta/okta4.png)
+![screen1](https://raw.githubusercontent.com/IronWifi/docs/master/user_Guide/okta/okta4.png)
 
-[screen1](https://raw.githubusercontent.com/IronWifi/docs/master/user_Guide/okta/okta2.png)
+![screen1](https://raw.githubusercontent.com/IronWifi/docs/master/user_Guide/okta/okta2.png)
 
-[screen1](https://raw.githubusercontent.com/IronWifi/docs/master/user_Guide/okta/okta7.png)
+![screen1](https://raw.githubusercontent.com/IronWifi/docs/master/user_Guide/okta/okta7.png)
