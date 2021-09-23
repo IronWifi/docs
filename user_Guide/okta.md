@@ -2,7 +2,7 @@
 
 ---
 
-This page explains the configuration of Okta in conjunction with ironwifi.
+This page explains the configuration of Okta (SAML) in conjunction with IronWifi Captive Portal.
 
 1. In Okta interface, navigate to **Applications -> Applications** , and search for _IronWifi_. 
 2. Once you open the _IronWifi_ application, click **Add**.
