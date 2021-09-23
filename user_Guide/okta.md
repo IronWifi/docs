@@ -30,13 +30,15 @@ Click **done**.
 
 5. After that, assign the newly created application **IronWifi CP Demo** to your users and click Next.
 
-
-<callout>Your access point's walled garden list must include the following domains</callout>
-
+<div class="ttfmake-alert ttfmake-info">
+Your access point's walled garden list must include the following domains
+  
 - *.oktapreview.com
 - *.okta.com
 - *.okta-emea.com
 - *.oktacdn.com
+</div>
+
 
 The configuration is now complete.
 
