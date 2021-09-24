@@ -15,7 +15,7 @@ This page explains the configuration of the IronWifi Okta Connector.
 
 Click **Continue**.
 
-3. Now choose the group to import
+3. Select the **group** you want to import.
 
 The configuration is now complete.
 
