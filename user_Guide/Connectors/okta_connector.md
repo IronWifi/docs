@@ -21,6 +21,6 @@ The configuration is now complete.
 
 ---
 
-![screen](https://raw.githubusercontent.com/IronWifi/docs/master/user_Guide/Connectors/okta_connector/okta_connector.png)
+![screen](https://raw.githubusercontent.com/IronWifi/docs/master/user_Guide/Connectors/okta_connector/auth_provider.png)
 ![screen](https://raw.githubusercontent.com/IronWifi/docs/master/user_Guide/Connectors/okta_connector/okta_group.png)
 
