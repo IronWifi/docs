@@ -12,12 +12,15 @@ This page explains the configuration of the IronWifi Okta Connector.
 - **Your Okta Domain -** {{your_subdomain}}.oktapreview.com
 - **Access Token -** {{your_access_token}}
 - **Search Filter -** status eq "ACTIVE"
-- **Group ID (Optional) -** {{your_group_id}}
 
 Click **Continue**.
+
+3. Now choose the group to import
 
 The configuration is now complete.
 
 ---
 
 ![screen](https://raw.githubusercontent.com/IronWifi/docs/master/user_Guide/Connectors/okta_connector/okta_connector.png)
+![screen](https://raw.githubusercontent.com/IronWifi/docs/master/user_Guide/Connectors/okta_connector/okta_group.png)
+
