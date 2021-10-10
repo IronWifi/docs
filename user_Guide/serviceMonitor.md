@@ -39,7 +39,7 @@ Please follow the steps below to monitor our service yourself in order to reduce
 
     ![firstScreenshot](https://raw.githubusercontent.com/IronWifi/docs/master/user_Guide/serviceMonitor/monitor9.png)
 
-    h) Choose monitor type → HTTP(s), type in your desired friendly name and paste the previously obtained URL
+    h) Choose monitor type → Keyword, type in your desired friendly name and paste the previously obtained URL and use the keyword "Access-Accept". Make sure you choose "Alert when the keyword does not exist".
 
     ![firstScreenshot](https://raw.githubusercontent.com/IronWifi/docs/master/user_Guide/serviceMonitor/monitor10.png)
 
