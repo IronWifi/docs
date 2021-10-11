@@ -32,7 +32,8 @@ _Note_:
 - When the Web Portal or RADIUS Servers or both are unreachable, users cannot access the Internet..
 
 2. When Hotspot 1.0 is enabled, Proxim Access Point operates in Routing Mode with NAT (Network Address Translation) enabled.
-3. A DHCP Server is automatically enabled on the LAN interfaces and assigns IP addresses dynamically to the clients connecting to the Access Point. If required, the default IP pools of the DHCP Server can be changed by the Hotspot Operator.
+
+4. A DHCP Server is automatically enabled on the LAN interfaces and assigns IP addresses dynamically to the clients connecting to the Access Point. If required, the default IP pools of the DHCP Server can be changed by the Hotspot Operator.
 
 _Note_:
 - The first IP address from the DHCP pool is assigned to the LAN interface(s).
