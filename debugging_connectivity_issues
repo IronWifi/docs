@@ -1,11 +1,13 @@
-1. Can you see the wireless network SSID
+1. Can you see the wireless network called .... ?
 
-2. Are you connected to the wireless network
+2. Are you connected to the wireless network? How strong is the signal?
 
-3. Does the Login page come up automatically
+3. Does the Login page come up automatically?
 
 4. Can you open http://www.neverssl.com? Are you being redirected to the Login page?
 
 5. Can you open https://test.ironwifi.com? Do you see word "success"?
 
-6. 
+6. What type of error screens do you see - Can't connect, Can't be found
+
+7. Open Command Prompts and type in ipconfig /all and route print. Can you ping IP address 107.178.250.42? Can you ping the access point?
