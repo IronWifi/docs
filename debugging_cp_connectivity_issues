@@ -1,0 +1,23 @@
+1. Can you see the wireless network called .... ?
+
+  - check AP settings, make sure the SSID is not hidden
+
+2. Are you connected to the wireless network? How strong is the signal?
+
+  - check the network association requirements, make sure it's set to Open. If you have weak signal, move closer to the access point.
+
+3. Does the Login page come up automatically?
+
+  - check if you can access internet. check the walled garden list - remove any google, apple servers from the list.
+
+4. Stay connected to the network (use as it is) and open a web browser. Can you open http://www.neverssl.com? Are you being redirected to the Login page?
+
+5. Can you open https://test.ironwifi.com? Do you see word "success"?
+
+6. Can you open https://107.178.250.42 ? Do you see a "Your connection is not private" warning message?
+
+- possible DNS issue
+
+7. Open Command Prompts and type command "ping 107.178.250.42"
+
+8. type command route print and look for Gateway Address. Try to ping the gateway address, for example "ping 192.168.1.1"
