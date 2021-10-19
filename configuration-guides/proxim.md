@@ -8,7 +8,7 @@ This page explains the configuration of Proxim ORiNOCO™ access points for exte
 
 1. Log into the IronWifi console or [register for free](https://console.ironwifi.com/register)
 2. Create a **new network**
-3. After that, create a **new captive portal**, with vendor **Proxim Wireless**
+3. After that, create a **new captive portal**, with vendor **Proxim**
 
 ### Access Point Configuration
 
