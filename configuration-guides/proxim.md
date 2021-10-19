@@ -1,25 +1,25 @@
-# **Proxim**
+# **Proxim Wireless**
 
 ---
 
-This page explains the configuration of Proxim access points for external Captive  Portal and RADIUS server authentication.
+This page explains the configuration of Proxim ORiNOCO™ access points for external Captive Portal and RADIUS server authentication.
 
 ### IronWifi Console Configuration
 
 1. Log into the IronWifi console or [register for free](https://console.ironwifi.com/register)
 2. Create a **new network**
-3. After that, create a **new captive portal**, with vendor **Proxim**
+3. After that, create a **new captive portal**, with vendor **Proxim Wireless**
 
 ### Access Point Configuration
 
-1. Configure the following parameters for hotspot configuration on Proxim devices:
+1. Configure the following parameters for hotspot configuration on Proxim Wireless devices:
 
 - **Hotspot status -** Specifies the status of the hotspot
 - **Session Timeout -** Specifies the time interval after which the session will end automatically.
 - **Portal URL -** {{splash_page_url}} 
 - **Portal Secret -** {{shared_secret}}
 - **User Name/User Password -** Applicable only when using an external portal service provider. 
-- **Unique ID -** Applicable only when using an external portal service provider. This information will be auto-populated or provided by an external portal service provider.
+- **Unique ID/Port ID -** Applicable only when using an external portal service provider. This information will be auto-populated or provided by an external portal service provider.
 - **Primary Radius Server -** {{primary_ip}}
 - **Secondary Radius Server -** {{backup_ip}}
 - **Radius Shared Secret -** {{shared_secret}}
@@ -41,7 +41,7 @@ _Note_:
 
 4. Click **Add** in the Hotspot screen, the **Hotspot Walled Garden Table - Add Row** screen appears. Configure the Domain Name i.e. the list of site names to attain direct access.
 
-To configure, add URL(s) or web address (es). For Example: If you add **proxim.com** in the list, you can access any sites like **proxim.com, www.google.com**, etc. directly without being redirected to the login page.
+To configure, add URL(s) or web address (es). For Example: If you add **proxim.com** in the list, you can access any sites like **proxim.com, www.support.proxim.com**, etc. directly without being redirected to the login page.
 
 Note: Access to any other site would require the user to login into the portal
 
@@ -49,3 +49,4 @@ Click **OK** and **COMMIT**, to save the configured parameters. **REBOOT** the d
 
 
 
+![h0s_settings_ap9200](https://user-images.githubusercontent.com/92432011/137676241-d3ac8557-402c-41b2-a598-b3bf7370a755.png)
