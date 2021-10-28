@@ -49,4 +49,5 @@ Click **OK** and **COMMIT**, to save the configured parameters. **REBOOT** the d
 
 
 
-![h0s_settings_ap9200](https://user-images.githubusercontent.com/92432011/137676241-d3ac8557-402c-41b2-a598-b3bf7370a755.png)
+![configuration](https://user-images.githubusercontent.com/92432011/138921930-13513b1b-6723-498e-9c10-edfe8b2b5275.png)
+
