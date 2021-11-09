@@ -47,7 +47,7 @@ Click on the **Save** button to apply new settings.
 
 Click on Allowed IP addresses Tab and add IP addresses and networks that the user should be allowed to access before authentication. Typically, you will enter the IP addresses from the Walled garden that will include IP address of the External Captive Portal, Google, Facebook, LinkedIn, PayPal, SAML Identity Provider or any other Authentication Provider you select.
 
-Please all IP addresses and hostname from IronWifi console
+Please add the IronWifi Load-balancer IP address 107.178.250.42, and any other relevany IP addresses from the walled garden list displayed in the IronWifi Console.
 
 Click on the **Save** button to apply new settings.
 
