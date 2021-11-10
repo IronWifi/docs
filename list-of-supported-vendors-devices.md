@@ -60,6 +60,7 @@ Not all products of these manufacturers support external Captive Portal for auth
 - Valuepoint
 - WatchGuard
 - [Xirrus](https://www.ironwifi.com/xirrus/)
+- ZyXEL Nebula
 
 
 <call-out type="warning">
