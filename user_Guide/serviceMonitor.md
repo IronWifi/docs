@@ -57,7 +57,7 @@ Please follow the steps below to monitor our service yourself in order to reduce
     
 ## Captive Portal Monitoring
 
-1. Click Add New Monitor and select monitor type HTTP(s), after that, provide your splash page URL and check the desired alert contacts.
+1. Click Add New Monitor and select monitor type HTTP(s), after that, provide your splash page URL (this can be found on the captive portal settings page) and check the desired alert contacts.
 
     ![firstScreenshot](https://raw.githubusercontent.com/IronWifi/docs/master/user_Guide/serviceMonitor/monitor13.png)
 
