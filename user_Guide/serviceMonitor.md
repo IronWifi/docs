@@ -54,5 +54,11 @@ Please follow the steps below to monitor our service yourself in order to reduce
     k) You can create another monitor for the backup server. Repeat the same process with the other IP address and port from the console (secret stays the same)
 
     ![firstScreenshot](https://raw.githubusercontent.com/IronWifi/docs/master/user_Guide/serviceMonitor/monitor4.png)
+    
+## Captive Portal Monitoring
+
+1. Click Add New Monitor and select monitor type HTTP(s), after that, provide your splash page URL and check the desired alert contacts.
+
+    ![firstScreenshot](https://raw.githubusercontent.com/IronWifi/docs/master/user_Guide/serviceMonitor/monitor13.png)
 
 _Uptime robot offers an API in case you'd like to display monitoring data in an existing system._
