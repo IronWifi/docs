@@ -32,7 +32,7 @@ _Under the Guest Policies header_
 - **Enable Guest Portal -** Enabled
 - **Authentication -** Hotspot
 - **Default Expiration -** 8 hours
-- **Landing Page -** Promotion URL - {{splash_page_url}}
+- **Landing Page -** Promotion URL - {{success_page_url}}
 - **Use Secure Portal -** Disabled
 - **Redirect using hostname -** Disabled
 - **Enable HTTPS Redirection -** Disabled
