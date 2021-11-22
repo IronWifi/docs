@@ -1,3 +1,17 @@
+# **Cisco Mobility Express**
+
+---
+
+This page explains configuration of Captive Portal with authentication through IronWifi for the Cisco Mobility Express. 
+
+### IronWifi Console Configuration
+
+1. Log into the IronWifi console or [register for free](https://console.ironwifi.com/register)
+2. Create a **new network**
+3. After that, create a **new captive portal**, with vendor **Cisco Mobility Express**
+
+### Access Point Configuration
+
 NOTE: You are required to use firmware v8.7.102.0 or above in order to continue.
 
 Log in to your ME web interface and click the "Switch to Expert View" button at the top right.
