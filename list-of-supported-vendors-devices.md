@@ -28,7 +28,7 @@ Not all products of these manufacturers support external Captive Portal for auth
 - [Cisco Meraki](https://www.ironwifi.com/meraki/)
 - Cradlepoint
 - [CoovaChilli](https://www.ironwifi.com/coovachilli/)
-- [Cisco WLC](https://www.ironwifi.com/ciscowlc/), [Cisco Catalyst](https://www.ironwifi.com/cisco-catalyst/)
+- [Cisco WLC](https://www.ironwifi.com/ciscowlc/), [Cisco Catalyst](https://www.ironwifi.com/cisco-catalyst/), [Cisco Mobility Express](https://www.ironwifi.com/cisco-mobility-express/)
 - Dell
 - Draytek
 - EnGenius
