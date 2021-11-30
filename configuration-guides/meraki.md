@@ -34,7 +34,7 @@ _RADIUS for splash page_
 - **Walled Garden -** Walled Garden is enabled
 - **Walled Garden Ranges -** 107.178.250.42/32
 
-Tip: If you need accounting data and don't see RADIUS Accounting servers, contact Meraki support to enable this feature in your account.
+**Tip: If you need accounting data and don't see RADIUS Accounting servers, contact Meraki support to enable this feature in your account.**
 
 2. Navigate to **Wireless -> Configure -> Splash page** and configure:
 
