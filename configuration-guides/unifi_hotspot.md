@@ -127,8 +127,8 @@ Click **Apply Changes** to save.
 
 Finally, you will need to modify two html on the controller so that it correctly redirects and authenticates. First of all, download the below two files:
 
-- <a href='https://console-dev.ironwifi.com/api/debug?script=portal_file&unifi_file=index&url={{splash_page_url}}' download>index.html</a>
-- <a href='https://console-dev.ironwifi.com/api/debug?script=portal_file&unifi_file=auth&url={{splash_page_url}}' download>auth.html</a>
+- <a href='https://console.ironwifi.com/api/debug?script=portal_file&unifi_file=index&url={{splash_page_url}}' download>index.html</a>
+- <a href='https://console.ironwifi.com/api/debug?script=portal_file&unifi_file=auth&url={{splash_page_url}}' download>auth.html</a>
 
 
 Open the **index.html** file and at the top of this document you will see an item named "splashurl", edit this so that it shows:
