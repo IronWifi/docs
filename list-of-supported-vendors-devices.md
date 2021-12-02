@@ -26,7 +26,7 @@ Not all products of these manufacturers support external Captive Portal for auth
 - Casa Systems
 - ChilliSpot
 - [Cisco Meraki](https://www.ironwifi.com/meraki/)
-- Cradlepoint
+- [Cradlepoint](https://www.ironwifi.com/cradlepoint)
 - [CoovaChilli](https://www.ironwifi.com/coovachilli/)
 - [Cisco WLC](https://www.ironwifi.com/ciscowlc/), [Cisco Catalyst](https://www.ironwifi.com/cisco-catalyst/), [Cisco Mobility Express](https://www.ironwifi.com/cisco-mobility-express/)
 - Dell
