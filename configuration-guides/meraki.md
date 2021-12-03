@@ -36,6 +36,7 @@ _RADIUS for splash page_
 
 _RADIUS accounting_
 
+- **RADIUS accounting -** enabled
 - **1. Host -** {{primary_ip}}
 - **1. Port -** {{acct_port}}
 - **1. Secret -** {{shared_secret}}
