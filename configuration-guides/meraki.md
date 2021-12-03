@@ -34,13 +34,23 @@ _RADIUS for splash page_
 - **Walled Garden -** Walled Garden is enabled
 - **Walled Garden Ranges -** 107.178.250.42/32
 
-**Tip: If you need accounting data and don't see RADIUS Accounting servers, contact Meraki support to enable this feature in your account.**
+_RADIUS accounting_
 
-2. Navigate to **Wireless -> Configure -> Splash page** and configure:
+- **1. Host -** {{primary_ip}}
+- **1. Port -** {{acct_port}}
+- **1. Secret -** {{shared_secret}}
+- **2. Host -** {{backup_ip}}
+- **2. Port -** {{acct_port}}
+- **2. Secret -** {{shared_secret}}
+- 
+**If you don't see RADIUS Accounting servers, contact Meraki support to enable this feature in your account.**
+
+For accurate accounting, please enable the **Data-Carrier Detect** feature under the Access Control Page.
+
+3. Navigate to **Wireless -> Configure -> Splash page** and configure:
 
 - **Custom Splash URL -** {{splash_page_url}}
 
-3. For accurate accounting, please enable the **Data-Carrier Detect** feature under the Access Control Page.
 
 If data-carrier detect is enabled, sessions will be revoked and accounted for whenever a client disassociates from a network. To allow clients to reassociate to the network without re-authorization, do not enable data-carrier detect.
 
