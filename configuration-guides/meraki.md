@@ -54,24 +54,3 @@ _RADIUS accounting_  -  **If you don't see RADIUS Accounting servers, contact Me
 If data-carrier detect is enabled, sessions will be revoked and accounted for whenever a client disassociates from a network. To allow clients to reassociate to the network without re-authorization, do not enable data-carrier detect.
 
 If you have devices that don't have support for two way authentication like printers, Smart TV, etc., you can white-list these devices directly in the Meraki Console - (https://documentation.meraki.com/General_Administration/Cross-Platform_Content/Blocking_and_Whitelisting_Clients)
-
-## **Identity PSK with RADIUS**
-
-RADIUS server is queried at association time to obtain a passphrase for a device based on its MAC address
-
-Meraki Documentation - (https://documentation.meraki.com/MR/Encryption_and_Authentication/IPSK_with_RADIUS_Authentication)
-
-Create a **user** and set the username and password to be the client device **MAC address**.
-
-Add a **Tunnel-Password** reply attribute.
-
-
-
----
-![firstScreenshot](https://github.com/IronWifi/docs/blob/master/configuration-guides/meraki/meraki1.png?raw=true)
-![secondScreenshot](https://github.com/IronWifi/docs/blob/master/configuration-guides/meraki/meraki2.png?raw=true)
-![thirdScreenshot](https://github.com/IronWifi/docs/blob/master/configuration-guides/meraki/meraki3.png?raw=true)
-![fourthScreenshot](https://github.com/IronWifi/docs/blob/master/configuration-guides/meraki/meraki4.png?raw=true)
-
-![ipsk_first](https://github.com/IronWifi/docs/blob/master/configuration-guides/meraki/Screenshot%202021-03-23%2011.50.50%20AM.png?raw=true)
-![ipsk_second](https://github.com/IronWifi/docs/blob/master/configuration-guides/meraki/Screenshot%202021-03-23%2011.54.06%20AM.png?raw=true)
