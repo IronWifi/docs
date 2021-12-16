@@ -48,7 +48,7 @@ Not all products of these manufacturers support external Captive Portal for auth
 - [pfSense](https://www.ironwifi.com/pfsense-with-captive-portal/)
 - [Peplink](https://www.ironwifi.com/peplink/)
 - [Proxim](https://www.ironwifi.com/proxim/)
-- Ruckus Wireless - including [CloudPath](https://www.ironwifi.com/ruckus-cloudpath/), [ZoneFlex](https://www.ironwifi.com/ruckus-flex/), [SmartZone](https://www.ironwifi.com/ruckus-smartzone/), vSZ, and ZoneDirector
+- Ruckus Wireless - including [CloudPath](https://www.ironwifi.com/ruckus-cloudpath/), [ZoneFlex](https://www.ironwifi.com/ruckus-flex/), [SmartZone](https://www.ironwifi.com/ruckus-smartzone/), vSZ, and [ZoneDirector](https://www.ironwifi.com/ruckus-zonedirector/)
 - [SonicWall Guest Services](https://www.ironwifi.com/sonicwall/) and [SonicWall Captive Portal Authentication](https://www.ironwifi.com/sonicwall-captive-portal-authentication/)
 - [Ubiquiti Networks](https://www.ironwifi.com/unifi/)
 - [Ubiquiti Networks Hotspot Version](https://www.ironwifi.com/unifi-hotspot/)
