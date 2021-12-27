@@ -8,7 +8,7 @@ This page explains the Captive Portal configuration for Fortigate hardware and a
 
 1. Log into the IronWifi console or [register for free](https://console.ironwifi.com/register)
 2. Create a **new network**
-3. After that, create a **new captive portal**, with vendor **Fortigate**
+3. After that, create a **new captive portal**, with vendor **FortiGate**
 
 ### Access Point Configuration
 
@@ -43,9 +43,9 @@ Next, click **Policy & Objects > IP**. Click **Create New > Address**. Configu
 Click **OK** to **Save**. Next, click **Create New > Address** again and configure with:
 
 - **Category -** Address
-- **Name -** {{splash_page_hostname}}
+- **Name -** Your splash page's hostname
 - **Type -** FQDN
-- **FQDN -** {{splash_page_hostname}}
+- **FQDN -** Your splash page's hostname
 
 Click **OK** to **Save**.
 
