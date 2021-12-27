@@ -33,7 +33,7 @@ Not all products of these manufacturers support external Captive Portal for auth
 - Draytek
 - EnGenius
 - ExtremeWireless
-- Fortinet (FortiGate)
+- [Fortinet (FortiGate)](https://www.ironwifi.com/fortigate/)
 - [ICC Networking](https://www.ironwifi.com/icc/)
 - [Keenetic](https://www.ironwifi.com/keenetic/)
 - Linksys
