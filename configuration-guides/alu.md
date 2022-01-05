@@ -30,7 +30,6 @@ Click **Next** and configure with:
 
 - **Splash page type**: External
 - **Captive portal profile**: Click the dropdown and choose **New**. Configure with:
-
 - **Name**: guestwifi
 - **Type**: Radius Authentication
 - **IP or hostname**: \*insert access\_domain here\*
@@ -44,7 +43,6 @@ Click **Next** and configure with:
 Click **OK** to save
 
 - **Auth server 1**: Click the dropdown and choose **New**. Configure with:
-
 - **Type:** RADIUS
 - **Name**: guestwifi1
 - **IP address**: {{primary_ip}}
@@ -64,7 +62,7 @@ Click **OK** to save
 - **Shared key**: {{shared_secret}}
 - **Retype key**: as above
 
-Click<span> </span>**OK** to save
+Click **OK** to save
 
 - **Reauth interval**: 24 hrs
 - **Accounting**: Enabled
@@ -73,7 +71,7 @@ Click<span> </span>**OK** to save
 - **Blacklisting**: Disabled
 - **Walled garden**: Click the link "Blacklist: 0 Whitelist: 0" and you will see the below screen:  
       
-    Under **Whitelist** Click **New** and add all the below domains one by one until all are in the list:
+Under **Whitelist** Click **New** and add all the below domains one by one until all are in the list:
 
 \*insert access\_domain here\*  
 
