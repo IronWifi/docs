@@ -106,42 +106,10 @@ Next, on the left, under **Role Based Access Control** click on **Destinations**
 
 Click on **Create Destination**. Now, for each of the below entries, create another destination hostname until you have added each one:
 
-- 
-- **Name**<span>: venuewifi</span>
-- **Address**<span>: \*.venuewifi.com  
-      
-    </span>
-- **Name**<span>: owm</span>
-- **Address**<span>: \*.openweathermap.org  
-      
-    </span>
-- **Name**<span>: cloudfront</span>
-- <span style="font-size: 13px;">**Address**: <span style="font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif, 'Helvetica Neue', Helvetica, Arial, sans-serif;">\*.cloudfront.net</span>  
-    </span>
-- <span style="font-size: 13px;">**Name**: stripe</span>
-- **Address**<span>: \*.stripe.com  
-    </span>
-
-**<span style="font-size: 13px; color: rgb(255, 0, 0);">If you wish to support social network logins, you also need to add the destinations below for each network you plan to support, in the same way you did above. You can enter anything in the "Name" field.</span>**
-
-<table border="1" cellpadding="0" cellspacing="0" id="table30325"><tbody style="font-size: 13px;"><tr style="font-size: 13px;"><td>**Facebook**</td><td>**Twitter**</td><td>**LinkedIn**</td><td>**Instagram**</td></tr><tr style="font-size: 13px;"><td style=""><span style="font-size: 13px;">facebook.com</span>  
-<span class="current">\*.facebook.com</span>  
-<span class="current">\*.fbcdn.net</span>  
-<span style="font-size: 13px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;">\*.akamaihd.net</span>  
-<span style="font-size: 13px;">connect.facebook.net</span><span style="font-size: 13px;">  
-</span>  
-</td><td style=""><span style="font-size: 13px;">twitter.com</span>  
-<span class="current">\*.twitter.com</span>  
-<span class="current">\*.twimg.com</span><span>  
-</span>  
-</td><td style=""><span style="font-size: 13px;">linkedin.com</span>  
-<span>\*.linkedin.com</span>  
-<span>\*.licdn.net</span>  
-<span style="font-size: 13px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;">\*.licdn.com</span>  
+107.178.250.42
   
-</td><td class="current"><span style="font-size: 13px;">instagram.com</span>  
-<span>\*.instagram.com</span>  
-</td></tr></tbody></table>
+If you need to load resources from external servers (SAML, social login), you will need to add other entries as well, instructions to configure the walled garden list in this case are available [here](https://ironwifi.com/walled-garden-list-guide).
+
 
 Next, on the left, click on **Destination Groups**. Click on **Create Destination Group**.
 
