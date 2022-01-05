@@ -32,7 +32,6 @@ Next, click on **SSIDs** on the left and then **SSID Management** on the sub men
 
 Underneath the current SSID's, enter **Guest WiFi** and click on **Create**
 
-  
 This will create the new SSID. You now have access to the following settings. Please set the following:
 
 - **SSID**: Ticked
@@ -42,10 +41,10 @@ This will create the new SSID. You now have access to the following settings. Pl
   
 Next, scroll down the page and under **SSID Guest WiFi Web Page Redirection Configuration**, set the following:
 
-**Landing Page URL**: {{success_page_url}}
-**Server**: External Login
-**Redirect URL**: {{splash_page_url}}
-**Redirect Secret**: \*insert uam\_secret here\*
+- **Landing Page URL**: {{success_page_url}}
+- **Server**: External Login
+- **Redirect URL**: {{splash_page_url}}
+- **Redirect Secret**: \*insert uam\_secret here\*
   
 Next, under **SSID Guest WiFi WPR Whitelist Configuration**:
 
