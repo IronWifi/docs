@@ -74,10 +74,7 @@ Click on **Create Authentication Server**.
 - **Precedence**<span>: Lowest</span>
 - **Role**: Guest
 
-<span style="font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 13px;">Click on </span>**Create Authentication Server**<span style="font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 13px;">.</span>
-
-<span>  
-</span>
+<span>Click on </span>**Create Authentication Server**<span>.</span>
 
 Next, on the left under **Captive Portal**, click on **Forms**. Click **Create Login Form** and enter the following:
 
@@ -127,7 +124,7 @@ Next, on the left, click on **Roles**. Click on the **Un-registered** role. At t
 
 Click **Update Role**.
 
-<span style="font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 13px;">Next, on the left, click on </span>**Roles**. Click on the **Guest** role. Under the **Post Login Redirection** section, enter:
+<span>Next, on the left, click on </span>**Roles**. Click on the **Guest** role. Under the **Post Login Redirection** section, enter:
 
 **URL Redirect**: {{success_page_url}}
 
