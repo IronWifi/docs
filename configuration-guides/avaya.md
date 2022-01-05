@@ -26,7 +26,9 @@ Under **RADIUS Attribute Formatting**:
 
 Under **Accounting**<span >:
 
-**- **Accounting Interval**: 300** Click **Save changes to flash** at the top right of the page.
+- **Accounting Interval**: 300
+  
+Click **Save changes to flash** at the top right of the page.
 
 Next, click on **SSIDs** on the left and then **SSID Management** on the sub menu.
 
@@ -44,7 +46,7 @@ Next, scroll down the page and under **SSID Guest WiFi Web Page Redirection Conf
 - **Landing Page URL**: {{success_page_url}}
 - **Server**: External Login
 - **Redirect URL**: {{splash_page_url}}
-- **Redirect Secret**: \*insert uam\_secret here\*
+- **Redirect Secret**: {{shared_secret}}
   
 Next, under **SSID Guest WiFi WPR Whitelist Configuration**:
 
@@ -89,8 +91,5 @@ Under **Secondary**:
 - <span >**Shared Secret**<span >: {{shared_secret}}
 - **Verify Secret**<span >: {{shared_secret}}
     
-
-<span style="font-size: 13px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;">Click **Save changes to flash**<span style="font-size: 13px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;"> at the top right of the page.
-
-<span >
+Click **Save changes to flash**<span> at the top right of the page.
 
