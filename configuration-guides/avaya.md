@@ -65,7 +65,7 @@ Under **Primary**:
 - **Host / IP Address**<span >: {{primary_ip}}
 - **Port**<span >: {{auth_port}}
 - **Shared Secret**<span >: {{shared_secret}}
-- **Verify Secret**<span >: as above
+- **Verify Secret**<span >: {{shared_secret}}
 
 Under **Secondary**:
 
