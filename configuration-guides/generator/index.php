@@ -39,7 +39,7 @@ $article = str_replace('</div>', '', $article);
 
 $converter = new HtmlConverter();
 $markdown = $converter->convert($article);
-$markdown = $header . '<br><br>' . $markdown;
+$markdown = $header . "\\" . $markdown;
 
 file_put_contents($vendor . '.md', $markdown);
 
