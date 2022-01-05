@@ -20,9 +20,9 @@ Click on **Create Accounting Server** and enter the following:
 
 - **Name**<span>: guest1</span>
 - **Enabled**<span>: Ticked</span>
-- **IP Address**<span>: \*insert radius\_server\_ip here\*</span>
+- **IP Address**<span>: {{primary\_ip}}</span>
 - **Port**<span>: 1813</span>
-- **Shared Secret**<span>: \*insert radius\_secret here\*</span>
+- **Shared Secret**<span>: {{shared\_secret}}</span>
 - **Shared Secret Confirmation**<span>: as above</span>
 - **Timeout**<span>: 5</span>
 - **Retries**<span>: 5</span>
@@ -35,9 +35,9 @@ Click on **Create Accounting Server** again and enter the following:
 
 - **Name**<span>: guest2</span>
 - **Enabled**<span>: Ticked</span>
-- **IP Address**<span>: \*insert radius\_server2\_ip here\*</span>
+- **IP Address**<span>: {{backup\_ip}}</span>
 - **Port**<span>: 1813</span>
-- **Shared Secret**<span>: \*insert radius\_secret here\*</span>
+- **Shared Secret**<span>: {{shared\_secret}}</span>
 - **Shared Secret Confirmation**<span>: as above</span>
 - **Timeout**<span>: 5</span>
 - **Retries**<span>: 5</span>
@@ -51,9 +51,9 @@ Next, on the left, under **External Authentication** click on **Servers**. Click
 - **Type**<span>: RadiusWebAuthServer</span>
 - **Name**<span>: guest1</span>
 - <span>**Accounting Server**</span><span>: guest1</span>
-- **IP Address**<span>: \*insert radius\_server\_ip here\*</span>
+- **IP Address**<span>: {{primary\_ip}}</span>
 - **Port**<span>: 1812</span>
-- **Shared Secret**<span>: \*insert radius\_secret here\*</span>
+- **Shared Secret**<span>: {{shared\_secret}}</span>
 - **Shared Secret Confirmation**<span>: as above</span>
 - **Timeout Weight**<span>: 1</span>
 - **Precedence**<span>: Highest</span>
@@ -66,9 +66,9 @@ Click on **Create Authentication Server**.
 - **Type**<span>: RadiusWebAuthServer</span>
 - **Name**<span>: guest2</span>
 - <span>**Accounting Server**</span><span>: guest2</span>
-- **IP Address**<span>: \*insert radius\_server2\_ip here\*</span>
+- **IP Address**<span>: {{backup\_ip}}</span>
 - **Port**<span>: 1812</span>
-- **Shared Secret**<span>: \*insert radius\_secret here\*</span>
+- **Shared Secret**<span>: {{shared\_secret}}</span>
 - **Shared Secret Confirmation**<span>: as above</span>
 - **Timeout Weight**<span>: 1</span>
 - **Precedence**<span>: Lowest</span>
@@ -85,7 +85,7 @@ Next, on the left under **Captive Portal**, click on **Forms**. Click **Create L
 - **Allow User Logins**<span>: Ticked</span>
 - **Allow Guest Logins**<span>: Unticked</span>
 - **Redirect Clients to an External URL**<span>: Ticked</span>
-- **Base URL of External Server**<span>: \*insert access\_url here\*</span>
+- **Base URL of External Server**<span>: {{splash\_page\_url}}</span>
 - **Clients Access Point MAC Address**<span>: blue\_ap</span>
 - **Client's Access Point Name**<span>: blue\_ap\_name</span>
 - **vWLAN IP Address**<span>: blue\_controller</span>
@@ -161,7 +161,7 @@ Click **Update Role**.
 
 <span style="font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 13px;">Next, on the left, click on </span>**Roles**. Click on the **Guest** role. Under the **Post Login Redirection** section, enter:
 
-**URL Redirect**: \*insert redirect\_url here\*
+**URL Redirect**: {{success\_page\_url}}
 
 Click **Update Role** to save.
 

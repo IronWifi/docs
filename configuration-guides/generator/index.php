@@ -36,6 +36,11 @@ foreach($html->find('.markdown') as $element){
 $article = str_replace('<div class="article__body markdown" itemprop="articleBody">', '', $article);
 $article = str_replace('</div>', '', $article);
 
+$article = str_replace('*insert radius_server_ip here*', '{{primary_ip}}', $article);
+$article = str_replace('*insert radius_secret here*', '{{shared_secret}}', $article);
+$article = str_replace('*insert radius_server2_ip here*', '{{backup_ip}}', $article);
+$article = str_replace('*insert access_url here*', '{{splash_page_url}}', $article);
+$article = str_replace('*insert redirect_url here*', '{{success_page_url}}', $article);
 
 $converter = new HtmlConverter();
 $markdown = $converter->convert($article);
