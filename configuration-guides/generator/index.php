@@ -47,6 +47,12 @@ $markdown = str_replace('\\*insert radius\\_secret here\\*', '{{shared_secret}}'
 $markdown = str_replace('\\*insert radius\\_server2\\_ip here\\*', '{{backup_ip}}', $markdown);
 $markdown = str_replace('\\*insert access\\_url here\\*', '{{splash_page_url}}', $markdown);
 $markdown = str_replace('\\*insert redirect\\_url here\\*', '{{success_page_url}}', $markdown);
+$markdown = str_replace('style="font-size: 13px;"', '', $markdown);
+$markdown = str_replace('<span>', '', $markdown);
+$markdown = str_replace('</span>', '', $markdown);
+$markdown = str_replace('<div>', '', $markdown);
+$markdown = str_replace('</div>', '', $markdown);
+$markdown = str_replace('<div >', '', $markdown);
 
 file_put_contents('../' . $vendor . '.md', $markdown);
 

@@ -12,7 +12,7 @@ This page explains the configuration of Avaya wireless access points for externa
 
 ### Access Point Configuration
 
-<span style="font-size: 13px; color: rgb(255, 0, 0);">**IMPORTANT NOTICE**: Your device must be running 7.0 firmware or above to continue.</span>
+<span style="font-size: 13px; color: rgb(255, 0, 0);">**IMPORTANT NOTICE**: Your device must be running 7.0 firmware or above to continue.
 
 Open a web browser and log in to your Avaya AP web interface.
 
@@ -20,15 +20,15 @@ Click on "**Security**" on the left menu and select "**External Radius**" on the
 
 Under **RADIUS Attribute Formatting**:
 
-- **Called-Station-Id Attribute Format**<span style="font-size: 13px;">: Ethernet-MAC</span>
-- **Station MAC Format**<span style="font-size: 13px;">: UC-hyphenated (XX-XX-XX-XX-XX-XX)</span>
-- **Accounting**<span>: On</span>
+- **Called-Station-Id Attribute Format**<span >: Ethernet-MAC
+- **Station MAC Format**<span >: UC-hyphenated (XX-XX-XX-XX-XX-XX)
+- **Accounting**: On
 
-<div>Under **Accounting**<span style="font-size: 13px;">:</span>
+Under **Accounting**<span >:
 
-**- **Accounting Interval**<span>: 300</span>** <div><div>Click **Save changes to flash** at the top right of the page.
+**- **Accounting Interval**: 300** Click **Save changes to flash** at the top right of the page.
 
-<span>Next, click on </span>**SSIDs**<span> on the left and then </span>**SSID Management**<span> on the sub menu.</span>
+Next, click on **SSIDs** on the left and then **SSID Management** on the sub menu.
 
 Underneath the current SSID's, enter **Guest WiFi** and click on **Create**
 
@@ -41,7 +41,7 @@ This will create the new SSID. You now have access to the following settings. Pl
 - **WPR**: Ticked
 
   
-<span>Next, scroll down the page and under </span>**SSID Guest WiFi Web Page Redirection Configuration**<span>, set the following:</span>
+Next, scroll down the page and under **SSID Guest WiFi Web Page Redirection Configuration**, set the following:
 
 **Landing Page URL**: {{success_page_url}}
 
@@ -57,80 +57,79 @@ Next, under **SSID Guest WiFi WPR Whitelist Configuration**:
 **IMPORTANT: You will need to add the below entries one by one until you have them all listed.**
 
   
-<div style=""><span>\*.\*insert access\_domain here\*</span>
+<div style="">\*.\*insert access\_domain here\*
 
 \*.venuewifi.com
 
-<span style="font-size: 13px;">\*.</span><span style="font-size: 13px;">openweathermap.org</span>
+<span >\*.<span >openweathermap.org
 
-<span style="font-size: 13px;">\*.</span><span style="font-size: 13px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;">cloudfront.net</span>
+<span >\*.<span style="font-size: 13px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;">cloudfront.net
 
-<span>\*.stripe.com</span>
+\*.stripe.com
 
-**<span style="font-size: 13px; color: rgb(255, 0, 0);">If you wish to support social network logins, you also need to add the domains below for each network you plan to support</span>**
+**<span style="font-size: 13px; color: rgb(255, 0, 0);">If you wish to support social network logins, you also need to add the domains below for each network you plan to support**
 
-<table border="1" cellpadding="0" cellspacing="0" id="table30325" style="background-color: rgb(255, 255, 255);"><tbody style="font-size: 13px;"><tr style="font-size: 13px;"><td>**Facebook**</td><td>**Twitter**</td><td>**LinkedIn**</td><td>**Instagram**</td></tr><tr style="font-size: 13px;"><td><span style="font-size: 13px;">\*.</span><span style="font-size: 13px;">facebook.com</span>  
+<table border="1" cellpadding="0" cellspacing="0" id="table30325" style="background-color: rgb(255, 255, 255);"><tbody ><tr ><td>**Facebook**</td><td>**Twitter**</td><td>**LinkedIn**</td><td>**Instagram**</td></tr><tr ><td><span >\*.<span >facebook.com  
   
-<span style="font-size: 13px;">\*.</span><span style="font-size: 13px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;">fbcdn.net</span>  
-<span style="font-size: 13px;">\*.</span><span style="font-size: 13px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;">akamaihd.net</span>  
-<span style="font-size: 13px;">\*.</span><span style="font-size: 13px;">connect.facebook.net</span><span style="font-size: 13px;">  
-</span>  
-</td><td><span style="font-size: 13px;">\*.</span><span style="font-size: 13px;">twitter.com</span>  
+<span >\*.<span style="font-size: 13px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;">fbcdn.net  
+<span >\*.<span style="font-size: 13px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;">akamaihd.net  
+<span >\*.<span >connect.facebook.net<span >  
   
-<span style="font-size: 13px;">\*.</span><span style="font-size: 13px;">twimg.com</span><span style="font-size: 13px;">  
-</span>  
-</td><td><span style="font-size: 13px;">\*.</span><span style="font-size: 13px;">linkedin.com</span>  
+</td><td><span >\*.<span >twitter.com  
   
-<span style="font-size: 13px;">\*.</span><span style="font-size: 13px;">licdn.net</span>  
+<span >\*.<span >twimg.com<span >  
   
-<span style="font-size: 13px;">\*.</span><span style="font-size: 13px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;">licdn.com</span>  
+</td><td><span >\*.<span >linkedin.com  
   
-</td><td><span style="font-size: 13px;">\*.</span><span style="font-size: 13px;">instagram.com</span>  
+<span >\*.<span >licdn.net  
+  
+<span >\*.<span style="font-size: 13px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;">licdn.com  
+  
+</td><td><span >\*.<span >instagram.com  
 </td></tr></tbody></table>
 
 Next, under **SSID Guest WiFi Authentication Service Configuration**:
 
-<span style="font-size: 13px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;">Enter the following information:</span>
+<span style="font-size: 13px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;">Enter the following information:
 
-- **Authentication Server**<span style="font-size: 13px;">: External Radius</span>
-
-Under **Primary**:
-
-- **Host / IP Address**<span style="font-size: 13px;">: \*insert radius\_server here\*</span>
-- **Port**<span style="font-size: 13px;">: 1812</span>
-- **Shared Secret**<span style="font-size: 13px;">: {{shared_secret}}</span>
-- **Verify Secret**<span style="font-size: 13px;">: as above</span>
-
-Under **Secondary**:
-
-- **Host / IP Address**<span style="font-size: 13px;">: \*insert radius\_server2 here\*</span>
-- **Port**<span style="font-size: 13px;">: 1812</span>
-- **Shared Secret**<span style="font-size: 13px;">: {{shared_secret}}</span>
-- **Verify Secret**<span style="font-size: 13px;">: as above  
-      
-      
-    </span>
-- **Accounting**<span style="font-size: 13px;">: ticked</span>
+- **Authentication Server**<span >: External Radius
 
 Under **Primary**:
 
-- **Host / IP Address**<span style="font-size: 13px;">: \*insert radius\_server here\*</span>
-- **Port**<span style="font-size: 13px;">: 1813</span>
-- **Shared Secret**<span style="font-size: 13px;">: {{shared_secret}}</span>
-- <span style="font-size: 13px;">**Verify Secret**</span><span style="font-size: 13px;">: as above  
-      
-    </span>
+- **Host / IP Address**<span >: \*insert radius\_server here\*
+- **Port**<span >: 1812
+- **Shared Secret**<span >: {{shared_secret}}
+- **Verify Secret**<span >: as above
 
 Under **Secondary**:
 
-<div>- **Host / IP Address**<span style="font-size: 13px;">: \*insert radius\_server2 here\*</span>
-- <span style="font-size: 13px;">**Port**</span><span style="font-size: 13px;">: 1813</span>
-- <span style="font-size: 13px;">**Shared Secret**</span><span style="font-size: 13px;">: {{shared_secret}}</span>
-- **Verify Secret**<span style="font-size: 13px;">: as above  
-    </span>
+- **Host / IP Address**<span >: \*insert radius\_server2 here\*
+- **Port**<span >: 1812
+- **Shared Secret**<span >: {{shared_secret}}
+- **Verify Secret**<span >: as above  
+      
+      
+    
+- **Accounting**<span >: ticked
 
-<span style="font-size: 13px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;">Click </span>**Save changes to flash**<span style="font-size: 13px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;"> at the top right of the page.</span>
+Under **Primary**:
 
-<span style="font-size: 13px;"></span>
+- **Host / IP Address**<span >: \*insert radius\_server here\*
+- **Port**<span >: 1813
+- **Shared Secret**<span >: {{shared_secret}}
+- <span >**Verify Secret**<span >: as above  
+      
+    
 
-</div></div></div></div></div>
+Under **Secondary**:
+
+- **Host / IP Address**<span >: \*insert radius\_server2 here\*
+- <span >**Port**<span >: 1813
+- <span >**Shared Secret**<span >: {{shared_secret}}
+- **Verify Secret**<span >: as above  
+    
+
+<span style="font-size: 13px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;">Click **Save changes to flash**<span style="font-size: 13px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;"> at the top right of the page.
+
+<span >
+
