@@ -12,8 +12,7 @@ This page explains the Captive Portal configuration for HiveManager and authenti
 
 ### Access Point Configuration
 
-_Please note: You need to be running HiveManager 6.4r1 or above in order to continue. Earlier versions are not supported.
-_
+_Please note: You need to be running HiveManager 6.4r1 or above in order to continue. Earlier versions are not supported._
 
 Log in to your HiveManager web interface
 
