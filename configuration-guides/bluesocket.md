@@ -20,7 +20,7 @@ Click on **Create Accounting Server** and enter the following:
 
 - **Name**<span>: guest1</span>
 - **Enabled**<span>: Ticked</span>
-- **IP Address**<span>: {{primary_ip}}*</span>
+- **IP Address**<span>: {{primary_ip}}</span>
 - **Port**<span>: 1813</span>
 - **Shared Secret**<span>: {{shared_secret}}</span>
 - **Shared Secret Confirmation**<span>: as above</span>
@@ -51,7 +51,7 @@ Next, on the left, under **External Authentication** click on **Servers**. Click
 - **Type**<span>: RadiusWebAuthServer</span>
 - **Name**<span>: guest1</span>
 - <span>**Accounting Server**</span><span>: guest1</span>
-- **IP Address**<span>: {{primary_ip}}*</span>
+- **IP Address**<span>: {{primary_ip}}</span>
 - **Port**<span>: 1812</span>
 - **Shared Secret**<span>: {{shared_secret}}</span>
 - **Shared Secret Confirmation**<span>: as above</span>
@@ -85,7 +85,7 @@ Next, on the left under **Captive Portal**, click on **Forms**. Click **Create L
 - **Allow User Logins**<span>: Ticked</span>
 - **Allow Guest Logins**<span>: Unticked</span>
 - **Redirect Clients to an External URL**<span>: Ticked</span>
-- **Base URL of External Server**<span>: \*insert access\_url here\*</span>
+- **Base URL of External Server**<span>: {{splash_page_url}}</span>
 - **Clients Access Point MAC Address**<span>: blue\_ap</span>
 - **Client's Access Point Name**<span>: blue\_ap\_name</span>
 - **vWLAN IP Address**<span>: blue\_controller</span>
@@ -161,7 +161,7 @@ Click **Update Role**.
 
 <span style="font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 13px;">Next, on the left, click on </span>**Roles**. Click on the **Guest** role. Under the **Post Login Redirection** section, enter:
 
-**URL Redirect**: \*insert redirect\_url here\*
+**URL Redirect**: {{success_page_url}}
 
 Click **Update Role** to save.
 

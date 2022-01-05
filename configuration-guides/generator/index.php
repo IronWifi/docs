@@ -42,11 +42,11 @@ $markdown = $header . "
 
 " . $markdown;
 
-$markdown = str_replace('\\*insert radius\\_server\\_ip here\\', '{{primary_ip}}', $markdown);
+$markdown = str_replace('\\*insert radius\\_server\\_ip here\\*', '{{primary_ip}}', $markdown);
 $markdown = str_replace('\\*insert radius\\_secret here\\*', '{{shared_secret}}', $markdown);
 $markdown = str_replace('\\*insert radius\\_server2\\_ip here\\*', '{{backup_ip}}', $markdown);
-$markdown = str_replace('\\*insert access\\_url here*\\', '{{splash_page_url}}', $markdown);
-$markdown = str_replace('\\*insert redirect\\_url here*\\', '{{success_page_url}}', $markdown);
+$markdown = str_replace('\\*insert access\\_url here\\*', '{{splash_page_url}}', $markdown);
+$markdown = str_replace('\\*insert redirect\\_url here\\*', '{{success_page_url}}', $markdown);
 
 file_put_contents('../' . $vendor . '.md', $markdown);
 
