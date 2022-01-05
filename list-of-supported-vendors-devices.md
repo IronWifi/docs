@@ -20,7 +20,7 @@ Not all products of these manufacturers support external Captive Portal for auth
 - AeroHive Networks (HiveManager)
 - [Alcatel-Lucent](https://www.ironwifi.com/alcatel-lucent-instant-iap/)
 - [Aruba Instant (IAP)](https://www.ironwifi.com/aruba-captive-portal/), Aruba Central, [Aruba Instant On](https://www.ironwifi.com/aruba-instanton/) and [Aruba Mobility Controller](https://www.ironwifi.com/aruba-mobility-controller-2/)
-- Avaya
+- [Avaya](https://www.ironwifi.com/avaya/)
 - [Bluesocket](https://ironwifi.com/bluesocket)
 - [Cambium Networks](https://www.ironwifi.com/cambium-networks)
 - Casa Systems
