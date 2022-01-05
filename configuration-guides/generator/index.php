@@ -31,7 +31,7 @@ foreach($html->find('.markdown') as $element){
 
 $converter = new HtmlConverter();
 $markdown = $converter->convert($article);
-$markdown = $header . $markdown;
+$markdown = $header . '<br>' . $markdown;
 
 file_put_contents($vendor . '.md', $markdown);
 
