@@ -23,7 +23,7 @@ This page explains the configuration of ' . $vendor_name . ' wireless access poi
 
 $html = file_get_html('https://support.purplewifi.net/en/support/solutions/articles/1000173127-adtran-bluesocket');
 
-$article = $header;
+$article = '';
 
 foreach($html->find('.markdown') as $element){
 		 $article = $article . $element;
@@ -31,6 +31,7 @@ foreach($html->find('.markdown') as $element){
 
 $converter = new HtmlConverter();
 $markdown = $converter->convert($article);
+$markdown = $header . $markdown;
 
 file_put_contents($vendor . '.md', $markdown);
 

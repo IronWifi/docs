@@ -1,6 +1,16 @@
-\# \*\*bluesocket\*\* --- This page explains the configuration of Bluesocket wireless access points for external Captive Portal and RADIUS server authentication. ### IronWifi Console Configuration 1. Log into the IronWifi console or \[register for free\](https://console.ironwifi.com/register) 2. Create a \*\*new network\*\* 3. After that, create a \*\*new captive portal\*\*, with vendor \*\*Bluesocket\*\* ### Access Point Configuration
+# **bluesocket**
 
-<div class="article__body markdown" itemprop="articleBody">Please log in to your Bluesocket WLAN controller
+---
+
+This page explains the configuration of Bluesocket wireless access points for external Captive  Portal and RADIUS server authentication.
+
+### IronWifi Console Configuration
+
+1. Log into the IronWifi console or [register for free](https://console.ironwifi.com/register)
+2. Create a **new network**
+3. After that, create a **new captive portal**, with vendor **Bluesocket**
+
+### Access Point Configuration<div class="article__body markdown" itemprop="articleBody">Please log in to your Bluesocket WLAN controller
 
 At the top click on **Configuration** and then on the left, under **External Authentication** click on **Accounting**
 
