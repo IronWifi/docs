@@ -30,7 +30,6 @@ Click **Next** and configure with:
 
 - **Splash page type**: External
 - **Captive portal profile**: Click the dropdown and choose **New**. Configure with:
-
 - **Name**: guestwifi
 - **Type**: Radius Authentication
 - **IP or hostname**: \*insert access\_domain here\*
@@ -44,7 +43,6 @@ Click **Next** and configure with:
 Click **OK** to save
 
 - **Auth server 1**: Click the dropdown and choose **New**. Configure with:
-
 - **Type:** RADIUS
 - **Name**: guestwifi1
 - **IP address**: {{primary_ip}}
@@ -57,7 +55,6 @@ Click **OK** to save
 
 - **Auth server 2**: Click the dropdown and choose **New**. Configure with
 - **Type:** RADIUS
-- 
 - **Name**: guestwifi2
 - **IP address**: {{backup_ip}}
 - **Auth port**: 1812
@@ -65,7 +62,7 @@ Click **OK** to save
 - **Shared key**: {{shared_secret}}
 - **Retype key**: as above
 
-Click<span> </span>**OK** to save
+Click **OK** to save
 
 - **Reauth interval**: 24 hrs
 - **Accounting**: Enabled
@@ -74,36 +71,13 @@ Click<span> </span>**OK** to save
 - **Blacklisting**: Disabled
 - **Walled garden**: Click the link "Blacklist: 0 Whitelist: 0" and you will see the below screen:  
       
-    Under **Whitelist** Click **New** and add all the below domains one by one until all are in the list:
+Under **Whitelist** Click **New** and add all the below domains one by one until all are in the list:
 
 \*insert access\_domain here\*  
-venuewifi.com
 
-openweathermap.org
-
-cloudfront.net
-
-stripe.com
-
-**If you wish to support social network logins, you also need to add the domains below for each network you plan to support**
-
-<table border="1" cellpadding="0" cellspacing="0"><tbody><tr><td>**Facebook**  
-</td><td>**Twitter**  
-</td><td>**LinkedIn**  
-</td><td>**Instagram**  
-</td></tr><tr><td>facebook.com  
-fbcdn.net  
-akamaihd.net  
-connect.facebook.net  
+107.178.250.42
   
-</td><td>twitter.com  
-twimg.com  
-  
-</td><td>linkedin.com  
-licdn.net  
-licdn.com  
-</td><td>instagram.com  
-</td></tr></tbody></table>
+If you need to load resources from external servers (SAML, social login), you will need to add other entries as well, instructions to configure the walled garden list in this case are available [here](https://ironwifi.com/walled-garden-list-guide).
 
 Press **OK** when all the domains have been added to save  
   
@@ -111,8 +85,9 @@ Click **Next** and configure with:
 
 - **Access Rules**: Role-based  
       
-    Under **Roles** click **New** and enter **Preauth** as the name  
-    Under **Access Rules for Preauth** click **New** and add the following rule:
+Under **Roles** click **New** and enter **Preauth** as the name  
+Under **Access Rules for Preauth** click **New** and add the following rule:
+
 - **Rule type**: Access control
 - **Service**: Network - any
 - **Action**: Allow
@@ -125,33 +100,9 @@ You need to add a rule (just like you did above), for all the below domains:
 
 \*insert access\_domain here\*
 
-venuewifi.com
-
-openweathermap.org
-
-cloudfront.net
-
-stripe.com
-
-**If you wish to support social network logins, you also need to add a rule for the domains below for each network you plan to support**
-
-<table border="1" cellpadding="0" cellspacing="0"><tbody><tr><td>**Facebook**  
-</td><td>**Twitter**  
-</td><td>**LinkedIn**  
-</td><td>**Instagram**  
-</td></tr><tr><td>facebook.com  
-fbcdn.net  
-akamaihd.net  
-connect.facebook.net  
+107.178.250.42
   
-</td><td>twitter.com  
-twimg.com  
-  
-</td><td>linkedin.com  
-licdn.net  
-licdn.com  
-</td><td>instagram.com  
-</td></tr></tbody></table>
+If you need to load resources from external servers (SAML, social login), you will need to add other entries as well, instructions to configure the walled garden list in this case are available [here](https://ironwifi.com/walled-garden-list-guide).
 
 - **Assign pre-authentication role**: select **Preauth**
 
