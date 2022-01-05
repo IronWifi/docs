@@ -17,7 +17,7 @@ RADIUS authentication and accounting provided by IronWifi will work with any dev
 Not all products of these manufacturers support external Captive Portal for authentication
 
 - 4IPnet
-- AeroHive Networks (HiveManager)
+- [AeroHive Networks (HiveManager)](https://www.ironwifi.com/aerohive)
 - [Alcatel-Lucent](https://www.ironwifi.com/alcatel-lucent-instant-iap/)
 - [Aruba Instant (IAP)](https://www.ironwifi.com/aruba-captive-portal/), Aruba Central, [Aruba Instant On](https://www.ironwifi.com/aruba-instanton/) and [Aruba Mobility Controller](https://www.ironwifi.com/aruba-mobility-controller-2/)
 - [Avaya](https://www.ironwifi.com/avaya/)
