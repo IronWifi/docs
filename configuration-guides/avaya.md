@@ -63,32 +63,32 @@ Next, under **SSID Guest WiFi Authentication Service Configuration**:
 
 Under **Primary**:
 
-- **Host / IP Address**<span >: \*insert radius\_server here\*
-- **Port**<span >: 1812
+- **Host / IP Address**<span >: {{primary_ip}}
+- **Port**<span >: {{auth_port}}
 - **Shared Secret**<span >: {{shared_secret}}
 - **Verify Secret**<span >: as above
 
 Under **Secondary**:
 
-- **Host / IP Address**<span >: \*insert radius\_server2 here\*
-- **Port**<span >: 1812
+- **Host / IP Address**<span >: {{backup_ip}}
+- **Port**<span >: {{auth_port}}
 - **Shared Secret**<span >: {{shared_secret}}
-- **Verify Secret**<span >: as above  
+- **Verify Secret**<span >: {{shared_secret}}  
 - **Accounting**<span >: ticked
 
 Under **Primary**:
 
-- **Host / IP Address**<span >: \*insert radius\_server here\*
-- **Port**<span >: 1813
+- **Host / IP Address**<span >: {{primary_ip}}
+- **Port**<span >: {{acct_port}}
 - **Shared Secret**<span >: {{shared_secret}}
-- <span >**Verify Secret**<span >: as above  
+- <span >**Verify Secret**<span >: {{shared_secret}}
 
 Under **Secondary**:
 
-- **Host / IP Address**<span >: \*insert radius\_server2 here\*
-- <span >**Port**<span >: 1813
+- **Host / IP Address**<span >: {{backup_ip}}
+- <span >**Port**<span >: {{acct_port}}
 - <span >**Shared Secret**<span >: {{shared_secret}}
-- **Verify Secret**<span >: as above  
+- **Verify Secret**<span >: {{shared_secret}}
     
 
 <span style="font-size: 13px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;">Click **Save changes to flash**<span style="font-size: 13px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;"> at the top right of the page.
