@@ -57,7 +57,6 @@ Click **OK** to save
 
 - **Auth server 2**: Click the dropdown and choose **New**. Configure with
 - **Type:** RADIUS
-- 
 - **Name**: guestwifi2
 - **IP address**: {{backup_ip}}
 - **Auth port**: 1812
