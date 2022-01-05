@@ -77,33 +77,10 @@ Click<span> </span>**OK** to save
     Under **Whitelist** Click **New** and add all the below domains one by one until all are in the list:
 
 \*insert access\_domain here\*  
-venuewifi.com
 
-openweathermap.org
-
-cloudfront.net
-
-stripe.com
-
-**If you wish to support social network logins, you also need to add the domains below for each network you plan to support**
-
-<table border="1" cellpadding="0" cellspacing="0"><tbody><tr><td>**Facebook**  
-</td><td>**Twitter**  
-</td><td>**LinkedIn**  
-</td><td>**Instagram**  
-</td></tr><tr><td>facebook.com  
-fbcdn.net  
-akamaihd.net  
-connect.facebook.net  
+107.178.250.42
   
-</td><td>twitter.com  
-twimg.com  
-  
-</td><td>linkedin.com  
-licdn.net  
-licdn.com  
-</td><td>instagram.com  
-</td></tr></tbody></table>
+If you need to load resources from external servers (SAML, social login), you will need to add other entries as well, instructions to configure the walled garden list in this case are available [here](https://ironwifi.com/walled-garden-list-guide).
 
 Press **OK** when all the domains have been added to save  
   
@@ -125,33 +102,9 @@ You need to add a rule (just like you did above), for all the below domains:
 
 \*insert access\_domain here\*
 
-venuewifi.com
-
-openweathermap.org
-
-cloudfront.net
-
-stripe.com
-
-**If you wish to support social network logins, you also need to add a rule for the domains below for each network you plan to support**
-
-<table border="1" cellpadding="0" cellspacing="0"><tbody><tr><td>**Facebook**  
-</td><td>**Twitter**  
-</td><td>**LinkedIn**  
-</td><td>**Instagram**  
-</td></tr><tr><td>facebook.com  
-fbcdn.net  
-akamaihd.net  
-connect.facebook.net  
+107.178.250.42
   
-</td><td>twitter.com  
-twimg.com  
-  
-</td><td>linkedin.com  
-licdn.net  
-licdn.com  
-</td><td>instagram.com  
-</td></tr></tbody></table>
+If you need to load resources from external servers (SAML, social login), you will need to add other entries as well, instructions to configure the walled garden list in this case are available [here](https://ironwifi.com/walled-garden-list-guide).
 
 - **Assign pre-authentication role**: select **Preauth**
 
