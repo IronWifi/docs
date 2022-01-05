@@ -5,9 +5,13 @@ require 'vendor/autoload.php';
 
 use League\HTMLToMarkdown\HtmlConverter;
 
+// DYNAMIC VARIABLES START
 $vendor_name = 'Bluesocket';
 $vendor = 'bluesocket';
-$header = '# **'. $vendor . '**
+$instructions_url = 'https://support.purplewifi.net/en/support/solutions/articles/1000173127-adtran-bluesocket';
+// DYNAMIC VARIABLES END
+
+$header = '# **'. $vendor_name . '**
 
 ---
 
@@ -21,13 +25,17 @@ This page explains the configuration of ' . $vendor_name . ' wireless access poi
 
 ### Access Point Configuration';
 
-$html = file_get_html('https://support.purplewifi.net/en/support/solutions/articles/1000173127-adtran-bluesocket');
+$html = file_get_html($instructions_url);
 
 $article = '';
 
 foreach($html->find('.markdown') as $element){
-		 $article = $article . $element;
+					$article = $article . $element;
 }
+
+$article = str_replace('<div class="article__body markdown" itemprop="articleBody">', '', $article);
+$article = str_replace('</div>', '', $article);
+
 
 $converter = new HtmlConverter();
 $markdown = $converter->convert($article);

@@ -1,4 +1,4 @@
-# **bluesocket**
+# **Bluesocket**
 
 ---
 
@@ -10,7 +10,7 @@ This page explains the configuration of Bluesocket wireless access points for ex
 2. Create a **new network**
 3. After that, create a **new captive portal**, with vendor **Bluesocket**
 
-### Access Point Configuration<br><br><div class="article__body markdown" itemprop="articleBody">Please log in to your Bluesocket WLAN controller
+### Access Point Configuration<br><br>Please log in to your Bluesocket WLAN controller
 
 At the top click on **Configuration** and then on the left, under **External Authentication** click on **Accounting**
 
@@ -182,5 +182,3 @@ Next, on the left, under **Wireless** click on **SSIDs**. Click on **Create SSID
 Click on **Create SSID**.
 
 Finally, you need to apply this new configuration to your AP's in the usual way. For example, go to the **Status** tab at the top and choose **Access Points**. Highlight the ones you are using and click the **Apply** button.
-
-</div>
