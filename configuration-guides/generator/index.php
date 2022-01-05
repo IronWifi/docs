@@ -48,6 +48,6 @@ $markdown = $header . "
 
 " . $markdown;
 
-file_put_contents($vendor . '.md', $markdown);
+file_put_contents('../' . $vendor . '.md', $markdown);
 
 ?>
