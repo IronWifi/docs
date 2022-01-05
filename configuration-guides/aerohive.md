@@ -80,7 +80,7 @@ Under **Add** a **New RADIUS Server** configure with:
 - **Server Type -** Auth/Acct
 - **Shared Secret -** {{shared_secret}}
 - **Confirm Secret -** {{shared_secret}}
-- **Server Role -** {{Primary}}
+- **Server Role -** Primary
   
 Click **Apply** to add, and then click on **New** to add another:
 
@@ -88,7 +88,7 @@ Click **Apply** to add, and then click on **New** to add another:
 - **Server Type -** Auth/Acct
 - **Shared Secret -** {{shared_secret}}
 - **Confirm Secret -** {{shared_secret}}
-- **Server Role -** {{Backup1}}
+- **Server Role -** Backup1
   
 Click **Apply** again, and then click on **Save**
  
