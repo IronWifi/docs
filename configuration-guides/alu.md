@@ -87,8 +87,9 @@ Click **Next** and configure with:
 
 - **Access Rules**: Role-based  
       
-    Under **Roles** click **New** and enter **Preauth** as the name  
-    Under **Access Rules for Preauth** click **New** and add the following rule:
+Under **Roles** click **New** and enter **Preauth** as the name  
+Under **Access Rules for Preauth** click **New** and add the following rule:
+
 - **Rule type**: Access control
 - **Service**: Network - any
 - **Action**: Allow
