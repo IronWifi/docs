@@ -6,9 +6,9 @@ require 'vendor/autoload.php';
 use League\HTMLToMarkdown\HtmlConverter;
 
 // DYNAMIC VARIABLES START
-$vendor_name = 'Bluesocket';
-$vendor = 'bluesocket';
-$instructions_url = 'https://support.purplewifi.net/en/support/solutions/articles/1000173127-adtran-bluesocket';
+$vendor_name = 'Alcatel-Lucent Instant (IAP)';
+$vendor = 'alu';
+$instructions_url = 'https://support.purplewifi.net/en/support/solutions/articles/1000180099-alcatel-lucent-instant-iap-';
 // DYNAMIC VARIABLES END
 
 $header = '# **'. $vendor_name . '**
