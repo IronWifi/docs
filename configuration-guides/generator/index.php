@@ -36,7 +36,6 @@ foreach($html->find('.markdown') as $element){
 $article = str_replace('<div class="article__body markdown" itemprop="articleBody">', '', $article);
 $article = str_replace('</div>', '', $article);
 
-
 $converter = new HtmlConverter();
 $markdown = $converter->convert($article);
 $markdown = $header . "
