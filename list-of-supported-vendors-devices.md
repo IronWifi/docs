@@ -8,7 +8,7 @@ If your vendor is not listed here, don't hesitate to [contact us](mailto:support
 
 </callout>
 
-**Radius / WPA-Enterprise authentication:**
+**RADIUS / WPA-Enterprise authentication:**
 
 RADIUS authentication and accounting provided by IronWifi will work with any device that supports WPA-Enterprise and allows you to use custom RADIUS ports or set custom NAS-ID parameter.
 
@@ -65,6 +65,6 @@ Not all products of these manufacturers support external Captive Portal for auth
 
 <call-out type="warning">
   
-IronWifi can be used with DD-WRT and OpenWRT firmware if you install the CoovaChilli package. This configuration is not officially supported.
+IronWiFi can be used with DD-WRT and OpenWRT firmware if you install the CoovaChilli package. This configuration is not officially supported.
 
 </call-out>
