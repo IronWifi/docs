@@ -8,7 +8,7 @@ If your vendor is not listed here, don't hesitate to [contact us](mailto:support
 
 </callout>
 
-**Radius / WPA-Enterprise authentication:**
+**RADIUS / WPA-Enterprise authentication:**
 
 RADIUS authentication and accounting provided by IronWifi will work with any device that supports WPA-Enterprise and allows you to use custom RADIUS ports or set custom NAS-ID parameter.
 
@@ -17,10 +17,10 @@ RADIUS authentication and accounting provided by IronWifi will work with any dev
 Not all products of these manufacturers support external Captive Portal for authentication
 
 - 4IPnet
-- AeroHive Networks (HiveManager)
+- [AeroHive Networks (HiveManager)](https://www.ironwifi.com/aerohive)
 - [Alcatel-Lucent](https://www.ironwifi.com/alcatel-lucent-instant-iap/)
 - [Aruba Instant (IAP)](https://www.ironwifi.com/aruba-captive-portal/), Aruba Central, [Aruba Instant On](https://www.ironwifi.com/aruba-instanton/) and [Aruba Mobility Controller](https://www.ironwifi.com/aruba-mobility-controller-2/)
-- Avaya
+- [Avaya](https://www.ironwifi.com/avaya/)
 - [Bluesocket](https://ironwifi.com/bluesocket)
 - [Cambium Networks](https://www.ironwifi.com/cambium-networks)
 - Casa Systems
@@ -65,6 +65,6 @@ Not all products of these manufacturers support external Captive Portal for auth
 
 <call-out type="warning">
   
-IronWifi can be used with DD-WRT and OpenWRT firmware if you install the CoovaChilli package. This configuration is not officially supported.
+IronWiFi can be used with DD-WRT and OpenWRT firmware if you install the CoovaChilli package. This configuration is not officially supported.
 
 </call-out>
