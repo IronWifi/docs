@@ -6,9 +6,9 @@ require 'vendor/autoload.php';
 use League\HTMLToMarkdown\HtmlConverter;
 
 // DYNAMIC VARIABLES START
-$vendor_name = 'Avaya';
-$vendor = 'avaya';
-$instructions_url = 'https://support.purplewifi.net/en/support/solutions/articles/1000135829-avaya';
+$vendor_name = 'Draytek';
+$vendor = 'draytek';
+$instructions_url = 'https://support.purplewifi.net/en/support/solutions/articles/11000047499-draytek-vigor-2862-3220-2926-2952-series';
 // DYNAMIC VARIABLES END
 
 $header = '# **'. $vendor_name . '**
