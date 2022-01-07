@@ -21,15 +21,15 @@ Click an available Index, i.e. **1** and configure with:
 - **Enable this profile**: Yes
 - **Portal Method**: External Server
 - **Captive Portal URL**: {{splash_page_url}}
-- **Redirection URL**: <http://portal.draytek.com>
+- **Redirection URL**: {{success_page_url}}
 - **Authentication Method**: Click External RADIUS Server and set:  
     - **Enable**: Yes  
     - **Server IP Address**: {{primary_ip}}  
-    - **Destination Port**: 1812  
+    - **Destination Port**: {{auth_port}}  
     - **Shared Secret**: {{shared_secret}}  
-    - **Confirm Shared Secret**: as above  
+    - **Confirm Shared Secret**: {{shared_secret}}  
     - **Enable Accounting**: Yes  
-    - **Accounting Port**: 1813  
+    - **Accounting Port**: {{acct_port}}  
       
 Click **OK** to Save
 
@@ -37,43 +37,9 @@ Click **OK** to Save
 
 Click **Save and** **Next**. Now, click the **Dest Domain tab** and add the following entries, one per index:
 
-\*.\*insert access\_domain here\*
-
-\*.cloudfront.net
-
-\*.venuewifi.com
-
-\*.openweathermap.org
-
-**If you wish to support social network logins, you also need to add further domains as per below for each network you plan to support**
-
-<table cellspacing="1"><tbody><tr><td style="width: 27.7568%;">**Facebook**  
-</td><td style="width: 71.863%;">\*.facebook.com  
-\*.fbcdn.net  
-\*.akamaihd.net  
-connect.facebook.net  
+107.178.250.42
   
-</td></tr><tr><td style="width: 27.7568%;">**Twitter**  
-</td><td style="width: 71.863%;">\*.twitter.com  
-\*.twimg.com  
-  
-</td></tr><tr><td style="width: 27.7568%;">**LinkedIn**  
-</td><td style="width: 71.863%;">\*.linkedin.com  
-\*.licdn.com  
-  
-</td></tr><tr><td style="width: 27.7568%;">**Instagram**  
-</td><td style="width: 71.863%;">\*.instagram.com  
-\*.akamaihd.net  
-  
-</td></tr><tr><td style="width: 27.7568%;">**Weibo**  
-</td><td style="width: 71.863%;">\*.weibo.com  
-\*.sina.com.cn  
-  
-</td></tr><tr><td style="width: 27.7568%;">**VKontakte**  
-</td><td style="width: 71.863%;">\*.vk.me  
-\*.vk.com  
-  
-</td></tr></tbody></table>
+If you need to load resources from external servers (SAML, social login), you will need to add other entries as well, instructions to configure the walled garden list in this case are available [here](https://ironwifi.com/walled-garden-list-guide).
 
 Click **Save and Next** then configure with:
 
