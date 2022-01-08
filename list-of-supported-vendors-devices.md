@@ -58,7 +58,7 @@ Not all products of these manufacturers support external Captive Portal for auth
 - Trapeze Wireless/Juniper Networks
 - TrendNet
 - Valuepoint
-- WatchGuard
+- [WatchGuard](https://www.ironwifi.com/watchguard/)
 - [Xirrus](https://www.ironwifi.com/xirrus/)
 - ZyXEL Nebula
 
