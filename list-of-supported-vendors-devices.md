@@ -40,7 +40,7 @@ Not all products of these manufacturers support external Captive Portal for auth
 - Meru Networks/Fortinet
 - [MikroTik RouterOS](https://www.ironwifi.com/mikrotik/)
 - [Mist Systems](https://www.ironwifi.com/mist-systems/)
-- Mojo Networks
+- [Mojo Networks](https://www.ironwifi.com/mojo-networks/)
 - Motorola
 - [Netgear](https://www.ironwifi.com/netgear/)
 - [Open-Mesh](https://www.ironwifi.com/open-mesh-cloudtrax/)
