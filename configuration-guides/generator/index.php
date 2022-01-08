@@ -6,9 +6,9 @@ require 'vendor/autoload.php';
 use League\HTMLToMarkdown\HtmlConverter;
 
 // DYNAMIC VARIABLES START
-$vendor_name = 'Airtight / Mojo Networks';
-$vendor = 'mojo';
-$instructions_url = 'https://support.purplewifi.net/en/support/solutions/articles/1000033992-airtight-mojo-networks';
+$vendor_name = 'WatchGuard Wi-Fi Cloud AP';
+$vendor = 'watchguard';
+$instructions_url = 'https://support.purplewifi.net/en/support/solutions/articles/11000068871-watchguard-wi-fi-cloud-ap';
 // DYNAMIC VARIABLES END
 
 $header = '# **'. $vendor_name . '**
