@@ -6,9 +6,9 @@ require 'vendor/autoload.php';
 use League\HTMLToMarkdown\HtmlConverter;
 
 // DYNAMIC VARIABLES START
-$vendor_name = 'WatchGuard Wi-Fi Cloud AP';
-$vendor = 'watchguard';
-$instructions_url = 'https://support.purplewifi.net/en/support/solutions/articles/11000068871-watchguard-wi-fi-cloud-ap';
+$vendor_name = 'Zyxel Nebula Cloud AP';
+$vendor = 'zyxel_nebula';
+$instructions_url = 'https://support.purplewifi.net/en/support/solutions/articles/11000064600-zyxel-nebula-cloud-ap';
 // DYNAMIC VARIABLES END
 
 $header = '# **'. $vendor_name . '**
