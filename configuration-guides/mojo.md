@@ -8,7 +8,7 @@ This page explains the configuration of Airtight / Mojo Networks wireless access
 
 1. Log into the IronWifi console or [register for free](https://console.ironwifi.com/register)
 2. Create a **new network**
-3. After that, create a **new captive portal**, with vendor **Airtight / Mojo Networks**
+3. After that, create a **new captive portal**, with vendor **Mojo Networks**
 
 ### Access Point Configuration
 
@@ -18,16 +18,16 @@ Click **Configuration** at the top, then click the **RADIUS Profiles** icon and 
 
 - Profile Name: guest1
 - IP Address: {{primary_ip}}
-- Authentication Port: 1812
-- Accounting Port: 1813
+- Authentication Port: {{auth_port}}
+- Accounting Port: {{acct_port}}
 - Shared secret: {{shared_secret}}
 
 Click **Save** and then add a second RADIUS profile. Configure with:
 
 - Profile Name: guest2
 - IP Address: {{backup_ip}}
-- Authentication Port: 1812
-- Accounting Port: 1813
+- Authentication Port: {{auth_port}}
+- Accounting Port: {{acct_port}}
 - Shared secret: {{shared_secret}}
 
 Click **Save**.
@@ -38,12 +38,10 @@ Next, click **Configuration** at the top, then click the **Device Configuration*
 - **SSID**: Guest Wi-Fi (or whatever you want to broadcast for your SSID)
 - **Broadcast SSID**: Enabled
 
-  
 Under The **Security**  section:
 
 - **Security Mode**: Open
 - **Client Isolation**: Enabled
-
   
 Under the **Network** section:
 
@@ -60,33 +58,15 @@ Under the **Captive Portal**  section:
 - **Enable Captive Portal**: Enabled
 - **External Splash Page with RADIUS Authentication**: Enabled
 - **Splash Page URL** {{splash_page_url}}
-- **Shared Secret**: \*insert uam\_secret here\*
-- **Walled Garden**: Add the below domains one by one (opting for ports 80 and 443)\*insert access\_domain here\*
-    
-    venuewifi.com
-    
-    openweathermap.org
-    
-    cloudfront.net
-    
-    stripe.com
-    
-    **<span style="font-size: 13px; color: rgb(255, 0, 0);">If you wish to support social network logins, you also need to add the domains below for each network you plan to support**
-    
-    <table border="1" cellpadding="0" cellspacing="0" id="table30325"><tbody><tr><td>**Facebook**</td><td>**Twitter**</td><td>**LinkedIn**</td><td>**Instagram**</td></tr><tr ><td>facebook.com  
-    fbcdn.net  
-    akamaihd.net  
-    connect.facebook.net  
-    </td><td>twitter.com  
-    twimg.com  
-    </td><td>linkedin.com  
-    licdn.net  
-    licdn.com  
-      
-    </td><td>instagram.com</td></tr></tbody></table>
+- **Shared Secret**: {{shared_secret}}
+- **Walled Garden**: Add the below domains one by one
+
+107.178.250.42
+  
+If you need to load resources from external servers (SAML, social login), you will need to add other entries as well, instructions to configure the walled garden list in this case are available [here](https://ironwifi.com/walled-garden-list-guide).
+
 - **Redirect URL**: {{success_page_url}}
 - **Enable HTTPS Redirection**: Disabled
-
   
 Under the **Radius Settings link**:
 
