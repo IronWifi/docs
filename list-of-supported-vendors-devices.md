@@ -30,7 +30,7 @@ Not all products of these manufacturers support external Captive Portal for auth
 - [CoovaChilli](https://www.ironwifi.com/coovachilli/)
 - [Cisco WLC](https://www.ironwifi.com/ciscowlc/), [Cisco Catalyst](https://www.ironwifi.com/cisco-catalyst/), [Cisco Mobility Express](https://www.ironwifi.com/cisco-mobility-express/)
 - Dell
-- Draytek
+- [Draytek](https://www.ironwifi.com/cambium-networks)
 - EnGenius
 - ExtremeWireless
 - [Fortinet (FortiGate)](https://www.ironwifi.com/fortigate/)
