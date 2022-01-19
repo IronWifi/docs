@@ -2,11 +2,7 @@
 
 ---
 
-<callout>
 
-If your vendor is not listed here, don't hesitate to [contact us](mailto:support@ironwifi.com).
-
-</callout>
 
 **RADIUS / WPA-Enterprise authentication:**
 
@@ -14,7 +10,13 @@ RADIUS authentication and accounting provided by IronWifi will work with any dev
 
 **Verified Captive Portal Integrations:**
 
-Not all products of these manufacturers support external Captive Portal for authentication
+Not all products of these manufacturers support external Captive Portal for authentication.
+
+<callout>
+
+If your vendor is not listed here, don't hesitate to [contact us](mailto:support@ironwifi.com).
+
+</callout>
 
 - 4IPnet
 - [AeroHive Networks (HiveManager)](https://www.ironwifi.com/aerohive)
