@@ -125,7 +125,7 @@ _LinkedIn_
 
 Click **Apply Changes** to save.
 
-Finally, you will need to modify two html on the controller so that it correctly redirects and authenticates. First of all, download the below two files:
+Next, you will need to modify two html on the controller so that it correctly redirects and authenticates. First of all, download the below two files:
 
 - <a href='https://console.ironwifi.com/api/debug?script=portal_file&unifi_file=index&url={{splash_page_url}}' download>index.html</a>
 - <a href='https://console.ironwifi.com/api/debug?script=portal_file&unifi_file=auth&url={{splash_page_url}}' download>auth.html</a>
@@ -150,3 +150,5 @@ Now, you need to copy these two html files to your UniFi controller hotspot dir
 (replace default in the folder structure with your site name if different)
 
 _If the sites folder is not present, you can created it by simply uploading a floorplan (even a dummy one if required) in the UniFi controller which will create the folder you need._
+
+Finally, you will have to purchase and install a valid SSL certificate on your controller. There are a lot of articles and videos about this topic, here is one - <a href='https://www.youtube.com/watch?v=WxhY71ebc9o'>Unifi SSL installation</a>
