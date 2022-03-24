@@ -1,4 +1,4 @@
-# **SCEP**
+# **SCEP with Intune**
 
 ---
 
@@ -35,7 +35,7 @@ Name | Object Identifier | Predefined values |
 Client authentication | 1.3.6.1.5.5.7.3.2 | Client Authentication
 
 - **Renewal threshold (%) -** 20
-- **SCEP Server URLs -** https://{{region}}.ironwifi.com/api/{{owner_id}}
+- **SCEP Server URLs -** https://{{region}}.ironwifi.com/api/{{owner_id}}/certificates
 
 3. Create a new Wi-Fi profile with the following configuration options:
 
