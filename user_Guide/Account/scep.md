@@ -11,7 +11,7 @@ The Simple Certificate Enrolment Protocol (SCEP) is a protocol that allows devic
 - **CA Certificate Trusted -** This can be downloaded from [this link](https://console.ironwifi.com/assets/html/ironwifi_comodo.crt)
 - **SCEP Server URL -** https://{{region}}.ironwifi.com/api/{{owner_id}}/certificates/scep
 
-**!Note!** Your users must exist in the ironwifi console or the user autocreation needs to be enabled for this to work
+**!Note!** Your users must exist in the ironwifi console or the user autocreation must be enabled for this to work
 
 1. Create a new Trusted Certificate profile with the following configuration options:
 
