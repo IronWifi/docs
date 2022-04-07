@@ -69,9 +69,8 @@ You should now see 4 profiles under **Devices** in your **Microsoft Endpoint Man
 In Microsoft Intune, your settings should look like below.
 
 
-![test](https://raw.githubusercontent.com/IronWifi/docs/master/user_Guide/Account/scep/scep1.png)
-![test](https://raw.githubusercontent.com/IronWifi/docs/master/user_Guide/Account/scep/scep2.png)
-![test](https://raw.githubusercontent.com/IronWifi/docs/master/user_Guide/Account/scep/scep3.png)
-![test](https://raw.githubusercontent.com/IronWifi/docs/master/user_Guide/Account/scep/scep4.png)
+![test](https://raw.githubusercontent.com/IronWifi/docs/master/user_Guide/Account/scep/scep11.png)
+![test](https://raw.githubusercontent.com/IronWifi/docs/master/user_Guide/Account/scep/scep12.png)
+![test](https://raw.githubusercontent.com/IronWifi/docs/master/user_Guide/Account/scep/scep13.png)
 
 
