@@ -6,7 +6,7 @@ The Simple Certificate Enrolment Protocol (SCEP) is a protocol that allows devic
 
 ### What do you need ?
 
-- **owner_id -** owner id is a unique identifier of your ironwifi account that can be found in the URL when you're logged in, it should look similar to this - 1759e879123a0432
+- **owner_id -** owner id is a unique identifier of your ironwifi account that can be found in the URL when you're logged in, it should look similar to this - 1759e87912345678
 - **CA Certificate Self-Signed -** This can be downloaded from [this link](https://console.ironwifi.com/assets/html/ironwifi.crt) or from within the IronWifi console, under **Account**
 - **CA Certificate Trusted -** This can be downloaded from [this link](https://console.ironwifi.com/assets/html/ironwifi_comodo.crt) or from within the IronWifi console, under **Account**
 - **SCEP Server URL -** https://{{region}}.ironwifi.com/api/{{owner_id}}/certificates
