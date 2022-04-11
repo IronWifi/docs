@@ -13,7 +13,7 @@ The Simple Certificate Enrolment Protocol (SCEP) is a protocol that allows devic
 - **Comodo CA Certificate -** certificate of the CA that signed our RADIUS server certificates. This can be downloaded from [this link](https://console.ironwifi.com/assets/html/radius_ironwifi_com_ca-bundle.crt)
 
 
-**!Note!** Your users must exist in the ironwifi console or the User Auto-Creation option must be enabled for this to work
+**!Note!** Your users must exist in the ironwifi console or the SCEP connector's User Auto-Creation option must be enabled for this to work
 
 1. In the IronWifi Console, create a SCEP connector - click on Users -> Connectors -> Add New
 2. Sign in to the [Intune management console](https://endpoint.microsoft.com/#blade/Microsoft_Intune_DeviceSettings/DevicesMenu/overview) and create a new Trusted Certificate profile with the following configuration options:
