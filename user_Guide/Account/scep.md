@@ -19,18 +19,19 @@ The Simple Certificate Enrolment Protocol (SCEP) is a protocol that allows devic
 
 **!Note!** Your users must exist in the ironwifi console or the SCEP connector's User Auto-Creation option must be enabled for this to work
 
-1. In the IronWifi Console, create a SCEP connector - click on Users -> Connectors -> Add New
+1. Sign in to the IronWifi Console and create a SCEP connector - click on Users -> Connectors -> Add New
+
 2. Sign in to the [Intune management console](https://endpoint.microsoft.com/#blade/Microsoft_Intune_DeviceSettings/DevicesMenu/overview) and create a new Trusted Certificate profile with the following configuration options:
 
 - **Certificate file -** ironwifi.crt
 - **Destination store -** Computer certificate store - Root
 
-2. Create a new Trusted Certificate profile with the following configuration options:
+3. Create a new Trusted Certificate profile with the following configuration options:
 
 - **Certificate file -** ironwifi_trusted.crt
 - **Destination store -** Computer certificate store - Root
 
-3. Create a new SCEP certificate profile with the following configuration options:
+4. Create a new SCEP certificate profile with the following configuration options:
 
 - **Profile Type -** SCEP Certificate
 - **Certificate type -** User
@@ -51,7 +52,7 @@ Client authentication | 1.3.6.1.5.5.7.3.2 | Client Authentication
 - **Renewal threshold (%) -** 20
 - **SCEP Server URLs -** https://{{region}}.ironwifi.com/api/{{owner_id}}/certificates/scep
 
-4. Create a new Wi-Fi profile with the following configuration options:
+5. Create a new Wi-Fi profile with the following configuration options:
 
 - **Profile Type -** Wi-Fi
 - **Connect to more preferred network if available -** No
