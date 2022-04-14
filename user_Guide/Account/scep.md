@@ -13,8 +13,8 @@ The Simple Certificate Enrolment Protocol (SCEP) is a protocol that allows devic
   Note that for Windows profiles, "/scep" needs to be removed since it is appended by the Intune application automatically - https://{{region}}.ironwifi.com/api/{{owner_id}}/certificates
 
 - **IronWiFi CA Certificate -** certificate of the CA signing the CSR requests. This can be downloaded from [this link](https://console.ironwifi.com/assets/html/ironwifi.crt)
+- **Trusted IronWiFi Server Certificate -** server certificate signed by a trusted CA. This file can be downloaded from [this link](https://console.ironwifi.com/assets/html/ironwifi_trusted.crt)
 - **Comodo CA Certificate -** certificate of the CA that signed our RADIUS server certificates. This can be downloaded from [this link](https://console.ironwifi.com/assets/html/radius_ironwifi_com_ca-bundle.crt)
-- - **Trusted IronWiFi Server Certificate -** server certificate signed by a trusted CA. This file can be downloaded from [this link](https://console.ironwifi.com/assets/html/ironwifi_trusted.crt)
 
 
 **!Note!** Your users must exist in the ironwifi console or the SCEP connector's User Auto-Creation option must be enabled for this to work
@@ -27,7 +27,7 @@ The Simple Certificate Enrolment Protocol (SCEP) is a protocol that allows devic
 
 2. Create a new Trusted Certificate profile with the following configuration options:
 
-- **Certificate file -** radius_ironwifi_com_ca-bundle.crt
+- **Certificate file -** ironwifi_trusted.crt
 - **Destination store -** Computer certificate store - Root
 
 3. Create a new SCEP certificate profile with the following configuration options:
