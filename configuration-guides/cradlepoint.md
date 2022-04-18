@@ -82,3 +82,5 @@ Under **UAM** Settings:
 - **Confirm Secret -** {{shared_secret}}
 
 Next, under Allowed Hosts/Domains Prior to Authentication click the Add button and add - **107.178.250.42**
+
+Follow this instructions to enable SSL on your Access Points - https://customer.cradlepoint.com/s/article/Enabling-Secure-Captive-Portal-UAM-Transactions
