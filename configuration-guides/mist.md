@@ -27,5 +27,7 @@ Click **Create** to create the new WLAN on your site. The API Secret will automa
 4. Return to the WLAN settings page and copy the **API Secret**.
 5. Go back to the IronWifi console and paste the API Secret to **Controller Password** on the Captive Portal settings page.
 
+ ! You must also install a valid SSL certificate on your controller/AP, in order to avoid authentication issues !
+
 ![firstScreenshot](https://raw.githubusercontent.com/IronWifi/docs/master/configuration-guides/MIST/mist1.png)
 ![firstScreenshot](https://raw.githubusercontent.com/IronWifi/docs/master/configuration-guides/MIST/mist2.png)
