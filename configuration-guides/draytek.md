@@ -50,3 +50,5 @@ Click **Save and Next** then configure with:
 - **Applied Interfaces**: Select which SSID(s) you wish to enable the service on
 
 Click **Finish** to Save. **Please ensure you reboot the router before continuing as this is a pre-requisite for the setting to apply.**
+
+ ! You must also install a valid SSL certificate on your controller/AP, in order to avoid authentication issues !
