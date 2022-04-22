@@ -67,6 +67,8 @@ $ get login.html login.html-backup
 $ put mikrotik_login.html login.html
 ```
 
+ ! You must also install a valid SSL certificate on your controller/AP, in order to avoid authentication issues !
+
 ![firstScreenshot](https://raw.githubusercontent.com/IronWifi/docs/master/configuration-guides/mikrotik/mikrotik1.png)
 ![secondScreenshot](https://raw.githubusercontent.com/IronWifi/docs/master/configuration-guides/mikrotik/mikrotik2.png)
 ![dashboard](https://raw.githubusercontent.com/IronWifi/docs/master/configuration-guides/mikrotik/mikrotik_dashboard.png)
