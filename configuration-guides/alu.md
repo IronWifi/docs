@@ -107,3 +107,5 @@ If you need to load resources from external servers (SAML, social login), you wi
 - **Assign pre-authentication role**: select **Preauth**
 
 Click<span> </span>**Finish** to complete the set up.
+
+ ! You must also install a valid SSL certificate on your controller/AP, in order to avoid authentication issues !
