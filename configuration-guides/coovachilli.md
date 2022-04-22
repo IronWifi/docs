@@ -31,3 +31,5 @@ _chmod +x /etc/init.d/chilli_
 _/etc/init.d/chilli start_
 
 At this moment, your OpenWRT router should be displaying our splash page to your new guests.
+
+ ! You must also install a valid SSL certificate on your controller/AP, in order to avoid authentication issues !
