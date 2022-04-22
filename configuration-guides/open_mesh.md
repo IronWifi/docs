@@ -30,6 +30,8 @@ Open the configuration page of Cloudtrax and navigate as follows.
 
 The configuration is now complete.
 
+ ! You must also install a valid SSL certificate on your controller/AP, in order to avoid authentication issues !
+
 ---
 
 ![screenOne](https://raw.githubusercontent.com/IronWifi/docs/master/configuration-guides/open_mesh_cloudtrax/OMC.png)
