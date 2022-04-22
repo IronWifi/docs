@@ -47,7 +47,7 @@ Note: Access to any other site would require the user to login into the portal
 
 Click **OK** and **COMMIT**, to save the configured parameters. **REBOOT** the device, if you have changed any of the parameters marked with an asterisk symbol.
 
-
+ ! You must also install a valid SSL certificate on your controller/AP, in order to avoid authentication issues !
 
 ![configuration](https://user-images.githubusercontent.com/92432011/138921930-13513b1b-6723-498e-9c10-edfe8b2b5275.png)
 
