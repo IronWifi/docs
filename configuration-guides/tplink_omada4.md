@@ -35,6 +35,7 @@ This page explains the configuration of TP Link access points with Omada version
 
 5. Add an **A type DNS record** to point the hostname to your omada controller.
 
+ ! You must also install a valid SSL certificate on your controller/AP, in order to avoid authentication issues !
 
 ![tplink2](https://raw.githubusercontent.com/IronWifi/docs/master/configuration-guides/tp_link_omada_v4/tplink1.png)
 
