@@ -56,3 +56,5 @@ As a security measure, MAC address encryption is enabled by default on the Rucku
 ```
 
 That's it, now the MAC address encryption is disabled and our mac-based reauthentication feature should work without problem.
+
+ ! You must also install a valid SSL certificate on your controller/AP, in order to avoid authentication issues !
