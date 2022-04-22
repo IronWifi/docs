@@ -128,11 +128,4 @@ Please create a new port forward with the following:
 The configuration is now complete.
 
 
-
-
-
-
-
-
-
-
+ ! You must also install a valid SSL certificate on your controller/AP, in order to avoid authentication issues !
