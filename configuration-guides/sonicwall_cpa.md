@@ -112,3 +112,5 @@ Click OK to save.
 Enable the Pass Networks checkbox and select guestwifi from the dropdown. Be sure to also set the Max Guests option to a suitable concurrent number else new guest users might be denied access.
 
 Click OK to save. Finally, if you are using SonicWall Access Points be sure to create an open SSID to enable guest users to connect.
+
+ ! You must also install a valid SSL certificate on your controller/AP, in order to avoid authentication issues !
