@@ -30,6 +30,8 @@ This page explains configuration of ICC Access Points to work with IronWifi Capt
 - **Splash Page Secret Required -** checked
 - **Splash Page Secret -** {{shared_secret}}
 
+ ! You must also install a valid SSL certificate on your controller/AP, in order to avoid authentication issues !
+
 ![firstScreenshot](https://raw.githubusercontent.com/IronWifi/docs/master/configuration-guides/ICC_Networking/ICC.png)
 
 ![secondScreenshot](https://raw.githubusercontent.com/IronWifi/docs/master/configuration-guides/ICC_Networking/ICC2.png)
