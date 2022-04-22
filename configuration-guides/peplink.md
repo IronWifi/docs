@@ -30,6 +30,8 @@ This page explains the necessary configuration for Peplink Access Points and ext
  
 The configuration is now complete. 
 
+ ! You must also install a valid SSL certificate on your controller/AP, in order to avoid authentication issues !
+
 ---
 
 ![firstScreen](https://raw.githubusercontent.com/IronWifi/docs/master/configuration-guides/peplink/peplink1.png)
