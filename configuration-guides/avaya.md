@@ -93,3 +93,4 @@ Under **Secondary**:
     
 Click **Save changes to flash**<span> at the top right of the page.
 
+! You must also install a valid SSL certificate on your controller/AP, in order to avoid authentication issues !
