@@ -152,3 +152,7 @@ Now, you need to copy these two html files to your UniFi controller hotspot dir
 _If the sites folder is not present, you can created it by simply uploading a floorplan (even a dummy one if required) in the UniFi controller which will create the folder you need._
 
 Finally, you will have to purchase and install a valid SSL certificate on your controller. There are a lot of articles and videos about this topic, here is one - <a href='https://www.youtube.com/watch?v=WxhY71ebc9o'>Unifi SSL installation</a>
+
+ ! You must also install a valid SSL certificate on your controller/AP, in order to avoid authentication issues !
+ 
+ Guide on how to install an SSL certificate on Ubiquiti Unifi can be found here - https://www.namecheap.com/support/knowledgebase/article.aspx/10134/33/installing-an-ssl-certificate-on-ubiquiti-unifi/
