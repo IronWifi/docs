@@ -35,5 +35,7 @@ _Accounting Server_
 - **Access Policy -** RADIUS
 - **External Page URL -** {{splash_page_url}}
 
+ ! You must also install a valid SSL certificate on your controller/AP, in order to avoid authentication issues !
+
 ![](https://raw.githubusercontent.com/IronWifi/docs/master/configuration-guides/cambium/cambium1.png)
 ![](https://raw.githubusercontent.com/IronWifi/docs/master/configuration-guides/cambium/cambium2.jpg)
