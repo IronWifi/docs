@@ -105,3 +105,5 @@ Click **Login**
 You should see a message **Authorization Successful**
 
 ![firstScreen](teltonika/teltonika17.jpg)
+
+ ! You must also install a valid SSL certificate on your controller/AP, in order to avoid authentication issues !
