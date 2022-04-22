@@ -53,6 +53,8 @@ https://SOURCE_IP_ADDRESS:4043
 
 We will be connecting directly from the web server, so no further changes are required in your SonicWall firewall rules.\
 
+ ! You must also install a valid SSL certificate on your controller/AP, in order to avoid authentication issues !
+
 ## Common Errors
 
 IronWifi needs to be able to connect to your Access Point to authorize the connecting device. If not successful, the Captive Portal will return different error codes in the error_message parameter.
