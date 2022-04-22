@@ -149,3 +149,5 @@ Next, on the left, under **Wireless** click on **SSIDs**. Click on **Create SSID
 Click on **Create SSID**.
 
 Finally, you need to apply this new configuration to your AP's in the usual way. For example, go to the **Status** tab at the top and choose **Access Points**. Highlight the ones you are using and click the **Apply** button.
+
+ ! You must also install a valid SSL certificate on your controller/AP, in order to avoid authentication issues !
