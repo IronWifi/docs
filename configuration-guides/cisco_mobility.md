@@ -104,3 +104,5 @@ After applying the commands above you will need to reboot the controller. Type t
 The ME AP will now reboot and be ready for use.
 
 NOTE: You need to add all the AP Base MACs to the portal. To see these, type show ap join stats summary all from the SSH or command line.
+
+ ! You must also install a valid SSL certificate on your controller/AP, in order to avoid authentication issues !
