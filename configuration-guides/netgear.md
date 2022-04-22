@@ -47,6 +47,8 @@ _Secondary Accounting Server_
 
 The configuration is now complete.
 
+ ! You must also install a valid SSL certificate on your controller/AP, in order to avoid authentication issues !
+
 ---
 
 ![screenshot](https://raw.githubusercontent.com/IronWifi/docs/master/configuration-guides/netgear/netgear.png)
