@@ -89,3 +89,4 @@ end
 ```
 The configuration is now complete.
 
+ ! You must also install a valid SSL certificate on your controller/AP, in order to avoid authentication issues !
