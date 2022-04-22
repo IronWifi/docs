@@ -110,3 +110,5 @@ Finally, click on **Continue** at the top right.
 You are now asked which of your access points you wish to push the new settings to (typically all your access points). Select all that apply, and click **Update > Update Devices**
 
 Click **Update**.
+
+ ! You must also install a valid SSL certificate on your controller/AP, in order to avoid authentication issues !
