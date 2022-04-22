@@ -101,3 +101,5 @@ Click **OK** to **Save**. Click **Create New** again and configure with:
 Click **OK** to **Save**.
 
 The configuration is now complete.
+
+ ! You must also install a valid SSL certificate on your controller/AP, in order to avoid authentication issues !
