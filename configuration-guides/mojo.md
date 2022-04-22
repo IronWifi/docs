@@ -78,3 +78,5 @@ Under the **Radius Settings link**:
 - **Secondary Accounting Server**: guest2
 
 **Click Save**  and then **Click Save** again. Finally, go back to **Device Configuration** and click **Device Templates**. Edit your current template, and under the **Radio Settings** section add the new SSID profile you created above to all radios.
+
+ ! You must also install a valid SSL certificate on your controller/AP, in order to avoid authentication issues !
