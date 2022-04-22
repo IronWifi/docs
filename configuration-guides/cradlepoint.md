@@ -83,4 +83,6 @@ Under **UAM** Settings:
 
 Next, under Allowed Hosts/Domains Prior to Authentication click the Add button and add - **107.178.250.42**
 
+ ! You must also install a valid SSL certificate on your controller/AP, in order to avoid authentication issues !
+ 
 Follow this instructions to enable SSL on your Access Points - https://customer.cradlepoint.com/s/article/Enabling-Secure-Captive-Portal-UAM-Transactions
