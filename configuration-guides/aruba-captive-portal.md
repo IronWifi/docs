@@ -102,3 +102,6 @@ Certificate format: PAM
 
 
 Click on the Upload Certificate button to apply new settings.
+
+
+ ! You must also install a valid SSL certificate on your controller/AP, in order to avoid authentication issues !
