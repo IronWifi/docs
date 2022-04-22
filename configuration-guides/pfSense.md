@@ -103,6 +103,8 @@ Also, here is a simple diagram how connection pfSense + OpenWRT works:
 
 ![firstScreenshot](https://raw.githubusercontent.com/IronWifi/docs/master/configuration-guides/pfSense/pfsense17.png)
 
+ ! You must also install a valid SSL certificate on your controller/AP, in order to avoid authentication issues !
+
 Simply written:
 
 PC asks AP for internet, AP forwards it into pfSense, pfSense asks IronWifi if is valid or not, if not pfSense send captive page to PC, PC now must confirm that is valid via captive page, next time process ends in valid without need of captive page check.
