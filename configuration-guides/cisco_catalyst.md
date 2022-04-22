@@ -202,4 +202,4 @@ Be sure to click on **Save Configuration** at the top right of the page to ensur
 The configuration is now complete.
 
 
-
+ ! You must also install a valid SSL certificate on your controller/AP, in order to avoid authentication issues !
