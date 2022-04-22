@@ -36,3 +36,5 @@ Log in to the **OPNsense administration** console and navigate to **Systems -> A
 To prevent **SSL warnings**, select a hostname for your firewall, create a valid **SSL certificate**, and upload it to the firewall.
 
 Review your firewall settings to make sure access to the internet is allowed.
+
+ ! You must also install a valid SSL certificate on your controller/AP, in order to avoid authentication issues !
