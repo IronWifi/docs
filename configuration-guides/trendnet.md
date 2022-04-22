@@ -24,3 +24,5 @@ This page explains configuration of Captive Portal with authentication through I
 4. Now, complete the form with information from the IronWifi console, you can find everything under *Networks* and *Captive Portal settings*.
 
 ![](https://raw.githubusercontent.com/IronWifi/docs/master/configuration-guides/trendnet/trendnet4.png)
+
+ ! You must also install a valid SSL certificate on your controller/AP, in order to avoid authentication issues !
