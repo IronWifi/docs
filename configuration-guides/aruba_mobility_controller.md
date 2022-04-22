@@ -204,3 +204,5 @@ Repeat Creating AAA Profiles for the IronWifi Guest and 802.1x SSID, to create t
 ![firstScreenshot](https://raw.githubusercontent.com/IronWifi/docs/master/configuration-guides/aruba_mobility_controller/image12.jpg)
 
 40. Click the **Save Configuration** button at the top of the page once the changes are completed.
+
+ ! You must also install a valid SSL certificate on your controller/AP, in order to avoid authentication issues !
