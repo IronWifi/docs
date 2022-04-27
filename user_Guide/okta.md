@@ -38,6 +38,7 @@ Your access point's walled garden list must include the following domains
 - login.okta.com
 - .okta-emea.com
 - op1.static.oktacdn.com
+- oktacdn.com
 
 {{your_subdomain}} - can be found in the url once you log in to your okta account
 
