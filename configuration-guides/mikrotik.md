@@ -26,6 +26,8 @@ Sign-in to your MikroTik configuration interface, usually http://192.168.88.1
 
 The access point will redirect you to the default Hotspot Authentication page. Sign in as **"user1"** and return to the Mikrotik configuration interface http://192.168.88.1
 
+[![](https://img.shields.io/badge/!IMPORTANT! : _**Now, the newly created server was assigned the name "hotspot1", which you need to change for the mac address of your access point. Navigate to the quick set (main dashboard) to copy the mac address.-blue?style=for-the-badge)](https://github.com/hamzamohdzubair/redant)
+
 ## !IMPORTANT! : _**Now, the newly created server was assigned the name "hotspot1", which you need to change for the mac address of your access point. Navigate to the quick set (main dashboard) to copy the mac address.**_
 
 3. After you have copied the mac address, return to the **hotspot settings** and click on the server named "hotspot1". Then just paste the mac address to the name field and click **apply**
