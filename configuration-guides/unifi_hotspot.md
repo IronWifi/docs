@@ -131,7 +131,7 @@ Next, you will need to modify two html on the controller so that it correctly re
 - <a href='https://console.ironwifi.com/api/debug?script=portal_file&unifi_file=auth&url={{splash_page_url}}' download>auth.html</a>
 
 
-Open the **index.html** file and at the top of this document you will see an item named "splashurl", edit this so that it shows:
+Open the **index.html** file in a text editor (right click on the file and choose your favourite text/code editor) and at the top of this document you will see an item named "splashurl", edit this so that it shows:
 
 **!This has been done automatically if you opened these instructions from the ironwifi console!**
 
@@ -146,6 +146,8 @@ Now, you need to copy these two html files to your UniFi controller hotspot dir
 - Linux: /usr/lib/unifi/data/sites/default/app-unifi-hotspot-portal
 - UDM Pro: /data/unifi/data/sites/default/app-unifi-hotspot-portal
 - CloudKey: /srv/unifi/data/sites/default/app-unifi-hotspot-portal
+
+To upload those two files to your controller, you will need an FTP client such as https://winscp.net/ or https://filezilla-project.org/ for macOS/Linux users. This software will enable you to connect to your controller and manipulate with its file system easily.
 
 (replace default in the folder structure with your site name if different)
 
