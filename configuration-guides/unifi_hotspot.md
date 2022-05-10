@@ -158,3 +158,5 @@ Finally, you will have to purchase and install a valid SSL certificate on your c
  ! You must also install a valid SSL certificate on your controller/AP, in order to avoid authentication issues !
  
  Guide on how to install an SSL certificate on Ubiquiti Unifi can be found here - https://www.namecheap.com/support/knowledgebase/article.aspx/10134/33/installing-an-ssl-certificate-on-ubiquiti-unifi/
+
+An SSL certificate can only be purchased for a domain, therefore, you will need to alter your DNS records so that your hostname resolves to the IP address of your controller. After uploading the SSL certificate to your controller, you need to switch on the "redirect using hostname" option.
