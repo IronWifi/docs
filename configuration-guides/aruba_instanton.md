@@ -24,7 +24,6 @@ This page explains the configuration of Aruba Instant On with IronWifi.
 - **Server IP Address -** {{backup_ip}}
 - **Shared secret -** {{shared_secret}}
 
- ! You must also install a valid SSL certificate on your controller/AP, in order to avoid authentication issues !
  
 ![firstScreenshot](https://raw.githubusercontent.com/IronWifi/docs/master/configuration-guides/aruba_instant_on/aruba.png)
 ![second](https://raw.githubusercontent.com/IronWifi/docs/master/configuration-guides/aruba_instant_on/aruba2.png)
