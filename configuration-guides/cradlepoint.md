@@ -69,7 +69,7 @@ Under **RADIUS** Settings:
 - **Accounting Port -** {{acct_port}}
 - **Shared Secret -** {{shared_secret}}
 - **Confirm Secret -** as above
-- **Redirect Successful Authenticate -** Select To an administrator-defined URL and enter:\
+- **Redirect Successful Authentication -** Select To an administrator-defined URL and enter:\
     {{success_page_url}}
 - **Session Timeout -** 240 Mins
 - **Idle Timeout -** 30 Mins
