@@ -6,9 +6,9 @@ require 'vendor/autoload.php';
 use League\HTMLToMarkdown\HtmlConverter;
 
 // DYNAMIC VARIABLES START
-$vendor_name = 'Zyxel Nebula Cloud AP';
-$vendor = 'zyxel_nebula';
-$instructions_url = 'https://support.purplewifi.net/en/support/solutions/articles/11000064600-zyxel-nebula-cloud-ap';
+$vendor_name = 'Everest Networks';
+$vendor = 'everest';
+$instructions_url = 'https://support.purplewifi.net/en/support/solutions/articles/11000055609-everest-networks-ap';
 // DYNAMIC VARIABLES END
 
 $header = '# **'. $vendor_name . '**
