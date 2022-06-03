@@ -34,3 +34,8 @@ Contacts can be linked to Hubspot forms by adding the following:
 
 * formId (enter value from your Hubspot form)
 * portalId (enter value from your Hubspot form)
+
+```html
+<input type="hidden" name="formId" value="*********"/>
+<input type="hidden" name="portalId" value="*********"/>
+```
