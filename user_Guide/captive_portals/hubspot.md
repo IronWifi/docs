@@ -22,3 +22,13 @@ change to
 
 <input type="hidden" name="opt_in" value="on"/>
 ```
+
+5. You can create a new contact in Hubspot with the following information:
+* email
+* firstname
+* lastname
+* phone
+* formId
+* portalId
+* pageUrl
+* pageName
