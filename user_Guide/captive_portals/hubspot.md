@@ -30,7 +30,7 @@ change to
 * lastname
 * phone
 
-You can associate a contact with a form by adding the following:
+Contacts can be linked to Hubspot forms by adding the following:
 
-* formId
-* portalId
+* formId (enter value from your Hubspot form)
+* portalId (enter value from your Hubspot form)
