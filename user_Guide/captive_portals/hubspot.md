@@ -23,12 +23,14 @@ change to
 <input type="hidden" name="opt_in" value="on"/>
 ```
 
-5. You can create a new contact in Hubspot with the following information:
+5. You can create a new contact in Hubspot with the following information. Your registration form should have the following names for input fields:
+
 * email
 * firstname
 * lastname
 * phone
+
+You can associate a contact with a form by adding the following:
+
 * formId
 * portalId
-* pageUrl
-* pageName
