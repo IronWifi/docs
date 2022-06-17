@@ -225,7 +225,7 @@ Response Status Codes:
 
 ```
 HTTP/1.1 200 OK
-{“valid_until”:”2017/01/10 01:59:59 +0000″,”valid_from”:”2017/01/09 02:03:52 +0000″,”nt_key”:”abcd12345″,”membership_id”:”`123456″,”membership”:{“name”:”John Sample”,”id”:”12345678″},”id”:”123456789abcdef”}
+{"valid_until":"2022-06-17T22:26:13","attributes":[{"name":"Acct-Interim-Interval","value":"300"},{"name":"Framed-Protocol","value":"1"},{"name":"Service-Type","value":"2"}]}
 ```
 
 4** – return status code indicates failure and body provides an error message, and we reject the access request
