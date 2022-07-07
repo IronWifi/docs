@@ -33,8 +33,8 @@ _Under the Guest Policies header_
 - **Authentication -** Hotspot
 - **Default Expiration -** 8 hours
 - **Landing Page -** Promotion URL - {{success_page_url}}
-- **Use Secure Portal -** Disabled
-- **Redirect using hostname -** Disabled
+- **Use Secure Portal -** Disabled (enable this after you upload your SSL certificate)
+- **Redirect using hostname -** Disabled (enable this after you install your SSL certificate and enter common name from your SSL certificate)
 - **Enable HTTPS Redirection -** Disabled
 - **Enable encrypted redirect URL -** Disabled
 
