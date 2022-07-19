@@ -33,8 +33,8 @@ _Under the Guest Policies header_
 - **Authentication -** Hotspot
 - **Default Expiration -** 8 hours
 - **Landing Page -** Promotion URL - {{success_page_url}}
-- **Use Secure Portal -** Disabled (enable this after you upload your SSL certificate)
-- **Redirect using hostname -** Disabled (enable this after you install your SSL certificate and enter common name from your SSL certificate)
+- **Use Secure Portal -** Disabled
+- **Redirect using hostname -** Disabled
 - **Enable HTTPS Redirection -** Disabled
 - **Enable encrypted redirect URL -** Disabled
 
@@ -155,8 +155,7 @@ _If the sites folder is not present, you can created it by simply uploading a fl
 
 Finally, you will have to purchase and install a valid SSL certificate on your controller. There are a lot of articles and videos about this topic, here is one - <a href='https://www.youtube.com/watch?v=WxhY71ebc9o'>Unifi SSL installation</a>
 
- ! You must also install a valid SSL certificate on your controller/AP, in order to avoid authentication issues ! You can purchase certificate for as low as $36.75 /year on this page - <a href='https://affiliates.ssl.com/623.html'>www.ssl.com</a>
-
+ ! You must also install a valid SSL certificate on your controller/AP, in order to avoid authentication issues !
  
  Guide on how to install an SSL certificate on Ubiquiti Unifi can be found here - https://www.namecheap.com/support/knowledgebase/article.aspx/10134/33/installing-an-ssl-certificate-on-ubiquiti-unifi/
 
