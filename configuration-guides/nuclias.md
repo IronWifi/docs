@@ -14,68 +14,79 @@ This page explains the configuration of D-Link Nuclias Cloud wireless access poi
 
 Log in to your Nuclias Cloud portal.
 
-<div class="config-step" data-identifyelement="493"><span data-identifyelement="495">Step 1 - RADIUSAt the top, click **Configure &gt; Access point &gt; RADIUS servers**. Then, click **Add a RADIUS server** and configure with:
+## Step 1 - RADIUS
 
-<div class="config-table" data-identifyelement="508"><div class="config-row" data-identifyelement="509"><div class="config-title" data-identifyelement="510">RADIUS server name<div class="config-value" data-identifyelement="511">guest1_auth<div class="config-row" data-identifyelement="509"><div class="config-title" data-identifyelement="510">Host<div class="config-value" data-identifyelement="511">*insert radius_server_ip here*<div class="config-row" data-identifyelement="509"><div class="config-title" data-identifyelement="510">Port<div class="config-value" data-identifyelement="511">1812<div class="config-row" data-identifyelement="509"><div class="config-title" data-identifyelement="510">Secret<div class="config-value" data-identifyelement="511">*insert radius_secret here*<div class="config-row" data-identifyelement="509"><div class="config-title" data-identifyelement="510">Access level<div class="config-value" data-identifyelement="511">OrganizationClick **Save** to add the RADIUS server. Next, click **Add as RADIUS server** again and configure with:
+At the top, click Configure > Access point > RADIUS servers. Then, click Add a RADIUS server and configure with:
 
-<div class="config-table" data-identifyelement="508"><div class="config-row" data-identifyelement="509"><div class="config-title" data-identifyelement="510">RADIUS server name<div class="config-value" data-identifyelement="511">guest1_acct<div class="config-row" data-identifyelement="509"><div class="config-title" data-identifyelement="510">Host<div class="config-value" data-identifyelement="511">*insert radius_server_ip here*<div class="config-row" data-identifyelement="509"><div class="config-title" data-identifyelement="510">Port<div class="config-value" data-identifyelement="511">1813<div class="config-row" data-identifyelement="509"><div class="config-title" data-identifyelement="510">Secret<div class="config-value" data-identifyelement="511">*insert radius_secret here*<div class="config-row" data-identifyelement="509"><div class="config-title" data-identifyelement="510">Access level<div class="config-value" data-identifyelement="511">OrganizationClick **Save** to add the RADIUS server. Next, click **Add as RADIUS server** again and configure with:
+- **RADIUS server name -** guest_auth
+- **Host -** {{primary_ip}}
+- **Port -** {{auth_port}}
+- **Secret -** {{shared_secret}}
+- **Access level -** Organization
 
-<div class="config-table" data-identifyelement="508"><div class="config-row" data-identifyelement="509"><div class="config-title" data-identifyelement="510">RADIUS server name<div class="config-value" data-identifyelement="511">guest2_auth<div class="config-row" data-identifyelement="509"><div class="config-title" data-identifyelement="510">Host<div class="config-value" data-identifyelement="511">*insert radius_server2_ip here*<div class="config-row" data-identifyelement="509"><div class="config-title" data-identifyelement="510">Port<div class="config-value" data-identifyelement="511">1812<div class="config-row" data-identifyelement="509"><div class="config-title" data-identifyelement="510">Secret<div class="config-value" data-identifyelement="511">*insert radius_secret here*<div class="config-row" data-identifyelement="509"><div class="config-title" data-identifyelement="510">Access level<div class="config-value" data-identifyelement="511">OrganizationClick **Save** to add the RADIUS server. Next, click **Add as RADIUS server** again and configure with:
+Click Save to add the RADIUS server. Next, click Add as RADIUS server again and configure with:
 
-<div class="config-table" data-identifyelement="508"><div class="config-row" data-identifyelement="509"><div class="config-title" data-identifyelement="510">RADIUS server name<div class="config-value" data-identifyelement="511">guest2_acct<div class="config-row" data-identifyelement="509"><div class="config-title" data-identifyelement="510">Host<div class="config-value" data-identifyelement="511">*insert radius_server2_ip here*<div class="config-row" data-identifyelement="509"><div class="config-title" data-identifyelement="510">Port<div class="config-value" data-identifyelement="511">1813<div class="config-row" data-identifyelement="509"><div class="config-title" data-identifyelement="510">Secret<div class="config-value" data-identifyelement="511">*insert radius_secret here*<div class="config-row" data-identifyelement="509"><div class="config-title" data-identifyelement="510">Access level<div class="config-value" data-identifyelement="511">OrganizationClick **Save** to add the RADIUS server.
+- **RADIUS server name -** guest_acct
+- **Host -** {{primary_ip}}
+- **Port -** {{acct_port}}
+- **Secret -** {{shared_secret}}
+- **Access level -** {{Organization}}
 
-<div class="config-step" data-identifyelement="493"><span data-identifyelement="495">Step 2 - Walled gardenAt the top, click **Configure &gt; Access point &gt; Walled garden**. Then, click **Add a walled garden** and configure with:
+Click Save to add the RADIUS server. Next, click Add as RADIUS server again and configure with:
 
-<div class="config-table" data-identifyelement="498"><div class="config-row" data-identifyelement="499"><div class="config-title" data-identifyelement="500">Walled garden name<div class="config-value" data-identifyelement="501">guest<div class="config-row" data-identifyelement="499"><div class="config-title" data-identifyelement="500">Range<div class="config-value" data-identifyelement="501">Add the following entries one by one:
+- **RADIUS server name -** guest2_auth
+- **Host -** {{backup_ip}}
+- **Port -** {{auth_port}}
+- **Secret -** {{shared_secret}}
+- **Access level -** Organization
 
-  
-\*insert access\_domain here\*
+Click Save to add the RADIUS server. Next, click Add as RADIUS server again and configure with:
 
-venuewifi.com
+- **RADIUS server name -** guest2_acct
+- **Host -** {{backup_ip}}
+- **Port -** {{acct_port}}
+- **Secret -** {{shared_secret}}
+- **Access level -** Organization
 
-openweathermap.org
+Click Save to add the RADIUS server.
 
-cloudfront.net
+## Step 2 - Walled garden
 
-stripe.com
+At the top, click Configure > Access point > Walled garden. Then, click Add a walled garden and configure with:
 
-<div class="config-info" data-identifyelement="530"><span data-identifyelement="509">Note: If you wish to support social network logins, you also need to add the below entries for each network you plan to support.**Facebook**:
+- **Walled garden name -** guest
+- **Range -** *access domain here*
 
-facebook.com
+Press Save to confirm.
 
-fbcdn.net
+## Step 3 - SSID
 
-akamaihd.net
+At the top, click Configure > Access point > Profiles and then SSID beside the AP profile you are using. Then, click Add SSID and configure with:
 
-connect.facebook.net
+- **SSID name -**	Guest WiFi (or whatever you wish)
+- **Band selection -** 2.4GHz and 5GHz
 
-**Twitter**:
+Press Save to confirm. Next, on the SSID you just created and configure with:
 
-twitter.com
+- **Security -** Open
+- **Broadcast SSID -** Enable
+- **Guest Access mode	-** Enable
+- **NAT mode -** Enable
+- **Station isolation -** Enable
 
-twimg.com
+Press Save to confirm. Next, click on the Captive Portal tab and configure with:
 
-**LinkedIn**:
+- **Captive portal -** Sign-on with External Captive Portal
+- **Option -** Custom External Captive Portal
+- **Splash page URL -**	{{splash_page_url}}
+- **Primary RADIUS server -**	{{primary_ip}}
+- **Secondary RADIUS server -** {{backup_ip}}
+- **Primary accounting server	-** {{primary_ip}}
+- **Secondary accounting server	-** {{backup_ip}}
+- **Session timeout -** 240 minutes
+- **Idle timeout -** 60 minutes
+- **Walled garden -** guest
 
-linkedin.com
-
-licdn.net
-
-licdn.com
-
-**Instagram**:
-
-instagram.com
-
-Press **Save** to confirm.
-
-<div class="config-step" data-identifyelement="493"><span data-identifyelement="495">Step 3 - SSIDAt the top, click **Configure &gt; Access point &gt; Profiles** and then **SSID** beside the AP profile you are using. Then, click **Add SSID** and configure with:
-
-<div class="config-table" data-identifyelement="498"><div class="config-row" data-identifyelement="499"><div class="config-title" data-identifyelement="500">SSID name<div class="config-value" data-identifyelement="501">Guest WiFi (or whatever you wish)<div class="config-row" data-identifyelement="502"><div class="config-title" data-identifyelement="503">Band selection<div class="config-value" data-identifyelement="504">2.4GHz and 5GHzPress **Save** to confirm. Next, on the SSID you just created and configure with:
-
-<div class="config-table" data-identifyelement="508"><div class="config-row" data-identifyelement="509"><div class="config-title" data-identifyelement="510">Security<div class="config-value" data-identifyelement="511">Open<div class="config-row" data-identifyelement="512"><div class="config-title" data-identifyelement="513">Broadcast SSID<div class="config-value" data-identifyelement="514">Enable<div class="config-row" data-identifyelement="515"><div class="config-title" data-identifyelement="516">Guest Access mode<div class="config-value" data-identifyelement="517">Enable<div class="config-row" data-identifyelement="518"><div class="config-title" data-identifyelement="519">NAT mode<div class="config-value" data-identifyelement="517">Enable<div class="config-row" data-identifyelement="518"><div class="config-title" data-identifyelement="519">Station isolation<div class="config-value" data-identifyelement="517">EnablePress **Save** to confirm. Next, click on the **Captive Portal** tab and configure with:
-
-<div class="config-table" data-identifyelement="508"><div class="config-row" data-identifyelement="509"><div class="config-title" data-identifyelement="510">Captive portal<div class="config-value" data-identifyelement="511">Sign-on with External Captive Portal<div class="config-row" data-identifyelement="509"><div class="config-title" data-identifyelement="510">Option<div class="config-value" data-identifyelement="511">Custom External Captive Portal<div class="config-row" data-identifyelement="509"><div class="config-title" data-identifyelement="510">Splash page URL<div class="config-value" data-identifyelement="511">*insert access_url here*<div class="config-row" data-identifyelement="509"><div class="config-title" data-identifyelement="510">Primary RADIUS server<div class="config-value" data-identifyelement="511">*insert radius_server_ip here*:1812<div class="config-row" data-identifyelement="509"><div class="config-title" data-identifyelement="510">Secondary RADIUS server<div class="config-value" data-identifyelement="511">*insert radius_server2_ip here*:1812<div class="config-row" data-identifyelement="509"><div class="config-title" data-identifyelement="510">Primary accounting server<div class="config-value" data-identifyelement="511">*insert radius_server_ip here*:1813<div class="config-row" data-identifyelement="509"><div class="config-title" data-identifyelement="510">Secondary accounting server<div class="config-value" data-identifyelement="511">*insert radius_server2_ip here*:1813<div class="config-row" data-identifyelement="509"><div class="config-title" data-identifyelement="510">Session timeout<div class="config-value" data-identifyelement="511">240 minutes<div class="config-row" data-identifyelement="509"><div class="config-title" data-identifyelement="510">Idle timeout<div class="config-value" data-identifyelement="511">60 minutes<div class="config-row" data-identifyelement="509"><div class="config-title" data-identifyelement="510">Walled garden<div class="config-value" data-identifyelement="511">guestClick **Save** to confirm. Finally, click **PUSH CONFIGURATION** at the top to deploy the configuration to your AP(s).
+Click Save to confirm. Finally, click PUSH CONFIGURATION at the top to deploy the configuration to your AP(s).
 
 The configuration is now complete.
-
