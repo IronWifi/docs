@@ -81,11 +81,7 @@ licdn.com
 </td></tr><tr><td>**Instagram**  
 </td><td>instagram.com  
   
-</td></tr><tr><td>**Weibo**  
-</td><td>weibo.com  
-sina.com.cn  
-  
-</tr></tbody></table>
+</td></tr></tbody></table>
 
 Click **Save** to apply.
 
