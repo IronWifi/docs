@@ -1,109 +1,100 @@
-## Step 1: ironwifi.com configuration
+# **Teltonika RU Series**
 
-### Login screen
+---
 
-We need to login into **console.ironwifi.com/login** system using our credentials. If you don't have a registered account then you need to create one. You can do that by clicking **Create Account**. 
+This page explains the configuration of Teltonika RU Series wireless access points for external Captive  Portal and RADIUS server authentication.
 
-![firstScreen](teltonika/teltonika1.png)
+### IronWifi Console Configuration
 
-### Create new network
+1. Log into the IronWifi console or [register for free](https://console.ironwifi.com/register)
+2. Create a **new network**
+3. After that, create a **new captive portal**, with vendor **Teltonika RU Series**
 
-In the opened browser window click **Networks**
+### Access Point Configuration
 
-![firstScreen](teltonika/teltonika2.png)
+<div class="config-version" data-identifyelement="530"><span data-identifyelement="509">NOTE: You will require firmware version R\_00.07.00 or above in order to continueLog in to your Teltonika web interface. At the top, click **Network &gt; Wireless**. Click **Add** and configure with:
 
-Click **New Network**
+- **Enable wireless**: Yes
 
-![firstScreen](teltonika/teltonika3.png)
+  
+<u>Under **Device Configuration**</u>
 
-Type **name** of new network and select **region**
+- **SSID**: Guest WiFi (or whatever you wish)
 
-Click **Create network** 
+  
+<u>Under **Interface Configuration**</u>
 
-![firstScreen](teltonika/teltonika4.png)
+- **Encryption**: No encryption
 
-Click on your **created network** 
+  
+Click **Save**. **Next**, at the top click **Services &gt; Hotspot**. Click **Edit** beside your new SSID. Configure with:
 
-![firstScreen](teltonika/teltonika5.png)
+On the **General** tab:
 
-**Network details**
+<u>Under </u>**<u>General Settings</u>**
 
-Here are the data that we will need in the next step:
+- **Configuration profile**: Custom
+- **Enable**: Yes
+- **AP IP**: Leave default
+- **Logout IP**: Leave default
+- **Authentication mode**: External radius
+- **Authentication protocol**: PAP
+- **RADIUS server #1**: \*insert radius\_server here\*
+- **RADIUS server #2**: \*insert radius\_server2 here\*
+- **Authentication port**: 1812
+- **Accounting port**: 1813
+- **Radius secret key**: {{shared_secret}}
+- **UAM port**: Leave default
+- **UAM UI port**: Leave default
+- **UAM secret**: \*insert uam\_secret here\*
+- **NAS Identifier**: guest
+- **Swap octets**: Yes
+- **External Landing Page**: Yes
+- **Landing page address**: {{splash_page_url}}
+- **HTTPS redirect**: No
 
-**Radius ip Address** : 130.211.107.8
+<u>Under</u>**<u> Walled Garden</u>**
 
-**Authentication Port** : 6375
+Click **Add** and configure with:
 
-**Accounting Port**  : 6376
+- **Enable**: Yes
+- **Address**: \*insert access\_domain here\*
+- **Allow subdomains**: Yes
 
-**Shared Secret**  : goDkt2Abuv74PQ0 
+Using the same procedure as above, add a new entry for the below domains:
 
-![firstScreen](teltonika/teltonika6.png)
+- venuewifi.com
+- cloudfront.net
+- openweathermap.org
+- stripe.com
 
-**Create new user**
+**If you wish to support social network logins, you also need to add the following domains for each network you plan to support**
 
-Click **Users** 
+<table cellspacing="1"><tbody><tr><td>**Facebook**  
+</td><td>facebook.com  
+fbcdn.net  
+akamaihd.net  
+connect.facebook.net  
+  
+</td></tr><tr><td>**Twitter**  
+</td><td>twitter.com  
+twimg.com  
+  
+</td></tr><tr><td>**LinkedIn**  
+</td><td>linkedin.com  
+licdn.com  
+  
+</td></tr><tr><td>**Instagram**  
+</td><td>instagram.com  
+  
+</td></tr><tr><td>**Weibo**  
+</td><td>weibo.com  
+sina.com.cn  
+  
+</td></tr><tr><td>**VKontakte**  
+</td><td>vk.me  
+vk.com  
+</td></tr></tbody></table>
 
-![firstScreen](teltonika/teltonika7.png)
+Click **Save** to apply.
 
-Click **New User** 
-
-![firstScreen](teltonika/teltonika8.png)
-
-Type **Username** and click **Create User**
-
-![firstScreen](teltonika/teltonika9.png)
-
-Click on your user 
-
-![firstScreen](teltonika/teltonika10.png)
-
-Set new password and click **ENTER**
-
-![firstScreen](teltonika/teltonika11.png)
-
-## Step 2: Router configuration
-
-Now we need to open our RUT homepage. You can access the website by entering 192.168.1.1 in your internet browser's URL bar.
-
-Open the hotspot configuration panel by clicking **Services → Hotspot** 
-
-![firstScreen](teltonika/teltonika12.png)
-
-Click **Edit**
-
-![firstScreen](teltonika/teltonika13.png)
-
-Use configuration details from **Step 1**.
-
-Check **enable** and **Terms of service** box
-
-Select **External radius** from **Authentication mode** dropbox
-
-Type configuration details **RADIUS Server, Authentication port, Accounting port** and **Radius secret key**
-
-![SecondScreen](teltonika/teltonika14.png)
-
-Click **save**
-
-Wait up to **5** minutes from the time you saved the changes.
-
-## Test your hotspot
-
-Try connecting to your router using computer or mobile phone.
-
-Select your router
-
-![firstScreen](teltonika/teltonika15.jpg)
-
-Type your username and password.
-
-Click **Login** 
-
-![firstScreen](teltonika/teltonika16.jpg)
-
-You should see a message **Authorization Successful**
-
-![firstScreen](teltonika/teltonika17.jpg)
-
- ! You must also install a valid SSL certificate on your controller/AP, in order to avoid authentication issues !
