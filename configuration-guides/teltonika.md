@@ -12,10 +12,11 @@ This page explains the configuration of Teltonika RU Series wireless access poin
 
 ### Access Point Configuration
 
-<div class="config-version" data-identifyelement="530"><span data-identifyelement="509">NOTE: You will require firmware version R\_00.07.00 or above in order to continueLog in to your Teltonika web interface. At the top, click **Network &gt; Wireless**. Click **Add** and configure with:
+NOTE: You will require firmware version R_00.07.00 or above in order to continue
+
+Log in to your Teltonika web interface. At the top, click **Network > Wireless**. Click **Add** and configure with:
 
 - **Enable wireless**: Yes
-
   
 <u>Under **Device Configuration**</u>
 
@@ -39,14 +40,14 @@ On the **General** tab:
 - **Logout IP**: Leave default
 - **Authentication mode**: External radius
 - **Authentication protocol**: PAP
-- **RADIUS server #1**: \*insert radius\_server here\*
-- **RADIUS server #2**: \*insert radius\_server2 here\*
-- **Authentication port**: 1812
-- **Accounting port**: 1813
+- **RADIUS server #1**: {{primary_ip}}
+- **RADIUS server #2**: {{backup_ip}}
+- **Authentication port**: {{auth_port}}
+- **Accounting port**: {{acct_port}}
 - **Radius secret key**: {{shared_secret}}
 - **UAM port**: Leave default
 - **UAM UI port**: Leave default
-- **UAM secret**: \*insert uam\_secret here\*
+- **UAM secret**: {{shared_secret}}
 - **NAS Identifier**: guest
 - **Swap octets**: Yes
 - **External Landing Page**: Yes
@@ -58,15 +59,8 @@ On the **General** tab:
 Click **Add** and configure with:
 
 - **Enable**: Yes
-- **Address**: \*insert access\_domain here\*
+- **Address**: domain name of your landing page
 - **Allow subdomains**: Yes
-
-Using the same procedure as above, add a new entry for the below domains:
-
-- venuewifi.com
-- cloudfront.net
-- openweathermap.org
-- stripe.com
 
 **If you wish to support social network logins, you also need to add the following domains for each network you plan to support**
 
@@ -91,10 +85,7 @@ licdn.com
 </td><td>weibo.com  
 sina.com.cn  
   
-</td></tr><tr><td>**VKontakte**  
-</td><td>vk.me  
-vk.com  
-</td></tr></tbody></table>
+</tr></tbody></table>
 
 Click **Save** to apply.
 
