@@ -12,7 +12,7 @@ This page explains configuration of Captive Portal with authentication through I
 
 ### Access Point Configuration
 
-_If you are running UniFi 6.0+ you need to disable the new UI until you've set everything up. To do so, click System Settings on the left menu and disable the New Settings option._
+_If you are running UniFi 6.0+ you need to disable the new UI until you've set everything up. To do so, click System Settings on the left menu and enable the Legacy Interface option._
 
 Log in to your UniFi controller and click the **Setting** icon (bottom left).
 
@@ -27,7 +27,7 @@ Click **Save** to apply.
 
 2. Next, click on **Guest Control** and configure with:
 
-_Under the Guest Policies header_
+_Under the Guest Control header_
 
 - **Enable Guest Portal -** Enabled
 - **Authentication -** Hotspot
