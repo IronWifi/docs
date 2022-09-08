@@ -160,6 +160,8 @@ Finally, you will have to purchase and install a valid SSL certificate on your c
  This certificate needs to have a unique common name - for example unifi.yourdomain.com
  
  Guide on how to install an SSL certificate on Ubiquiti Unifi can be found here - https://www.namecheap.com/support/knowledgebase/article.aspx/10134/33/installing-an-ssl-certificate-on-ubiquiti-unifi/
+ 
+https://community.ui.com/questions/How-to-install-a-SSL-Certificate-on-Unifi-Cloud-Key/944dbbd6-cbf6-4112-bff5-6b992fcbf2c4
 
 An SSL certificate can only be purchased for a domain, therefore, you will need to alter your DNS records so that this hostname resolves to the IP address of your controller, for example: unifi.yourdomain.com -> 192.168.1.10
 
