@@ -71,7 +71,12 @@ Click **save** to continue.
 
 ### DHCP Configuration
 
+1. Navigate to **Monitor and Manage > Wi-Fi AP Groups > click on group > Configuration > Network > VLANs**.
+
 ![sixthScreenshot](https://raw.githubusercontent.com/IronWifi/docs/master/configuration-guides/cnmaestro/cn8.png)
+
+2. Don't forget to assign the VLAN id to your WLAN at step N.2
+
 ![sixthScreenshot](https://raw.githubusercontent.com/IronWifi/docs/master/configuration-guides/cnmaestro/cn7.png)
 
 ## Screenshots
