@@ -53,18 +53,18 @@ Click **save** to continue.
 
 4. Navigate to **WLANs > Your WLAN > Configuration > Guest Access** and configure with the following values.
 
-- Guest Access - Enabled
-- Portal Mode - External Hotspot
-- Access Policy - RADIUS
-- AP Server Protocol - HTTP
-- Redirect Hostname - empty
-- WISPr Clients External Server Login - Enabled
-- External Page URL - {{splash_page_url}}
-- External Portal Post Through cnMaestro - Enabled
-- External Portal Type - Standard
-- Success Action - Redirect User to External URL
-- Prefix Query Strings in Redirect URL - Enabled
-- Redirect URL - {{success_page_url}}
+- **Guest Access -** Enabled
+- **Portal Mode -** External Hotspot
+- **Access Policy -** RADIUS
+- **AP Server Protocol -** HTTP
+- **Redirect Hostname -** empty
+- **WISPr Clients External Server Login -** Enabled
+- **External Page URL -** {{splash_page_url}}
+- **External Portal Post Through cnMaestro -** Enabled
+- **External Portal Type -** Standard
+- **Success Action -** Redirect User to External URL
+- **Prefix Query Strings in Redirect URL -** Enabled
+- **Redirect URL -** {{success_page_url}}
 
 
 ![firstScreenshot](https://raw.githubusercontent.com/IronWifi/docs/master/configuration-guides/cnmaestro/cn1.png)
