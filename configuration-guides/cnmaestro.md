@@ -21,7 +21,10 @@ Log in to the Cambium Networks cnMaestro web interface.
 - **Expiration Time -** 3600
 - **Token Renewal Time -** 1800
 
-Do not forget to copy the **client ID and client secret**, you will need them later.
+Do not forget to copy the **client ID and client secret**, these values need to be added in your captive portal settings.
+
+Controller username = Client ID
+Controller password = Client secret
 
 Click **save** to continue.
 
@@ -66,6 +69,12 @@ Click **save** to continue.
 - **Prefix Query Strings in Redirect URL -** Enabled
 - **Redirect URL -** {{success_page_url}}
 
+### DHCP Configuration
+
+![sixthScreenshot](https://raw.githubusercontent.com/IronWifi/docs/master/configuration-guides/cnmaestro/cn8.png)
+![sixthScreenshot](https://raw.githubusercontent.com/IronWifi/docs/master/configuration-guides/cnmaestro/cn7.png)
+
+## Screenshots
 
 ![firstScreenshot](https://raw.githubusercontent.com/IronWifi/docs/master/configuration-guides/cnmaestro/cn1.png)
 ![secondScreenshot](https://raw.githubusercontent.com/IronWifi/docs/master/configuration-guides/cnmaestro/cn2.png)
