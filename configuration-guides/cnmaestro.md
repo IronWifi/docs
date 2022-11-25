@@ -69,7 +69,7 @@ Click **save** to continue.
 - **Prefix Query Strings in Redirect URL -** Enabled
 - **Redirect URL -** {{success_page_url}}
 
-### DHCP Configuration
+## DHCP Configuration
 
 1. Navigate to **Monitor and Manage > Wi-Fi AP Groups > click on group > Configuration > Network > VLANs**.
 
@@ -78,6 +78,15 @@ Click **save** to continue.
 2. Don't forget to assign the VLAN id to your WLAN at step N.2
 
 ![sixthScreenshot](https://raw.githubusercontent.com/IronWifi/docs/master/configuration-guides/cnmaestro/cn7.png)
+
+## Passpoint + OpenRoaming
+
+![firstScreenshot](https://raw.githubusercontent.com/IronWifi/docs/master/configuration-guides/cnmaestro/opn1.png)
+![secondScreenshot](https://raw.githubusercontent.com/IronWifi/docs/master/configuration-guides/cnmaestro/opn2.png)
+![thirdScreenshot](https://raw.githubusercontent.com/IronWifi/docs/master/configuration-guides/cnmaestro/opn3.png)
+![fourthScreenshot](https://raw.githubusercontent.com/IronWifi/docs/master/configuration-guides/cnmaestro/opn4.png)
+![fifthScreenshot](https://raw.githubusercontent.com/IronWifi/docs/master/configuration-guides/cnmaestro/opn5.png)
+![sixthScreenshot](https://raw.githubusercontent.com/IronWifi/docs/master/configuration-guides/cnmaestro/opn6.png)
 
 ## Screenshots
 
