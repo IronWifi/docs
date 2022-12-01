@@ -31,7 +31,9 @@ This page explains the configuration of TP Link access points with Omada version
 - **Radius Accounting -** Enabled
 - **Accounting Port -** {{acct_port}}
 
-4. Import your **SSL certificate** under **Controller** 
+4. Under **Authentication -> Access Control**, enable **Pre-Authentication Access** and add the IronWifi's global load balancer IP address - **107.178.250.42**
+
+6. Import your **SSL certificate** under **Controller** 
 
 5. Add an **A type DNS record** to point the hostname to your omada controller.
 
