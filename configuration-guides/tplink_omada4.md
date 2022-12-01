@@ -47,4 +47,5 @@ This page explains the configuration of TP Link access points with Omada version
 
 ![tplink5](https://raw.githubusercontent.com/IronWifi/docs/master/configuration-guides/tp_link_omada_v4/tplink5.png)
 
+![firstScreenshot](https://raw.githubusercontent.com/IronWifi/docs/master/configuration-guides/tplink_eap/tplink5.png)
 
