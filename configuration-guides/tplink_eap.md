@@ -53,6 +53,3 @@ The configuration is now **complete**.
 
 ![firstScreenshot](https://raw.githubusercontent.com/IronWifi/docs/master/configuration-guides/tplink_eap/tplink4.png)
 
-![firstScreenshot](https://raw.githubusercontent.com/IronWifi/docs/master/configuration-guides/tplink_eap/tplink5.png)
-
-
