@@ -18,7 +18,7 @@ Sign-in to the Aruba Administration console usually available at [https://instan
 - **Accounting -** Use authentication servers
 - **Encryption -** Disabled
 
-4. Click on the Edit button next to the Captive portal profile. Find the Splash page URL in the IronWifi Console -> Captive Portal settings page, for example, https://europe-west1.ironwifi.com/api/pages/r-3wcpj-eezn3-b32pa/
+4. Click on the Edit button next to the Captive portal profile.
 
 - **Type -** Radius Authentication
 - **IP or hostname -** {{splash_page_hostname}}
@@ -41,7 +41,7 @@ Sign-in to the Aruba Administration console usually available at [https://instan
 
 (assigned RADIUS server IP address)
 
-- **Auth port -** {{primary_ip}}
+- **Auth port -** {{auth_port}}
 
 (designated RADIUS server authentication port)
 
