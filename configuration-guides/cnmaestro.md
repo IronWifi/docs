@@ -23,9 +23,9 @@ Log in to the Cambium Networks cnMaestro web interface.
 
 Do not forget to copy the **client ID and client secret**, these values need to be added in your captive portal settings.
 
-Controller username = Client ID \n
-Controller password = Client secret \n
-Controller URL = this is the hostname of your controller when you're logged in to cnmaestro
+- **Controller username** = Client ID
+- **Controller password** = Client secret
+- **Controller URL** = this is the hostname of your controller when you're logged in to cnmaestro
 
 Click **save** to continue.
 
