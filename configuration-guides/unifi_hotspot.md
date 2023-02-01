@@ -166,3 +166,5 @@ https://community.ui.com/questions/How-to-install-a-SSL-Certificate-on-Unifi-Clo
 An SSL certificate can only be purchased for a domain, therefore, you will need to alter your DNS records so that this hostname resolves to the IP address of your controller, for example: unifi.yourdomain.com -> 192.168.1.10
 
 After uploading the SSL certificate to your controller, you need to switch on the **"Use Secure Portal"** and **"Redirect using hostname"** options and enter the hostname from the SSL certificate, for example https://unifi.yourdomain.com
+
+For HotSpot 2.0 configuration please have a look here - [Hotspot 2.0 Instructions for Ubiquiti Unifi](https://www.ironwifi.com/help/ubiquiti-passpoint-configuration)
