@@ -24,7 +24,17 @@ Please log in to your FortiGate web interface and click **User & Device > RADIU
 - **Authentication Method -** Specify
 - **Method -** PAP
 
-Click **OK** to **Save**. Next, click on **User Groups** and **Create New**. Configure with:
+Click **OK** to **Save**.
+
+Next, you will need to configure custom RADIUS authentication port. This can be done in the CLI interface.
+
+More information: https://docs.fortinet.com/document/fortigate/7.2.3/administration-guide/759080/configuring-a-radius-server
+
+config system global
+    set radius-port <integer> 
+end
+
+Next, click on **User Groups** and **Create New**. Configure with:
 
 - **Name -** guestgroup
 - **Type -** Firewall
