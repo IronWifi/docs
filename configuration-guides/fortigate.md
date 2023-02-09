@@ -30,10 +30,11 @@ Next, you will need to configure custom RADIUS authentication port. This can be 
 
 More information: https://docs.fortinet.com/document/fortigate/7.2.3/administration-guide/759080/configuring-a-radius-server
 
+```
 config system global
     set radius-port <integer> 
 end
-
+```
 Next, click on **User Groups** and **Create New**. Configure with:
 
 - **Name -** guestgroup
