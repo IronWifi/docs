@@ -55,7 +55,7 @@ Sign-in to the Aruba Administration console usually available at [https://instan
 
 6. Click on the **Walled garden** link and enter values from the IronWifi console:
 
-- **White list -** all IP addresses and host-names from the IronWifi console
+- **White list -** 107.178.250.42
 
 By default, the Aruba controller will intercept HTTPS traffic to all external servers breaking SSL connections. To prevent this, we need to create a new Role permitting TCP connections to port 443 on external servers - splash.ironwifi.com, europe-west2.ironwifi.com, google.com, facebook.com, etc.
 
