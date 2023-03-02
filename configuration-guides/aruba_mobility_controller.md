@@ -206,3 +206,6 @@ Repeat Creating AAA Profiles for the IronWifi Guest and 802.1x SSID, to create t
 40. Click the **Save Configuration** button at the top of the page once the changes are completed.
 
  ! You must also install a valid SSL certificate on your controller/AP, in order to avoid authentication issues !
+ 
+ 
+# [HotSpot 2.0 Configuration](https://www.ironwifi.com/help/aruba-wireless-lan-controller-passpoint-configuration)
