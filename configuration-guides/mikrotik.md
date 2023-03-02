@@ -73,6 +73,10 @@ $ put mikrotik_login.html login.html
 ```
 
  ! You must also install a valid SSL certificate on your controller/AP, in order to avoid authentication issues !
+ 
+ # [HotSpot 2.0 Configuration](https://www.ironwifi.com/help/mikrotik-passpoint-configuration)
+ 
+ 
 
 ![firstScreenshot](https://raw.githubusercontent.com/IronWifi/docs/master/configuration-guides/mikrotik/mikrotik1.png)
 ![secondScreenshot](https://raw.githubusercontent.com/IronWifi/docs/master/configuration-guides/mikrotik/mikrotik2.png)
