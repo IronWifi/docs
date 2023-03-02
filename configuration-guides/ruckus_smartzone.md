@@ -129,3 +129,6 @@ The configuration is now complete.
 
 
  ! You must also install a valid SSL certificate on your controller/AP, in order to avoid authentication issues !
+ 
+ 
+# [HotSpot 2.0 Configuration](https://www.ironwifi.com/help/ruckus-wireless-lan-controller-5.1.2-passpoint-configuration) 
