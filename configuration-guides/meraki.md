@@ -106,4 +106,4 @@ Install the Passpoint profile on your client devices
 ![sixth](https://www.ironwifi.com/hs-fs/hubfs/image-png-3.png?width=764&name=image-png-3.png)
 
 
-# [HotSpot 2.0 Configuration](https://www.ironwifi.com/help/meraki-passpoint-configuration)
+# [Hotspot 2.0 Configuration](https://www.ironwifi.com/help/meraki-passpoint-configuration)
