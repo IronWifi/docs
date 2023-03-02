@@ -104,3 +104,6 @@ Install the Passpoint profile on your client devices
 1. Using the IronWiFi profile (OperatorName @ IRONWIFI) connect to the network
 
 ![sixth](https://www.ironwifi.com/hs-fs/hubfs/image-png-3.png?width=764&name=image-png-3.png)
+
+
+# [HotSpot 2.0 Configuration](https://www.ironwifi.com/help/meraki-passpoint-configuration)
