@@ -13,9 +13,12 @@ This page explains the configuration of Aruba Instant On with IronWifi.
 ### Access Point Configuration
 
 1. Sign in the [Aruba Instanton portal](https://portal.arubainstanton.com)
-2. Click on **Networks**
-3. Add a **new network** and choose **Portal** under **Security**
-4. Click on the newly created network and choose **customize guest portal**. Configure with:
+2. Sign in the Aruba InstantOn portal - https://portal.arubainstanton.com/
+Click on Networks
+
+3. Click on **Networks**
+4. Add a new network, usage **Guest**, security **Open**, mark the **Guest portal** checkbox and click **Save**
+5. Click on the little arrow next to the newly created network and choose **customize guest portal**
 
 - **Server URL -** {{splash_page_url}}
 - **Send RADIUS Accounting -** On
