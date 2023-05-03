@@ -103,6 +103,8 @@ This page explains configuration of Captive Portal with authentication through I
     - IP Address/Domain Name: {{primary_ip}}
     - Server Type: `Auth/Acct`
     - Shared Secret: {{shared_secret}}
+    - Authentication Port: {{auth_port}}
+    - Accounting Port: {{acct_port}}
     - Confirm Secret: as above
     - Server Role: `Primary`
 
@@ -111,6 +113,8 @@ This page explains configuration of Captive Portal with authentication through I
     - IP Address/Domain Name: {{backup_ip}}
     - Server Type: `Auth/Acct`
     - Shared Secret: {{shared_secret}}
+    - Authentication Port: {{auth_port}}
+    - Accounting Port: {{acct_port}}
     - Confirm Secret: as above
     - Server Role: `Backup1`
 
