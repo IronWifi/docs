@@ -18,8 +18,12 @@ Please log in to your FortiGate web interface and click **User & Device > RADIU
 
 - **Name -** guestradius
 - **Primary Server -** {{primary_ip}}
+- **Authentication Port -** {{auth_port}}
+- **Accounting Port -** {{acct_port}}
 - **Primary Shared Secret -** {{shared_secret}}
 - **Secondary Server -** {{backup_ip}}
+- **Authentication Port -** {{auth_port}}
+- **Accounting Port -** {{acct_port}}
 - **Secondary Shared Secret -** {{shared_secret}}
 - **Authentication Method -** Specify
 - **Method -** PAP
