@@ -26,28 +26,28 @@ Click **Wireless Networks** on the left menu, the **Add** at the top right. Conf
 Select Third Party Integration
 
 **Under Primary RADIUS Authentication Server**
-- IP Address - *insert radius_server_ip here*
-- Port - *insert auth_port here*
-- Shared Secret - *insert radius_secret here*
-- Confirm Shared Secret - as above
+- IP Address - {{primary_ip}}
+- Port - {{auth_port}}
+- Shared Secret - {{secret}}
+- Confirm Shared Secret - {{secret}}
 
 **Under Primary RADIUS Accounting Server**
-- IP Address - *insert radius_server_ip here*
-- Port - *insert acct_port here*
-- Shared Secret - *insert radius_secret here*
-- Confirm Shared Secret - as above
+- IP Address - {{primary_ip}}
+- Port - {{acct_port}}
+- Shared Secret - {{secret}}
+- Confirm Shared Secret - {{secret}}
 
 **Under Secondary RADIUS Authentication Server**
-- IP Address - *insert radius_server2_ip here*
-- Port - *insert auth_port here*
-- Shared Secret - *insert radius_secret here*
-- Confirm Shared Secret - as above
+- IP Address - {{backup_ip}}
+- Port - {{auth_port}}
+- Shared Secret - {{secret}}
+- Confirm Shared Secret - {{secret}}
 
 **Under Secondary RADIUS Accounting Server**
-- IP Address - *insert radius_server2_ip here*
-- Port - *insert auth_port here*
-- Shared Secret - *insert radius_secret here*
-- Confirm Shared Secret - as above
+- IP Address - {{backup_ip}}
+- Port - {{acct_port}}
+- Shared Secret - {{secret}}
+- Confirm Shared Secret - {{secret}}
 
 Click **Save** at the top right.
 
