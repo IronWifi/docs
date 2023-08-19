@@ -14,7 +14,7 @@ This page explains the configuration of Everest Networks wireless access points 
 
 Open a web browser and log in to your Everest Cloud (BaseCamp).
 
-Step 1 - Wireless NetworkClick **Wireless Networks** on the left menu, the **Add** at the top right. Configure with:
+Click **Wireless Networks** on the left menu, the **Add** at the top right. Configure with:
 
 - Network Name - Guest WiFi
 - SSID - Guest WiFi (or whatever you wish)
@@ -50,7 +50,8 @@ Select Third Party Integration
 
 Click **Save** at the top right.
 
-Step 1 - Wireless Network
+Wireless Network
+
 - Click **Walled Garden** at the top and configure with:
 - Domain **insert access_domain here*
 - Click the **+** icon to add. You now need to add the following domains in the same way:
