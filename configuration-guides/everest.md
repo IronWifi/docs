@@ -20,7 +20,7 @@ Click **Wireless Networks** on the left menu, the **Add** at the top right. Conf
 - SSID - Guest WiFi (or whatever you wish)
 - Security - Open
 - Captive Portal Enabled - Yes
-- Enter splash URL - *insert access_url here*
+- Enter splash URL - {{splash_page_url}}
 - Session Timeout - 86400
 
 Select Third Party Integration
@@ -28,26 +28,26 @@ Select Third Party Integration
 **Under Primary RADIUS Authentication Server**
 - IP Address - {{primary_ip}}
 - Port - {{auth_port}}
-- Shared Secret - {{secret}}
-- Confirm Shared Secret - {{secret}}
+- Shared Secret - {{shared_secret}}
+- Confirm Shared Secret - {{shared_secret}}
 
 **Under Primary RADIUS Accounting Server**
 - IP Address - {{primary_ip}}
 - Port - {{acct_port}}
-- Shared Secret - {{secret}}
-- Confirm Shared Secret - {{secret}}
+- Shared Secret - {{shared_secret}}
+- Confirm Shared Secret - {{shared_secret}}
 
 **Under Secondary RADIUS Authentication Server**
 - IP Address - {{backup_ip}}
 - Port - {{auth_port}}
-- Shared Secret - {{secret}}
-- Confirm Shared Secret - {{secret}}
+- Shared Secret - {{shared_secret}}
+- Confirm Shared Secret - {{shared_secret}}
 
 **Under Secondary RADIUS Accounting Server**
 - IP Address - {{backup_ip}}
 - Port - {{acct_port}}
-- Shared Secret - {{secret}}
-- Confirm Shared Secret - {{secret}}
+- Shared Secret - {{shared_secret}}
+- Confirm Shared Secret - {{shared_secret}}
 
 Click **Save** at the top right.
 
