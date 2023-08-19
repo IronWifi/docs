@@ -25,6 +25,7 @@ Click **Wireless Networks** on the left menu, the **Add** at the top right. Conf
 
 Select Third Party Integration
 
+**Under Primary RADIUS Authentication Server**
 - IP Address - *insert radius_server_ip here*
 - Port - *insert auth_port here*
 - Shared Secret - *insert radius_secret here*
