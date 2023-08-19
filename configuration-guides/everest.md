@@ -15,64 +15,67 @@ This page explains the configuration of Everest Networks wireless access points 
 Open a web browser and log in to your Everest Cloud (BaseCamp).
 
 Step 1 - Wireless NetworkClick **Wireless Networks** on the left menu, the **Add** at the top right. Configure with:
-Network Name - Guest WiFi
-SSID - Guest WiFi (or whatever you wish)
-Security - Open
-Captive Portal Enabled - Yes
-Enter splash URL - *insert access_url here*
-Session Timeout - 86400
-Select Third Party Integratior
 
-IP Address - *insert radius_server_ip here*
-Port - *insert auth_port here*
-Shared Secret - *insert radius_secret here*
-Confirm Shared Secret - as above
+- Network Name - Guest WiFi
+- SSID - Guest WiFi (or whatever you wish)
+- Security - Open
+- Captive Portal Enabled - Yes
+- Enter splash URL - *insert access_url here*
+- Session Timeout - 86400
+
+Select Third Party Integration
+
+- IP Address - *insert radius_server_ip here*
+- Port - *insert auth_port here*
+- Shared Secret - *insert radius_secret here*
+- Confirm Shared Secret - as above
 
 **Under Primary RADIUS Accounting Server**
-IP Address - *insert radius_server_ip here*
-Port - *insert acct_port here*
-Shared Secret - *insert radius_secret here*
-Confirm Shared Secret - as above
+- IP Address - *insert radius_server_ip here*
+- Port - *insert acct_port here*
+- Shared Secret - *insert radius_secret here*
+- Confirm Shared Secret - as above
 
 **Under Secondary RADIUS Authentication Server**
-IP Address - *insert radius_server2_ip here*
-Port - *insert auth_port here*
-Shared Secret - *insert radius_secret here*
-Confirm Shared Secret - as above
+- IP Address - *insert radius_server2_ip here*
+- Port - *insert auth_port here*
+- Shared Secret - *insert radius_secret here*
+- Confirm Shared Secret - as above
 
 **Under Secondary RADIUS Accounting Server**
-IP Address - *insert radius_server2_ip here*
-Port - *insert auth_port here*
-Shared Secret - *insert radius_secret here*
-Confirm Shared Secret - as above
+- IP Address - *insert radius_server2_ip here*
+- Port - *insert auth_port here*
+- Shared Secret - *insert radius_secret here*
+- Confirm Shared Secret - as above
 
 Click **Save** at the top right.
 
 Step 1 - Wireless Network
-Click **Walled Garden** at the top and configure with:
-Domain **insert access_domain here*
-Click the **+** icon to add. You now need to add the following domains in the same way:
+- Click **Walled Garden** at the top and configure with:
+- Domain **insert access_domain here*
+- Click the **+** icon to add. You now need to add the following domains in the same way:
+
 Domains
 *.ironwifi.com
 
 Note: If you wish to support social network logins, you also need to add the below domains for each network you plan to support.
 **Facebook**:
-*.facebook.com
-*.fbcdn.net
-*.akamaihd.net
-connect.facebook.net
+- *.facebook.com
+- *.fbcdn.net
+- *.akamaihd.net
+- connect.facebook.net
 
 Twitter:
-*.twitter.com
-*.twimg.com
+- *.twitter.com
+- *.twimg.com
 
 LinkedIn:
-*.linkedin.com
-*.licdn.net
-*.licdn.com
+- *.linkedin.com
+- *.licdn.net
+- *.licdn.com
 
 Instagram:
-*.instagram.com
+- *.instagram.com
 
 Finally, click in to the Wireless Network (Guest WiFi) you just created, select the AP's you wish to use this configration and then click Apply to APs at the top.
 
