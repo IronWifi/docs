@@ -91,7 +91,7 @@ function getUrlVars() {
     });
     return vars;
 }
-var ssid = getUrlParam('ssid', 'none')
+var ssid = decodeURIComponent(getUrlParam('ssid', 'none'));
 
 if (ssid == 'SSID1'){
   window.location.replace("https://us-east1-r-zzzzzzz.ironwifi.com/"+location.search);
