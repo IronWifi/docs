@@ -57,7 +57,7 @@ The customer has the copyright and ownership of the content uploaded to our port
 
 ### ACCOUNT CANCELLATION
 
-If the customer decides to leave the service, all data associated with the customer is automatically erased after 30 days. Log data is erased after the retention period of 6 months.
+When a customer closes their account, their configuration data (networks, users, captive portals, certificates) is deleted after 7 days. Authentication logs, accounting records, audit logs and captive-portal login records are kept for 730 days (2 years) and then expire automatically, including after closure. Raw RADIUS server log files are deleted after 24 hours. Retention is the same for every account; contact support for non-standard needs.
 
 ### DOWNLOAD ON CANCELLATION
 
