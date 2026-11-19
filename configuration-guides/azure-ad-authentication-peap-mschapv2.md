@@ -6,12 +6,12 @@ This tutorial provides instructions on how to make PEAP-MSCHAPv2 authentication 
 - enable [Azure AD Domain Services](https://docs.microsoft.com/en-us/azure/active-directory-domain-services/create-instance) 
 - create [CentOS virtual machine](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/quick-create-portal)
   - Make sure to choose the same resource group as in your Azure AD Domain Services, but different subnet.
-  - Allow ports 80 and 443 by executing these command
+  - Allow ports 80 and 443 only from the IronWifi addresses that call your bridge (replace IRONWIFI_EGRESS_IP with each address, and apply the same source restriction in the VM's Azure network security group). Do not open these ports to the whole internet: the bridge checks Active Directory passwords.
   ```
-  iptables -A INPUT - p tcp -m tcp --dport 80 -m state --state NEW,ESTABLISHED -j ACCEPT
+  iptables -A INPUT -p tcp -m tcp -s IRONWIFI_EGRESS_IP --dport 80 -m state --state NEW,ESTABLISHED -j ACCEPT
   ```
   ```
-  iptables -A INPUT - p tcp -m tcp --dport 443 -m state --state NEW,ESTABLISHED -j ACCEPT
+  iptables -A INPUT -p tcp -m tcp -s IRONWIFI_EGRESS_IP --dport 443 -m state --state NEW,ESTABLISHED -j ACCEPT
   ```
 - create AAD domain admin user **bob**
 
@@ -168,6 +168,19 @@ group = lighttpd
 [...]
 ```
 
+Generate a long random bridge secret. IronWifi sends it on every request and ntlm.php refuses any request that does not carry it.
+```
+openssl rand -hex 32
+```
+
+Add it to the same file /etc/php-fpm.d/www.conf, replacing \_\_BRIDGE_SECRET\_\_ with the generated value, and make the file readable only by root:
+```
+env[IRONWIFI_BRIDGE_SECRET] = __BRIDGE_SECRET__
+```
+```
+chmod 600 /etc/php-fpm.d/www.conf
+```
+
 Create the system startup links for PHP-FPM and start it:
 ```
 systemctl enable  php-fpm.service
@@ -257,6 +270,12 @@ nano /var/www/lighttpd/ntlm.php
 Now add the following php code into the file.
 ```
 <?php
+$secret=getenv('IRONWIFI_BRIDGE_SECRET');
+$supplied=isset($_GET['secret']) ? $_GET['secret'] : null;
+if (!is_string($secret) || $secret === '' || !is_string($supplied) || !hash_equals($secret, $supplied)){
+      http_response_code(403);
+      exit;
+}
 $pos=strrpos($_GET['username'], "\\");
 if ($pos == true){
       $username=escapeshellarg(substr($_GET['username'],$pos+1));
@@ -277,16 +296,23 @@ If you have SELINUX enabled, allow lighttpd access winbind
 setsebool -P httpd_mod_auth_ntlm_winbind 1
 ```
 
-Now browse the following file through frontend using your favorite web browser. Go to the following URL.
-
-[http://your-IP-addr/ntlm.php](http://your-IP-addr/ntlm.php)
-    
-You will see following message. This shows that you have a working Lighttpd web server with PHP-FPM.
+Restart PHP-FPM so it picks up the bridge secret.
 ```
+systemctl restart php-fpm
+```
+
+Check that the script refuses a request without the secret. It must answer with HTTP 403 and an empty body.
+```
+curl -i http://127.0.0.1/ntlm.php
+```
+
+Check that a request with the secret reaches ntlm_auth (replace \_\_BRIDGE_SECRET\_\_ with your value). You will see the following message. This shows that you have a working Lighttpd web server with PHP-FPM.
+```
+curl "http://127.0.0.1/ntlm.php?secret=__BRIDGE_SECRET__"
 hex decode of  failed!
 ```
 
-Return to the IronWifi console and set the Bridge URL value in your Azure Connector.
+Return to the IronWifi console and set the Bridge URL value in your Azure Connector, including the secret. The secret travels in the URL, so serve the bridge over HTTPS and do not log query strings in your web server's access log.
 ```
-Bridge URL:    http://your-IP-addr/ntlm.php
+Bridge URL:    https://your-bridge-hostname/ntlm.php?secret=__BRIDGE_SECRET__
 ```
