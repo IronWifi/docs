@@ -6,7 +6,7 @@ This tutorial provides instructions on how to make PEAP-MSCHAPv2 authentication 
 - enable [Azure AD Domain Services](https://docs.microsoft.com/en-us/azure/active-directory-domain-services/create-instance) 
 - create [CentOS virtual machine](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/quick-create-portal)
   - Make sure to choose the same resource group as in your Azure AD Domain Services, but different subnet.
-  - Allow ports 80 and 443 by executing these command
+  - Allow ports 80 (certificate validation only) and 443 (the HTTPS bridge) by executing these command
   ```
   iptables -A INPUT - p tcp -m tcp --dport 80 -m state --state NEW,ESTABLISHED -j ACCEPT
   ```
@@ -243,6 +243,38 @@ Look for the following lines in the file:
 
 Uncomment __#include "conf.d/fastcgi.conf"__ to make it look line __include "conf.d/fastcgi.conf"__. Save the file and exit from editor.
 
+## Enabling HTTPS on Lighttpd ##
+
+IronWifi sends each user's MSCHAPv2 challenge and NT response to the bridge, and the bridge returns the NT session key. This exchange must only ever happen over HTTPS. Over plain HTTP, anyone who can observe the traffic can crack the handshake offline and recover the user's NT hash.
+
+The bridge needs a DNS name that resolves to this VM, for example __your-bridge-hostname__, and a certificate for that name from a public certificate authority so that IronWifi can verify it. Self-signed certificates will not work. You can get one from Let's Encrypt with certbot. Port 80 is only used for the certificate validation:
+```
+yum install certbot -y
+certbot certonly --webroot -w /var/www/lighttpd -d your-bridge-hostname --deploy-hook "systemctl restart lighttpd"
+```
+
+Create /etc/lighttpd/conf.d/ssl.conf. It enables TLS on port 443 and refuses every plain HTTP request except certificate validation requests. Lighttpd 1.4.53 or later is required for __ssl.privkey__. If your Lighttpd package ships TLS support separately, install the __lighttpd-mod_openssl__ package too. __mod_access__ is already loaded by the default /etc/lighttpd/modules.conf.
+```
+server.modules += ( "mod_openssl" )
+
+$SERVER["socket"] == ":443" {
+    ssl.engine  = "enable"
+    ssl.pemfile = "/etc/letsencrypt/live/your-bridge-hostname/fullchain.pem"
+    ssl.privkey = "/etc/letsencrypt/live/your-bridge-hostname/privkey.pem"
+}
+
+$HTTP["scheme"] == "http" {
+    $HTTP["url"] !~ "^/\.well-known/acme-challenge/" {
+        url.access-deny = ( "" )
+    }
+}
+```
+
+Include it at the end of /etc/lighttpd/lighttpd.conf:
+```
+include "conf.d/ssl.conf"
+```
+
 Now restart PHP-FPM and Lighttpd using the following command.
 ```
 systemctl restart php-fpm
@@ -254,21 +286,29 @@ Now to verify if Lighttpd is configured to use PHP-FPM, you will need to view yo
 nano /var/www/lighttpd/ntlm.php
 ```
 
-Now add the following php code into the file.
+Now add the following php code into the file. The script only accepts the MSCHAPv2 username, challenge, and NT response in a POST request body. It never reads them from the query string, because query strings are written to the web server access log and can leak through Referer headers.
 ```
 <?php
-$pos=strrpos($_GET['username'], "\\");
-if ($pos == true){
-      $username=escapeshellarg(substr($_GET['username'],$pos+1));
-}else{
-      $username=escapeshellarg($_GET['username']);
+header('Cache-Control: no-store');
+if ($_SERVER['REQUEST_METHOD'] !== 'POST'){
+      http_response_code(405);
+      header('Allow: POST');
+      exit;
 }
-$challenge=escapeshellarg(@$_GET['challenge']);
-$response=escapeshellarg(@$_GET['response']);
-$domain=@$_GET['domain'];
+function post_field($name){
+      return (isset($_POST[$name]) && is_string($_POST[$name])) ? $_POST[$name] : '';
+}
+$username=post_field('username');
+$pos=strrpos($username, "\\");
+if ($pos !== false){
+      $username=substr($username,$pos+1);
+}
+$username=escapeshellarg($username);
+$challenge=escapeshellarg(post_field('challenge'));
+$response=escapeshellarg(post_field('response'));
 $cmd = "/bin/ntlm_auth --request-nt-key --username=$username --challenge=$challenge --nt-response=$response 2>&1";
-$ouput = exec("$cmd",$out,$ret);
-echo $out[0];
+exec($cmd,$out,$ret);
+echo isset($out[0]) ? $out[0] : '';
 ?>
 ```
 
@@ -277,16 +317,22 @@ If you have SELINUX enabled, allow lighttpd access winbind
 setsebool -P httpd_mod_auth_ntlm_winbind 1
 ```
 
-Now browse the following file through frontend using your favorite web browser. Go to the following URL.
-
-[http://your-IP-addr/ntlm.php](http://your-IP-addr/ntlm.php)
+Now send an empty POST request to the bridge over HTTPS from another machine.
+```
+curl -X POST https://your-bridge-hostname/ntlm.php
+```
     
 You will see following message. This shows that you have a working Lighttpd web server with PHP-FPM.
 ```
 hex decode of  failed!
 ```
 
-Return to the IronWifi console and set the Bridge URL value in your Azure Connector.
+Check that plain HTTP is refused. This request must return __403 Forbidden__:
 ```
-Bridge URL:    http://your-IP-addr/ntlm.php
+curl -i http://your-bridge-hostname/
+```
+
+Return to the IronWifi console and set the Bridge URL value in your Azure Connector. Always use the https:// address.
+```
+Bridge URL:    https://your-bridge-hostname/ntlm.php
 ```
